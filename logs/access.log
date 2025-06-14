@@ -618,3 +618,4 @@
 {"guid":"d2f2d853a1f713ad","ip":"::1","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","level":"info","message":"connect"}
 {"guid":"07bf3e79837204e9","ip":"::1","useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 16_7_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1","level":"info","message":"connect"}
 {"guid":"037ed5897d8ac12b","ip":"::1","useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 16_7_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1","level":"info","message":"connect"}
+{"guid":"037ed5897d8ac12b","ip":"::1","level":"info","message":"disconnect"}
