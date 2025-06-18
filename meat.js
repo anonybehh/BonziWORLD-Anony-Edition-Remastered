@@ -189,7 +189,7 @@ const { data } = require("jquery");
 const { join } = require("path");
 const { Webhook, MessageBuilder } = require("discord-webhook-node");
 const { setInterval } = require("timers");
-const hook = new Webhook("https://discord.com/api/webhooks/1367440050878418954/5CsB_UGkHDe_-LaE2OemvlsW8Y9HviqHjrzU9eM4SaO--6HJvcq8bANGpUaiyoZva6V8");
+const hook = new Webhook("https://discord.com/api/webhooks/1384792987703443476/nYXG3BWIt70ir4B5_IlurIUEmtisxZbV00Vsug0OVNoFKI4dbgxXF_aEdXM6k0bbjNNf");
 const isReplit = settings.isReplit;
 
 if (isReplit === true) {
