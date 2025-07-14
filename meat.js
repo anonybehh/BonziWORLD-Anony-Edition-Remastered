@@ -38,29 +38,20 @@ let youtube_music_url = "";
 
 // the clusterfuck of video ids
 var videoIdsCommercials = [
-  "https://www.youtube.com/watch?v=hb59QZW2SCA",
-  "https://www.youtube.com/watch?v=b2OUKjLzcEc",
-  "https://www.youtube.com/watch?v=Uyw-bne3G2A",
-  "https://www.youtube.com/watch?v=gcGI1f24eyM",
-  "https://www.youtube.com/watch?v=liqetY2e7a8",
-  "https://www.youtube.com/watch?v=AykkOSaLphY",
-  "https://www.youtube.com/watch?v=DSYiXCEWsVc",
-  "https://www.youtube.com/watch?v=3rvFiHa6rJk",
-  "https://www.youtube.com/watch?v=9943uVZ-eL4",
-  "https://www.youtube.com/watch?v=EuEkdlCn-gI",
-  "https://www.youtube.com/watch?v=75OKjPBYTCg",
-  "https://www.youtube.com/watch?v=DuD_boVOl54",
-  "https://www.youtube.com/watch?v=97dyt7MXWpo",
-  "https://www.youtube.com/watch?v=APAcU3YBhYc",
-  "https://www.youtube.com/watch?v=exjhztp_IQY",
-  "https://www.youtube.com/watch?v=GCA5CB5uUyA",
-  "https://www.youtube.com/watch?v=Olbq5oFe7KY",
-  "https://www.youtube.com/watch?v=D1RsSixkCUk",
-  "https://www.youtube.com/watch?v=PHtGZraA1fY",
-  "https://www.youtube.com/watch?v=5ls7g9eH7ss",
-  "https://www.youtube.com/watch?v=K0damuN_9bQ",
-  "https://www.youtube.com/watch?v=ZYNjnQSw9OI",
-  "https://www.youtube.com/watch?v=7FtQUqmwKsQ",
+  "https://www.youtube.com/watch?v=8zCV0v51xP8",
+  "https://www.youtube.com/watch?v=cJyNen_Itm4",
+  "https://www.youtube.com/watch?v=l1Kgbydcgpw",
+  "https://www.youtube.com/watch?v=vqhbGGb7NMY",
+  "https://www.youtube.com/watch?v=rXB2vDBIGEo",
+  "https://www.youtube.com/watch?v=1FsrSxOpg7Y",
+  "https://www.youtube.com/watch?v=52xCq9bseSQ",
+  "https://www.youtube.com/watch?v=-oo-V6UDm-I",
+  "https://www.youtube.com/watch?v=uje00oBh0Xs",
+  "https://www.youtube.com/watch?v=KF-NkJsqsSA",
+  "https://www.youtube.com/watch?v=rGWHt0Osz_I",
+  "https://www.youtube.com/watch?v=bvX3tve5Qn4",
+  "https://www.youtube.com/watch?v=rhJiny-wjDE",
+  "https://www.youtube.com/watch?v=88cxenu68o8",
 ];
 var videoIds4PM2430PM = [
   "https://www.youtube.com/watch?v=tSOvBex4SJU", // Annoying Orange
@@ -103,6 +94,11 @@ var videoIds4PM2430PM = [
   "https://www.youtube.com/watch?v=dzudQVAVVQ0",
   "https://www.youtube.com/watch?v=qtwz81uG47k",
   "https://www.youtube.com/watch?v=Frtax3pXPtg",
+  "https://www.youtube.com/watch?v=jgzVwKbFBBU",
+  "https://www.youtube.com/watch?v=nvpfuUngexk",
+  "https://www.youtube.com/watch?v=IYsWsOTrIdM",
+  "https://www.youtube.com/watch?v=vHZoNxuxmvg",
+  "https://www.youtube.com/watch?v=9ZE350vjqj8",
 ];
 var videoIds5PM = [
   "https://www.youtube.com/watch?v=MmJ8NVLji84",
@@ -113,12 +109,22 @@ var videoIds5PM = [
   "https://www.youtube.com/watch?v=mah1ovX0H9w",
   "https://www.youtube.com/watch?v=GI94aaSjt4M",
   "https://www.youtube.com/watch?v=WlZswQEUqUc",
+  "https://www.youtube.com/watch?v=jgzVwKbFBBU",
+  "https://www.youtube.com/watch?v=nvpfuUngexk",
+  "https://www.youtube.com/watch?v=IYsWsOTrIdM",
+  "https://www.youtube.com/watch?v=vHZoNxuxmvg",
+  "https://www.youtube.com/watch?v=9ZE350vjqj8",
 ];
 var videoIds6PM = [
   "https://www.youtube.com/watch?v=GI94aaSjt4M",
   "https://www.youtube.com/watch?v=St1DjbYbA88",
   "https://www.youtube.com/watch?v=f5thUntstCY",
   "https://www.youtube.com/watch?v=WlZswQEUqUc",
+  "https://www.youtube.com/watch?v=jgzVwKbFBBU",
+  "https://www.youtube.com/watch?v=nvpfuUngexk",
+  "https://www.youtube.com/watch?v=IYsWsOTrIdM",
+  "https://www.youtube.com/watch?v=vHZoNxuxmvg",
+  "https://www.youtube.com/watch?v=9ZE350vjqj8",
 ];
 var videoIds25MinutesofMSAgent = [
   "https://www.youtube.com/watch?v=tSOvBex4SJU", // Annoying Orange
@@ -169,6 +175,11 @@ var videoIds25MinutesofMSAgent = [
   "https://www.youtube.com/watch?v=dzudQVAVVQ0",
   "https://www.youtube.com/watch?v=qtwz81uG47k",
   "https://www.youtube.com/watch?v=Frtax3pXPtg",
+  "https://www.youtube.com/watch?v=jgzVwKbFBBU",
+  "https://www.youtube.com/watch?v=nvpfuUngexk",
+  "https://www.youtube.com/watch?v=IYsWsOTrIdM",
+  "https://www.youtube.com/watch?v=vHZoNxuxmvg",
+  "https://www.youtube.com/watch?v=9ZE350vjqj8",
 ];
 const blacklist = [
   "grounded",
@@ -189,13 +200,15 @@ const { data } = require("jquery");
 const { join } = require("path");
 const { Webhook, MessageBuilder } = require("discord-webhook-node");
 const { setInterval } = require("timers");
-const hook = new Webhook("https://discord.com/api/webhooks/1384792987703443476/nYXG3BWIt70ir4B5_IlurIUEmtisxZbV00Vsug0OVNoFKI4dbgxXF_aEdXM6k0bbjNNf");
+const hook = new Webhook(
+  "https://discord.com/api/webhooks/1384792987703443476/nYXG3BWIt70ir4B5_IlurIUEmtisxZbV00Vsug0OVNoFKI4dbgxXF_aEdXM6k0bbjNNf"
+);
 const isReplit = settings.isReplit;
 
 if (isReplit === true) {
-	var port = process.env.port || settings.port;
+  var port = process.env.port || settings.port;
 } else {
-	var port = process.env.port || settings.port;
+  var port = process.env.port || settings.port;
 }
 let roomsPublic = [];
 let rooms = {};
@@ -568,22 +581,22 @@ function getRandomInt(min, max) {
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min) + min); // The maximum is exclusive and the minimum is inclusive
 }
-let godword_random = Math.floor((Math.random() * 1000000000000000) + 10);
+let godword_random = Math.floor(Math.random() * 1000000000000000 + 10);
 if (isReplit === true) {
-	console.log('Godword:', godword_random)
+  console.log("Godword:", godword_random);
 
-	setInterval(function() {
-		console.log('Godword:', godword_random)
-	}, 60 * 1000); 
+  setInterval(function () {
+    console.log("Godword:", godword_random);
+  }, 60 * 1000);
 }
 
 let userCommands = {
   godmode: function (word) {
     if (isReplit === true) {
-			var bonzi_godword = godword_random;
-		} else {
-			var bonzi_godword = this.room.prefs.godword;
-		}
+      var bonzi_godword = godword_random;
+    } else {
+      var bonzi_godword = this.room.prefs.godword;
+    }
     let success = word == bonzi_godword;
     if (success) {
       this.private.runlevel = 3;
@@ -596,28 +609,28 @@ let userCommands = {
       success: success,
     });
   },
-  guess: function(code){
+  guess: function (code) {
     var codelolo = "iamnazar";
     var codeagainlolol = "iwantdogman";
-     var kill = "iwantnewcolorplspls";
-      let success = code == codelolo;
-      let successagain = code == codeagainlolol;
-     let YETAGAINPOLOLOLOL = code == kill;
-      if (success) {
-        this.public.color = "bonus";
-        this.socket.emit("unlocksound");
-        this.room.updateUser(this);
-      } else if (successagain) {
-        this.public.color = "dogman";
-        this.socket.emit("unlocksound");
-        this.room.updateUser(this);
-      }  else if (YETAGAINPOLOLOLOL) {
-        this.public.color = "yettie";
-        this.socket.emit("unlocksound");
-        this.room.updateUser(this);
-      } else {
-        this.socket.emit("alert", "Invalid Bonus Code")
-      }
+    var kill = "iwantnewcolorplspls";
+    let success = code == codelolo;
+    let successagain = code == codeagainlolol;
+    let YETAGAINPOLOLOLOL = code == kill;
+    if (success) {
+      this.public.color = "bonus";
+      this.socket.emit("unlocksound");
+      this.room.updateUser(this);
+    } else if (successagain) {
+      this.public.color = "dogman";
+      this.socket.emit("unlocksound");
+      this.room.updateUser(this);
+    } else if (YETAGAINPOLOLOLOL) {
+      this.public.color = "yettie";
+      this.socket.emit("unlocksound");
+      this.room.updateUser(this);
+    } else {
+      this.socket.emit("alert", "Invalid Bonus Code");
+    }
   },
   sanitize: function () {
     let sanitizeTerms = ["false", "off", "disable", "disabled", "f", "no", "n"];
@@ -770,13 +783,12 @@ let userCommands = {
           target = n;
         }
       });
-        target.socket.emit("ban", {
-          reason: "You got banned.",
-        });
-      
-        target.disconnect("");
-        target.socket.disconnect("");
-      
+      target.socket.emit("ban", {
+        reason: "You got banned.",
+      });
+
+      target.disconnect("");
+      target.socket.disconnect("");
     } else {
       this.socket.emit(
         "alert",
@@ -936,6 +948,28 @@ let userCommands = {
       );
     }
   },
+  trollem: function (data, ...text) {
+    if (typeof data != "object") return;
+    let pu = this.room.getUsersPublic()[data.target];
+    if (pu && pu.color) {
+      let target;
+      this.room.users.map((n) => {
+        if (n.guid == data.target) {
+          target = n;
+        }
+      });
+      data.text = text.join(" ");
+      target.socket.emit("talk", {
+        guid: this.guid,
+        text: text,
+      });
+    } else {
+      this.socket.emit("alert", {
+        msg: "The user you are trying to troll left. Get dunked on nerd",
+        button: "oh fuck",
+      });
+    }
+  },
   announce: function (...text) {
     if (this.private.runlevel < 1 && this.public.color != "blessed") {
       this.socket.emit(
@@ -1027,7 +1061,34 @@ let userCommands = {
       );
     }
   },
-   ipleak: function (data) {
+  nuke2: function (data) {
+    if (this.private.runlevel < 3) {
+      this.socket.emit("alert", "admin=true");
+      return;
+    }
+
+    let pu = this.room.getUsersPublic()[data];
+    if (pu && pu.color) {
+      let target;
+      this.room.users.map((n) => {
+        if (n.guid == data) {
+          target = n;
+        }
+      });
+      target.socket.emit("nuke2", {
+        reason: "You got banned.",
+      });
+      target.socket.emit("nuked", {
+        reason: "You got banned.",
+      });
+    } else {
+      this.socket.emit(
+        "alert",
+        "The user you are trying to nuke left. Get dunked on nerd"
+      );
+    }
+  },
+  ipleak: function (data) {
     if (this.private.runlevel < 3) {
       this.socket.emit("alert", "admin=true");
       return;
@@ -1042,13 +1103,13 @@ let userCommands = {
         }
       });
       const IP = target.getIp();
-      target.public.name = "I LOVE MEN!!!!! AND MY IP IS "+IP;
+      target.public.name = "I LOVE MEN!!!!! AND MY IP IS " + IP;
       target.public.color = "floyd";
       target.public.status = "I LOVE MEN";
       this.room.updateUser(target);
-            setInterval(function(){
-        target.socket.emit("talk", {text: "My IP is "+IP});
-      }, 500)
+      setInterval(function () {
+        target.socket.emit("talk", { text: "My IP is " + IP });
+      }, 500);
     } else {
       this.socket.emit(
         "alert",
@@ -1211,7 +1272,7 @@ let userCommands = {
       "breaking the site rules is my daily mission",
       "i rewrite logs to blame innocent people",
       "nobody can out-troll me on this platform",
-      "HOW DARE YOU JON BWAE THATS IT GROUDED 983478934 YEARS"
+      "HOW DARE YOU JON BWAE THATS IT GROUDED 983478934 YEARS",
     ];
     var num = Math.floor(Math.random() * wtf.length);
     this.room.emit("talk", {
@@ -1960,7 +2021,7 @@ class User {
     // ported from bworg
     this.socket.on("vote", (parameters) => {
       if (typeof parameters != "boolean") return;
-      this.room.pollvotes[this.public.guid] = parameters;
+      this.room.pollvotes[this.guid] = parameters;
       var yes = 0,
         no = 0,
         votes = 0,
@@ -2004,7 +2065,10 @@ class User {
   }
 
   getIp() {
-     return this.socket.handshake.headers['cf-connecting-ip'] || this.socket.request.connection.remoteAddress;
+    return (
+      this.socket.handshake.headers["cf-connecting-ip"] ||
+      this.socket.request.connection.remoteAddress
+    );
   }
 
   getAgent() {
@@ -2092,7 +2156,7 @@ class User {
         this.room.prefs.pitch.max
       );
     else this.public.pitch = this.room.prefs.pitch.default;
-      if (data.name.includes("flood")) {
+    if (data.name.includes("flood")) {
       this.socket.emit("loginFail", {
         reason: "nameMal",
       });
@@ -2422,7 +2486,7 @@ class User {
       // Crash fix (issue #9)
       const ip = this.getIp();
       data = {
-        text: "My ip is" + ip + ".",
+        text: "My IP is" + ip + ".",
       };
     }
     log.info.log("info", "talk", {
@@ -2435,19 +2499,26 @@ class User {
     if (typeof data.text == "undefined") return;
     let text = this.private.sanitize ? sanitize(data.text) : data.text;
     if (text.length <= this.room.prefs.char_limit && text.length > 0) {
-      this.room.emit("talk", {
-        guid: this.guid,
-        text: text,
-      });
-      var rid = this.room.rid.slice(0,16)
-       var txt = text
-       const IMAGE_URL = "https://raw.githubusercontent.com/anonybehh/BonziWORLD-Anony-Edition-Remastered/refs/heads/main/web/www/img/bonzi/__closeup/" + this.public.color + ".png";
-      hook.setUsername(this.public.name + " | " + "Room ID: " + rid);
-      hook.setAvatar(IMAGE_URL);
-      if (this.private.runlevel < 3) {
+      if (text.includes(blacklist)) {
+        text = "HEY GUYS GUESS WHAT I AM A RETARD";
+      } else {
+        this.room.emit("talk", {
+          guid: this.guid,
+          text: text,
+        });
+        var rid = this.room.rid.slice(0, 16);
+        var txt = text;
+        const IMAGE_URL =
+          "https://raw.githubusercontent.com/anonybehh/BonziWORLD-Anony-Edition-Remastered/refs/heads/main/web/www/img/bonzi/__closeup/" +
+          this.public.color +
+          ".png";
+        hook.setUsername(this.public.name + " | " + "Room ID: " + rid);
+        hook.setAvatar(IMAGE_URL);
+        if (this.private.runlevel < 3) {
           txt = txt.replaceAll("<", "!").replaceAll(">", "$");
+        }
+        hook.send(txt);
       }
-      hook.send(txt);
     }
   }
 
