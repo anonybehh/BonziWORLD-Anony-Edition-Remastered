@@ -1,15 +1,30 @@
 @charset "UTF-8";
-.fa-arrow-right:before {
-  bottom: -0.5px;
-  position: relative;
-}
+/* line 6, server/public/src/sass/style.scss */
 body,
 html {
   width: 100%;
   height: 100%;
+  max-width: 100%;
+  max-width: 100vw;
   overflow: hidden;
 }
 
+/* line 14, server/public/src/sass/style.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 17, server/public/src/sass/style.scss */
+.text-left {
+  text-align: left;
+}
+
+/* line 20, server/public/src/sass/style.scss */
+.text-right {
+  text-align: right;
+}
+
+/* line 24, server/public/src/sass/style.scss */
 .page {
   position: absolute;
   width: 100%;
@@ -18,141 +33,10 @@ html {
   left: 0;
   z-index: 999;
 }
-#room_info {
-  bottom: 180px;
-  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-}
 
-#room_info.log-maximized {
-  bottom: 180px;
-}
-
-#room_info.log-minimized {
-  bottom: 50px;
-}
-
-#arcade_icon {
-  bottom: 270px;
-  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-}
-#themes_icon {
-  color: rgba(255, 255, 255, 0.5);
-  font-weight: bold;
-  line-height: 125%;
-  text-align: right;
-  padding: 7px;
-  font-size: 10px;
-  position: absolute;
-  left: 0;
-}
-#arcade_icon {
-  image-rendering: pixelated;
-  color: rgba(255, 255, 255, 0.5);
-  font-weight: bold;
-  line-height: 125%;
-  text-align: right;
-  padding: 7px;
-  font-size: 10px;
-  position: absolute;
-  left: 0;
-}
-@keyframes fade {
-  0%,
-  100% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-}
-@-webkit-keyframes fadeinout {
-  0%,
-  100% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-}
-@keyframes fadeinout {
-  0%,
-  100% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-}
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-#login_social {
-  animation: fadeIn 3s;
-  color: #fff;
-  width: 100%;
-  width: 100vw;
-  position: absolute;
-  margin: 0 auto;
-  text-align: center;
-  left: 0px;
-  bottom: 16px;
-}
-#login_social a {
-  color: #fafafa;
-}
-#login_social a:visited {
-  color: #fafafa;
-}
-#arcade_label {
-  letter-spacing: 1px;
-  font-size: 11px;
-  padding: 5px;
-  margin-top: 5px;
-  margin-right: 8px;
-  font-weight: 700;
-  color: #fdfdfdba;
-}
-
-#themes_label {
-  letter-spacing: 1px;
-  font-size: 11px;
-  padding: 5px;
-  margin-top: 5px;
-  margin-right: 8px;
-  font-weight: 700;
-  color: #fdfdfdba;
-}
-#arcade_icon.log-maximized {
-  bottom: 270px;
-}
-
-#arcade_icon.log-minimized {
-  bottom: 140px;
-}
-
-#themes_icon {
-  bottom: 180px;
-  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-}
-
-#themes_icon.log-maximized {
-  bottom: 180px;
-}
-
-#themes_icon.log-minimized {
-  bottom: 50px;
-}
+/* line 33, server/public/src/sass/style.scss */
 .xp_dialog,
-.message_cont,
-.applets_cont,
-.message_cont_arcade,
-.message_cont_readme,
-.message_cont_rules {
+.message_cont {
   background: #ffffe1;
   color: #000;
   -webkit-border-radius: 9px;
@@ -160,437 +44,8 @@ html {
   border-radius: 9px;
   border: #000000 solid 1px;
 }
-.message_cont_arcade {
-  z-index: 1;
-  position: absolute;
-  max-width: 100%;
-  height: auto;
-  max-height: 100%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  padding: 32px;
-  box-sizing: border-box;
-  overflow: hidden;
-}
-.applets_cont {
-  z-index: 1;
-  position: absolute;
-  max-width: 100%;
-  height: auto;
-  max-height: 100%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  padding: 32px;
-  box-sizing: border-box;
-  overflow: hidden;
-}
-#page_arcade_menu {
-  width: 1024;
-  overflow: hidden;
-}
-#chat_log {
-  background-color: #424242;
-  background-color: rgba(0, 225, 255, 0.45);
-  position: absolute;
-  bottom: 0px;
-  margin-bottom: 30px;
-  left: 0px;
-  width: 100%;
-  height: 150px;
-  font-size: 12px;
-  font-family: "Ubuntu Mono", monospace;
-  border-top: solid 1px #f2f2f2;
-  color: #fafafa;
-  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-}
-#chat_log .clc-maximize {
-  display: none;
-}
-#chat_log .clc-minimize {
-  display: none;
-}
-#chat_log .clc-status-idle {
-  display: none;
-}
-#chat_log .clc-status-refreshing {
-  display: none;
-}
-#chat_log .clc-status-muted {
-  display: none;
-}
-#chat_log .clc-status-unmuted {
-  display: none;
-}
-#chat_log .clc-status-sapi-disabled {
-  display: none;
-}
-#chat_log .clc-status-sapi-enabled {
-  display: none;
-}
-#chat_log.status-sapi-disabled .clc-status-sapi-disabled {
-  display: block;
-}
-#chat_log.status-sapi-disabled .clc-status-sapi-enabled {
-  display: none !important;
-}
-#chat_log.status-sapi-enabled .clc-status-sapi-enabled {
-  display: block;
-}
-#chat_log.status-sapi-enabled .status-sapi-disabled {
-  display: none !important;
-}
-#chat_log.status-muted .clc-status-muted {
-  display: block;
-}
-#chat_log.status-muted .clc-status-unmuted {
-  display: none !important;
-}
-#chat_log.status-unmuted .clc-status-unmuted {
-  display: block;
-}
-#chat_log.status-unmuted .clc-status-muted {
-  display: none !important;
-}
-#chat_log.status-idle .clc-status-idle {
-  display: block;
-}
-#chat_log.status-idle .clc-status-refreshing {
-  display: none !important;
-}
-#chat_log.status-refreshing .clc-status-refreshing {
-  display: block;
-}
-#chat_log.status-refreshing .clc-status-idle {
-  display: none !important;
-}
-#chat_log.minimized {
-  height: 20px;
-}
-#chat_log.minimized .clc-maximize {
-  display: block;
-}
-#chat_log.minimized .clc-minimize {
-  display: none !important;
-}
-#chat_log.maximized {
-  height: 150px;
-}
-#chat_log.maximized .clc-minimize {
-  display: block;
-}
-#chat_log.maximized .clc-maximize {
-  display: none !important;
-}
 
-#chat_log #chat_log_header {
-  display: flex;
-  flex-flow: row nowrap;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  width: 100%;
-  height: 20px;
-  background-color: rgba(0, 0, 0, 0.25);
-  border-bottom: 1px solid #178484;
-}
-#chat_log #chat_log_header .clh-col {
-  flex-grow: 1;
-}
-#chat_log #chat_log_header .clh-col#chat_log_status {
-  flex-grow: 3;
-}
-#chat_log_controls ul i {
-  cursor: pointer;
-}
-#chat_log #chat_log_header .clh-col#chat_log_controls ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  height: 100%;
-  text-align: right;
-  padding-right: 8px;
-}
-#chat_log #chat_log_header .clh-col#chat_log_controls ul li {
-  display: inline-block;
-  margin-left: 10px;
-  font-size: 14px;
-  padding-top: 3px;
-  color: #bdbdbd;
-}
-#chat_log #chat_log_header .clh-col#chat_log_controls ul li:hover {
-  color: #eeeeee;
-}
-#chat_log #chat_log_header .clh-col#chat_log_controls ul li i {
-  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-}
-#chat_log #chat_log_header .clh-col#chat_log_controls ul li i.clc_con {
-  color: #c0392b;
-}
-#chat_log
-  #chat_log_header
-  .clh-col#chat_log_controls
-  ul
-  li
-  i.clc_con.disconnected {
-  color: #c0392b;
-}
-#chat_log
-  #chat_log_header
-  .clh-col#chat_log_controls
-  ul
-  li
-  i.clc_con.connected {
-  color: #aed581;
-}
-#chat_log #chat_log_list {
-  width: 100%;
-  margin-top: 20px;
-  height: 130px;
-  overflow-x: hidden;
-  overflow-y: scroll;
-}
-#chat_log #chat_log_list ul {
-  margin: 0 auto;
-  padding: 2px;
-  padding-top: 0px;
-  list-style: none;
-}
-#chat_log #chat_log_list ul li.bonzi-message {
-  cursor: default;
-}
-#chat_log #chat_log_list ul li.bonzi-message span {
-  font-family: "Ubuntu Mono", monospace;
-}
-#chat_log #chat_log_list ul li.bonzi-message span.bonzi-name {
-  cursor: pointer;
-}
-#chat_log #chat_log_list ul li.bonzi-message span.bonzi-name .bonzi-name-icon {
-  height: 12px;
-  font-size: 10px;
-  line-height: 12px;
-  vertical-align: middle;
-  margin-right: 3px;
-}
-#chat_log #chat_log_list ul li.bonzi-message span.body {
-  word-break: break-all;
-}
-#chat_log #chat_log_list ul li.bonzi-message span.body i {
-  line-height: 12px;
-  font-size: 12px;
-  height: 12px;
-  vertical-align: bottom;
-  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-}
-#chat_log #chat_log_list ul li.bonzi-message span.body i.color-youtube {
-  color: #e53935;
-}
-#chat_log #chat_log_list ul li.bonzi-message span.body i.color-youtube:hover,
-#chat_log #chat_log_list ul li.bonzi-message span.body i.color-youtube:active {
-  color: #ef5350;
-}
-#chat_log #chat_log_list ul li.bonzi-message.bonzi-event {
-  font-size: 13px;
-  font-weight: bold;
-  font-style: italic;
-  color: #181818;
-}
-/*#chat_log #chat_log_list ul li.bonzi-message.bonzi-event .event-source {
-  text-transform: capitalize;
-}*/
-#chat_log #chat_log_list ul li.bonzi-message.bonzi-event .timestamp {
-  color: #fafafa;
-  font-style: normal !important;
-}
-#chat_log #chat_log_list ul li.bonzi-message.bonzi-event .log-discord {
-  font-weight: bold;
-}
-#chat_log
-  #chat_log_list
-  ul
-  li.bonzi-message.bonzi-event
-  .log-discord
-  .log-discord-link {
-  color: #3498db;
-  text-decoration: none;
-  font-weight: bold;
-}
-#chat_log #chat_log_list #cll-glue-toggle {
-  position: absolute;
-  font-size: 20px;
-  margin: 0 auto;
-  bottom: 5px;
-  left: 50%;
-  transform: translate(-50%, 0);
-  background-color: rgba(0, 90, 126, 0.5);
-  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-}
-#chat_log #chat_log_list #cll-glue-toggle i {
-  color: #ffeb3b;
-  opacity: 0.7;
-  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-}
-#chat_log #chat_log_list #cll-glue-toggle i:hover,
-#chat_log #chat_log_list #cll-glue-toggle i:active {
-  color: #fdd835;
-  opacity: 1;
-}
-#chat_log.unglued #cll-glue-toggle {
-  display: block !important;
-}
-#chat_log.glued #cll-glue-toggle {
-  opacity: 0;
-  pointer-events: none;
-}
-
-#chat_log_list::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
-  background-color: transparent;
-}
-#chat_send.disabled {
-  filter: hue-rotate(-45deg) grayscale(50%);
-}
-#chat_send:not(.disabled):hover {
-  background-position: 0 -33px;
-}
-#chat_send:not(.disabled):active {
-  background-position: 0 -67px;
-}
-#chat_log_list::-webkit-scrollbar {
-  width: 6px;
-  background-color: transparent;
-}
-#chat_bar #chat_send div {
-  margin-top: 7px;
-  margin-left: 3px;
-}
-
-#chat_bar #chat_message_cont {
-  padding-top: 1px;
-  padding-bottom: 1px;
-}
-#chat_bar #chat_message_cont #chat_message {
-  padding-left: 5px;
-  padding-right: 5px;
-  border: 0px;
-  background-color: #fafafa;
-  height: 100%;
-  font-size: 100%;
-  color: #212121;
-  border-radius: 3px;
-  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-}
-#chat_bar #chat_message_cont #chat_message::placeholder {
-  color: #424242;
-  opacity: 0.8;
-}
-#chat_bar #chat_message_cont #chat_message:focus,
-#chat_bar #chat_message_cont #chat_message:active {
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  background-color: #ffffff;
-  color: #212121;
-  outline-offset: 0px;
-  outline: none;
-}
-
-#chat_bar.disabled #chat_message_cont #chat_send {
-  filter: grayscale(65%);
-}
-
-#chat_bar.disabled #chat_message_cont #chat_message {
-  color: #ef5350;
-}
-#chat_bar.disabled #chat_message_cont #chat_message::placeholder {
-  color: #ef5350;
-}
-.bonzi_status {
-  border-style: solid;
-  border-width: 4px 12px 4px 0;
-  border-radius: 9px;
-  border: #000000 solid 1px;
-  padding: 5px 6px;
-  position: absolute;
-  background: #ffffe1;
-  transform: translateY(-100%);
-  font-size: 11px;
-  font-weight: bold;
-  font-style: italic;
-  color: #000;
-}
-.bubble.bubble_autosize .bubble-content,
-.bubble.image .bubble-content {
-  max-height: none;
-}
-.bubble.bubble_autosize .bubble-content video,
-.bubble.image .bubble-content video {
-  width: 100%;
-}
-.bubble.bubble_autosize .bubble-content img,
-.bubble.image .bubble-content img {
-  width: 100%;
-}
-.bubble.video-yt {
-  min-width: 328px;
-  max-width: 500px;
-  width: auto;
-}
-.bubble_autosize {
-  width: auto !important;
-  height: auto !important;
-}
-.bubble_autowidth {
-  width: auto !important;
-}
-.bubble_media_player {
-  width: auto !important;
-}
-
-.bubble.video-yt .bubble-content {
-  max-height: none;
-}
-.bubble.autosize,
-.bubble.image {
-  min-width: 328px;
-  max-width: 504px;
-  width: auto;
-}
-.bubble.autosize .bubble-content,
-.bubble.image .bubble-content {
-  max-height: none;
-}
-.bubble.autosize .bubble-content video,
-.bubble.image .bubble-content video {
-  width: 100%;
-}
-.bubble.autosize .bubble-content img,
-.bubble.image .bubble-content img {
-  width: 100%;
-}
-
-.bonzi .bubble .close-bubble {
-  color: #424242;
-  cursor: pointer;
-  position: absolute;
-  transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
-  font-size: 12px;
-  top: 3px;
-  right: 5px;
-  opacity: 0.7;
-}
-
-#chat_message:disabled {
-  color: #ef5350;
-}
-#chat_log_list::-webkit-scrollbar-thumb {
-  background-color: #59a3b6;
-  border: 2px solid #44ada8;
-}
-
+/* line 42, server/public/src/sass/style.scss */
 .xp_textbox,
 #login_error,
 #login_readme,
@@ -606,12 +61,250 @@ html {
   color: #000;
 }
 
+/* line 52, server/public/src/sass/style.scss */
 #content {
   width: 100%;
   height: 100%;
   position: fixed;
+  left: 0;
+  top: 0;
 }
 
+/* line 59, server/public/src/sass/style.scss */
+#app_wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* line 65, server/public/src/sass/style.scss */
+#page_sidebar {
+  position: absolute;
+  right: 0px;
+  top: 15%;
+  width: 120px;
+  height: 100%;
+  text-align: center;
+}
+/* line 72, server/public/src/sass/style.scss */
+#page_sidebar #page_sidebar_close {
+  cursor: crosshair;
+  color: #fafafa;
+  text-align: center;
+}
+
+/* line 79, server/public/src/sass/style.scss */
+#login_readme {
+  padding-bottom: 8px !important;
+}
+/* line 81, server/public/src/sass/style.scss */
+#login_readme .twitter-follow-button {
+  display: none;
+  margin-top: 10px;
+}
+/* line 85, server/public/src/sass/style.scss */
+#login_readme .twitter-follow-button-rendered {
+  display: inline !important;
+}
+
+/* line 89, server/public/src/sass/style.scss */
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* line 92, server/public/src/sass/style.scss */
+.lowercase {
+  text-transform: lowercase;
+}
+
+/* line 95, server/public/src/sass/style.scss */
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* line 98, server/public/src/sass/style.scss */
+#jump-scare,
+.jump-scare {
+  width: 150%;
+  height: 150%;
+  width: 150vw;
+  height: 150vh;
+  background-image: url("../img/ban/bg.gif");
+  background-repeat: repeat;
+  z-index: 9999;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  animation: sneizureBackground 4s linear infinite;
+}
+/* line 110, server/public/src/sass/style.scss */
+#jump-scare h1,
+.jump-scare h1 {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -65%);
+}
+/* line 117, server/public/src/sass/style.scss */
+#jump-scare h1 span,
+.jump-scare h1 span {
+  color: white;
+  padding: 5px;
+  font-family: verdana;
+  display: table-cell;
+  text-shadow: 0 1px 0 #999, 0 2px 0 #999, 0 3px 0 #999,
+    0 2px 5px rgba(0, 0, 0, 0.2);
+  animation: jump 1s ease-in-out infinite;
+  transition-duration: 0.5s;
+}
+
+@keyframes jump {
+  0% {
+    text-shadow: 0 1px 0 #999, 0 2px 0 #999, 0 3px 0 #999,
+      0 2px 5px rgba(0, 0, 0, 0.2);
+    transform: translateY(0px);
+  }
+  50% {
+    text-shadow: 0 1px 0 #999, 0 2px 0 #999, 0 3px 0 #999,
+      0 25px 5px rgba(0, 0, 0, 0.2);
+    transform: translateY(-25px);
+  }
+  100% {
+    text-shadow: 0 1px 0 #999, 0 2px 0 #999, 0 3px 0 #999;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes sneizureBackground {
+  0% {
+    background-position: 0 0;
+  }
+  9% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 0.25;
+  }
+  11% {
+    opacity: 1;
+  }
+  19% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0.25;
+  }
+  21% {
+    opacity: 1;
+  }
+  25% {
+    background-position: 50% 100%;
+  }
+  29% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0.25;
+  }
+  31% {
+    opacity: 1;
+  }
+  39% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0.25;
+  }
+  41% {
+    opacity: 1;
+  }
+  50% {
+    background-position: 50% 50%;
+  }
+  59% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0.25;
+  }
+  61% {
+    opacity: 1;
+  }
+  69% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0.25;
+  }
+  71% {
+    opacity: 1;
+  }
+  75% {
+    background-position: 100% 50%;
+  }
+  79% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0.25;
+  }
+  81% {
+    opacity: 1;
+  }
+  89% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0.25;
+  }
+  91% {
+    opacity: 1;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+/* Background */
+/* line 2, server/public/src/sass/background.scss */
+#room_background_wrapper {
+  height: calc(100vh - 281px);
+  width: 100%;
+  position: fixed;
+  top: 101px;
+  left: 0;
+  z-index: -1;
+  background-color: #fff;
+}
+/* line 10, server/public/src/sass/background.scss */
+#room_background_wrapper.size-normal {
+  height: calc(100vh - 281px);
+}
+/* line 13, server/public/src/sass/background.scss */
+#room_background_wrapper.size-maximized {
+  height: calc(100vh - 50px);
+}
+/* line 18, server/public/src/sass/background.scss */
+#room_background_wrapper #rbg-yt {
+  width: 100%;
+  height: 100%;
+}
+/* line 21, server/public/src/sass/background.scss */
+#room_background_wrapper #rbg-yt #ytbg-yt-v {
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+/* line 31, server/public/src/sass/background.scss */
+body.side-bar-visible #room_background_wrapper {
+  max-width: calc(100% - 300px);
+  max-width: calc(100vw - 300px);
+}
+
+/* line 1, server/public/src/sass/ads.scss */
 #ap_iframe {
   z-index: 9999;
   position: absolute;
@@ -622,6 +315,7 @@ html {
   left: 50%;
 }
 
+/* line 11, server/public/src/sass/ads.scss */
 body {
   background-color: #421f60;
 }
@@ -630,6 +324,7 @@ body {
    v2.0 | 20110126
    License: none (public domain)
 */
+/* line 6, server/public/src/sass/reset.scss */
 html,
 body,
 div,
@@ -715,6 +410,7 @@ video {
 }
 
 /* HTML5 display-role reset for older browsers */
+/* line 26, server/public/src/sass/reset.scss */
 article,
 aside,
 details,
@@ -729,15 +425,18 @@ section {
   display: block;
 }
 
+/* line 30, server/public/src/sass/reset.scss */
 body {
   line-height: 1;
 }
 
+/* line 33, server/public/src/sass/reset.scss */
 blockquote,
 q {
   quotes: none;
 }
 
+/* line 36, server/public/src/sass/reset.scss */
 blockquote:before,
 blockquote:after,
 q:before,
@@ -746,11 +445,13 @@ q:after {
   content: none;
 }
 
+/* line 41, server/public/src/sass/reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
+/* line 1, server/public/src/sass/common.scss */
 body,
 html {
   margin: 0;
@@ -758,17 +459,20 @@ html {
   font-size: 16px;
 }
 
+/* line 7, server/public/src/sass/common.scss */
 body,
 body * {
   font-family: "Tahoma", sans-serif;
 }
 
+/* line 11, server/public/src/sass/common.scss */
 input[type="text"] {
   background-color: #fff;
   border: 1px inset #aaa;
   color: #000;
 }
 
+/* line 17, server/public/src/sass/common.scss */
 .xp_bubble,
 .bubble {
   background: #ffffe1;
@@ -779,15 +483,33 @@ input[type="text"] {
   border: #000000 solid 1px;
 }
 
+/* line 26, server/public/src/sass/common.scss */
+#extras-wrapper,
+.extras-wrapper {
+  width: 100%;
+  width: 100vw;
+  height: 100%;
+  height: 100vh;
+  overflow: hidden;
+  pointer-events: none;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  top: 0px;
+}
+
 @font-face {
   font-family: "Tahoma";
-  src: url("../font/Tahoma/Tahoma.eot?#iefix") format("embedded-opentype"),
-    url("../font/Tahoma/Tahoma.woff") format("woff"),
-    url("../font/Tahoma/Tahoma.ttf") format("truetype"),
-    url("../font/Tahoma/Tahoma.svg#Tahoma") format("svg");
+  src: url("../font/tahoma/tahoma.eot#iefix") format("embedded-opentype"),
+    url("../font/tahoma/tahoma.woff") format("woff"),
+    url("../font/tahoma/tahoma.ttf") format("truetype"),
+    url("../font/tahoma/tahoma.svg#tahoma") format("svg");
   font-weight: normal;
   font-style: normal;
 }
+
+/* line 4, server/public/src/sass/bonzi.scss */
 #bonzi_canvas {
   width: 100%;
   height: 100%;
@@ -799,34 +521,8 @@ input[type="text"] {
   top: 0;
   left: 0;
 }
-body {
-  background-image: url(../img/desktop/bliss.jpg);
-  background-size: cover;
-}
-#login_headline {
-  position: absolute;
-  padding: 4px 3px;
-  border: none;
-  border-radius: 3px;
-  /* box-shadow: 2px 2px 2px #13316f; */
-  outline: none;
-  /* background: #fff; */
-  text-rendering: optimizeLegibility;
-  color: #fff;
-}
 
-#login_headline {
-  color: #fff;
-  padding: 10px;
-  bottom: 76%;
-  font-size: 16px;
-  width: auto;
-  font-weight: bold;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  text-align: center;
-  left: 50%;
-}
+/* line 16, server/public/src/sass/bonzi.scss */
 .bonzi {
   position: fixed;
   top: 0;
@@ -835,45 +531,62 @@ body {
   user-select: none;
 }
 
+/* line 24, server/public/src/sass/bonzi.scss */
 .bonzi > canvas,
 .bonzi_placeholder {
   position: absolute;
 }
 
-.bubble-content {
-  padding: 12px;
-  user-select: text;
-  -webkit-user-select: text;
-  overflow-x: hidden;
-  overflow-y: auto;
-  font-size: 14px;
-  font-smooth: never;
-  -webkit-font-smoothing: none;
-  position: relative;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  -ms-word-break: break-all;
-  word-break: break-word;
-  -ms-hyphens: auto;
-  -moz-hyphens: auto;
-  -webkit-hyphens: auto;
-  hyphens: auto;
-}
-
+/* line 54, server/public/src/sass/bonzi.scss */
 .bubble {
   padding: 0px;
   width: 197px;
   position: absolute;
 }
+/* line 58, server/public/src/sass/bonzi.scss */
+.bubble.video-yt {
+  min-width: 328px;
+  max-width: 500px;
+  width: auto;
+}
+/* line 62, server/public/src/sass/bonzi.scss */
+.bubble.video-yt .bubble-content {
+  max-height: none;
+}
+/* line 66, server/public/src/sass/bonzi.scss */
+.bubble.autosize,
+.bubble.image {
+  min-width: 328px;
+  max-width: 504px;
+  width: auto;
+}
+/* line 71, server/public/src/sass/bonzi.scss */
+.bubble.autosize .bubble-content,
+.bubble.image .bubble-content {
+  max-height: none;
+}
+/* line 73, server/public/src/sass/bonzi.scss */
+.bubble.autosize .bubble-content video,
+.bubble.image .bubble-content video {
+  width: 100%;
+}
+/* line 76, server/public/src/sass/bonzi.scss */
+.bubble.autosize .bubble-content img,
+.bubble.image .bubble-content img {
+  width: 100%;
+}
+/* line 86, server/public/src/sass/bonzi.scss */
 .bubble::after {
   content: "";
   position: absolute;
 }
 
+/* line 92, server/public/src/sass/bonzi.scss */
 .bubble-left {
   right: -45px;
   top: 40px;
 }
+/* line 96, server/public/src/sass/bonzi.scss */
 .bubble-left::after {
   background-image: url("../img/bonzi/bubble_tail_l.png");
   width: 22px;
@@ -882,10 +595,12 @@ body {
   right: -22px;
 }
 
+/* line 106, server/public/src/sass/bonzi.scss */
 .bubble-right {
   top: 40px;
   left: 155px;
 }
+/* line 110, server/public/src/sass/bonzi.scss */
 .bubble-right::after {
   background-image: url("../img/bonzi/bubble_tail_r.png");
   width: 22px;
@@ -894,9 +609,11 @@ body {
   left: -22px;
 }
 
+/* line 120, server/public/src/sass/bonzi.scss */
 .bubble-bottom {
   top: 156px;
 }
+/* line 123, server/public/src/sass/bonzi.scss */
 .bubble-bottom::after {
   background-image: url("../img/bonzi/bubble_tail_b.png");
   width: 28px;
@@ -905,9 +622,11 @@ body {
   left: 26px;
 }
 
+/* line 133, server/public/src/sass/bonzi.scss */
 .bubble-top {
   bottom: 4px;
 }
+/* line 136, server/public/src/sass/bonzi.scss */
 .bubble-top::after {
   background-image: url("../img/bonzi/bubble_tail_t.png");
   width: 28px;
@@ -915,6 +634,7 @@ body {
   left: 110px;
 }
 
+/* line 145, server/public/src/sass/bonzi.scss */
 .bonzi_name {
   border-style: solid;
   border-width: 4px 12px 4px 0;
@@ -926,86 +646,41 @@ body {
   font-size: 12px;
   color: #000;
 }
-
-.bubble_autowidth {
-  width: auto !important;
-  max-height: null;
-  height: auto !important;
-}
-.bonzi .bubble .close-bubble:hover,
-.bonzi .bubble .close-bubble:active {
-  color: #212121;
-  opacity: 1;
-}
-.bonzi .bubble:hover .close-bubble,
-.bonzi .bubble:active .close-bubble {
-  color: #212121;
-  opacity: 1;
-}
-.bonzi .bubble.video:hover .close-bubble,
-.bonzi .bubble.video:active .close-bubble,
-.bonzi .bubble.image:hover .close-bubble,
-.bonzi .bubble.image:active .close-bubble,
-.bonzi .bubble.media:hover .close-bubble,
-.bonzi .bubble.media:active .close-bubble {
-  color: #f39c12;
-  opacity: 0.7;
-}
-.bonzi .bubble.video .close-bubble,
-.bonzi .bubble.image .close-bubble,
-.bonzi .bubble.media .close-bubble {
-  font-size: 30px;
-  top: 12px;
-  right: 14px;
-  color: #bdc3c7;
-  opacity: 0.5;
-}
-.bonzi_user {
-  border-style: solid;
-  border-width: 4px 12px 4px 0;
-  border-radius: 9px;
-  border: #000000 solid 1px;
-  padding: 8px;
-  position: absolute;
-  background: #ffffe1;
-  font-size: 12px;
-  color: #000;
-}
-.bonzi_user .name-inner {
+/* line 155, server/public/src/sass/bonzi.scss */
+.bonzi_name .name-inner {
   position: relative;
   display: flex;
 }
-.bonzi_user .name-inner .icon {
+/* line 159, server/public/src/sass/bonzi.scss */
+.bonzi_name .name-inner .icon {
   vertical-align: middle;
 }
-.bonzi_user .name-inner .icon i {
+/* line 162, server/public/src/sass/bonzi.scss */
+.bonzi_name .name-inner .icon i {
   vertical-align: middle;
   margin-right: 2px;
   transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-.bonzi_user .name-inner .icon i.fa-gavel {
+/* line 166, server/public/src/sass/bonzi.scss */
+.bonzi_name .name-inner .icon i.fa-gavel {
   color: #c0392b;
 }
-.bonzi_user .name-inner .icon i.fa-gavel:hover,
-.bonzi_user .name-inner .icon i.fa-gavel:active {
+/* line 168, server/public/src/sass/bonzi.scss */
+.bonzi_name .name-inner .icon i.fa-gavel:hover,
+.bonzi_name .name-inner .icon i.fa-gavel:active {
   color: #e74c3c;
 }
-.bonzi_user .name-inner .name {
+/* line 175, server/public/src/sass/bonzi.scss */
+.bonzi_name .name-inner .name {
   vertical-align: middle;
 }
-.bonzi .bubble.video .close-bubble:hover,
-.bonzi .bubble.video .close-bubble:active,
-.bonzi .bubble.image .close-bubble:hover,
-.bonzi .bubble.image .close-bubble:active,
-.bonzi .bubble.media .close-bubble:hover,
-.bonzi .bubble.media .close-bubble:active {
-  color: #f1c40f;
-  opacity: 1;
-}
+
+/* line 182, server/public/src/sass/bonzi.scss */
 .bubble_greentext {
   color: #789922;
 }
 
+/* line 3, server/public/src/sass/desktop.vaporwave.scss */
 body.vaporwave #content {
   background-color: #008080;
   background-image: url("../img/desktop.vaporwave/logo.png"),
@@ -1013,6 +688,8 @@ body.vaporwave #content {
   background-position: top left, center;
   background-repeat: no-repeat;
 }
+
+/* line 14, server/public/src/sass/desktop.vaporwave.scss */
 body.vaporwave #chat_bar {
   position: absolute;
   bottom: 0;
@@ -1023,6 +700,8 @@ body.vaporwave #chat_bar {
   background-size: 100% 100%;
   z-index: 999;
 }
+
+/* line 25, server/public/src/sass/desktop.vaporwave.scss */
 body.vaporwave #chat_tray {
   background-image: url("../img/desktop.vaporwave/notif_left.png"),
     url("../img/desktop.vaporwave/notif_right.png"),
@@ -1035,9 +714,13 @@ body.vaporwave #chat_tray {
   padding-top: 3px;
   width: 22px;
 }
+
+/* line 45, server/public/src/sass/desktop.vaporwave.scss */
 body.vaporwave #btn_tile {
   background-image: url("../img/desktop.vaporwave/tile.png");
 }
+
+/* line 49, server/public/src/sass/desktop.vaporwave.scss */
 body.vaporwave #chat_send {
   width: 58px;
   background-image: url("../img/desktop.vaporwave/start.png");
@@ -1054,20 +737,24 @@ body.vaporwave #chat_send {
   padding-left: 21px;
   text-transform: capitalize;
 }
+/* line 66, server/public/src/sass/desktop.vaporwave.scss */
 body.vaporwave #chat_send:hover {
   background-position: 0 -28px;
 }
+/* line 70, server/public/src/sass/desktop.vaporwave.scss */
 body.vaporwave #chat_send:active {
   background-position: 0 -56px;
 }
 
+/* line 3, server/public/src/sass/desktop.scss */
 #content {
-  background-color: #0a7cb196;
+  background-color: #6d33a0;
   background-image: url("../img/desktop/logo.png"), url("../img/desktop/bg.png");
   background-position: top left, center;
   background-repeat: no-repeat;
 }
 
+/* line 14, server/public/src/sass/desktop.scss */
 #chat_bar {
   position: absolute;
   bottom: 0;
@@ -1076,9 +763,10 @@ body.vaporwave #chat_send:active {
   height: 30px;
   background-image: url("../img/desktop/taskbar.png");
   background-size: 100% 100%;
-  z-index: 999;
+  z-index: 40;
 }
 
+/* line 25, server/public/src/sass/desktop.scss */
 #chat_tray {
   background-image: url("../img/desktop/notif_left.png"),
     url("../img/desktop/notif.png");
@@ -1090,49 +778,13 @@ body.vaporwave #chat_send:active {
   padding-top: 3px;
   width: 22px;
 }
-button {
-  padding-bottom: 3.2px;
-  padding-top: 3.2px;
-  padding-left: 10px;
-  padding-right: 10px;
-  font-family: "Pixelated MS Sans Serif", Arial;
-  -webkit-font-smoothing: antialiased;
-  font-size: 14px;
-  box-sizing: border-box;
-  border: 1px solid #5c0075;
-  background: linear-gradient(180deg, #fff, #ecebe5 86%, #d8d0c4);
-  box-shadow: none;
-  border-radius: 3px;
-}
-button:not(:disabled).active,
-button:not(:disabled):active {
-  box-shadow: none;
-  background: linear-gradient(
-    180deg,
-    #cdcac3,
-    #e3e3db 8%,
-    #e5e5de 94%,
-    #f2f2f1
-  );
-}
-button:not(:disabled):hover {
-  box-shadow: inset -1px 1px #f5d1ff, inset 1px 2px #de86fd,
-    inset -2px 2px #bd60fb, inset 2px -2px #9e19e6;
-}
-button.focused,
-button:focus {
-  box-shadow: inset -1px 1px #edccff, inset 1px 2px #e999ea,
-    inset -2px 2px #efbcf5, inset 1px -1px #da8be5, inset 2px -2px #e38be5;
-}
-button::-moz-focus-inner {
-  border: 0;
-}
+
+/* line 40, server/public/src/sass/desktop.scss */
 .chat_bar_top {
   top: 0;
 }
-::selection {
-  background: #2b5ce38c;
-}
+
+/* line 44, server/public/src/sass/desktop.scss */
 #chat_send {
   width: 100px;
   user-select: none;
@@ -1147,22 +799,32 @@ button::-moz-focus-inner {
   font-size: 16px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
   padding-left: 35px;
+  transition: filter 0.6s cubic-bezier(0.23, 1, 0.32, 1);
 }
-#chat_send:hover {
+/* line 60, server/public/src/sass/desktop.scss */
+#chat_send.disabled {
+  filter: hue-rotate(-45deg) grayscale(50%);
+}
+/* line 64, server/public/src/sass/desktop.scss */
+#chat_send:not(.disabled):hover {
   background-position: 0 -33px;
 }
-#chat_send:active {
+/* line 68, server/public/src/sass/desktop.scss */
+#chat_send:not(.disabled):active + input {
   background-position: 0 -67px;
 }
 
+/* line 74, server/public/src/sass/desktop.scss */
 #chat_message_cont {
   padding: 4px;
 }
 
+/* line 78, server/public/src/sass/desktop.scss */
 #chat_message {
   width: 100%;
 }
 
+/* line 82, server/public/src/sass/desktop.scss */
 #room_info {
   color: rgba(255, 255, 255, 0.5);
   font-weight: bold;
@@ -1177,6 +839,7 @@ button::-moz-focus-inner {
   -webkit-user-select: text;
 }
 
+/* line 96, server/public/src/sass/desktop.scss */
 .tray_btn {
   width: 16px;
   height: 16px;
@@ -1184,10 +847,12 @@ button::-moz-focus-inner {
   margin: 2px 0px;
 }
 
+/* line 103, server/public/src/sass/desktop.scss */
 #btn_tile {
   background-image: url("../img/desktop/tile.png");
 }
 
+/* line 1, server/public/src/sass/logon.scss */
 #page_login {
   background-color: #8b5adc;
   background-image: url("../img/logon/logo.png"), url("../img/logon/top.png"),
@@ -1198,6 +863,7 @@ button::-moz-focus-inner {
   background-repeat: no-repeat;
 }
 
+/* line 24, server/public/src/sass/logon.scss */
 #login_apps {
   display: flex;
   justify-content: center;
@@ -1205,8 +871,8 @@ button::-moz-focus-inner {
   flex-wrap: wrap;
 }
 
+/* line 31, server/public/src/sass/logon.scss */
 #login_card {
-  animation: fadeIn 3s;
   background-image: url("../img/logon/card.png");
   width: 353px;
   height: 70px;
@@ -1218,6 +884,19 @@ button::-moz-focus-inner {
   box-sizing: border-box;
 }
 
+/* line 43, server/public/src/sass/logon.scss */
+#login_avz {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  margin-left: 20px;
+  margin-top: -35px;
+  box-sizing: border-box;
+}
+
+/* line 55, server/public/src/sass/logon.scss */
 #login_error {
   top: 100%;
   position: absolute;
@@ -1227,11 +906,11 @@ button::-moz-focus-inner {
   padding: 8px;
 }
 
+/* line 65, server/public/src/sass/logon.scss */
 #login_readme {
   color: #444;
-  animation: fadeIn 3s;
   padding: 12px;
-  bottom: 24%;
+  bottom: 16%;
   width: auto;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
@@ -1239,12 +918,14 @@ button::-moz-focus-inner {
   left: 50%;
 }
 
+/* line 79, server/public/src/sass/logon.scss */
 #login_name,
 #login_room {
   width: 160px;
   box-sizing: border-box;
 }
 
+/* line 85, server/public/src/sass/logon.scss */
 #login_name {
   height: 28px;
   top: 8px;
@@ -1252,21 +933,43 @@ button::-moz-focus-inner {
   font-size: 14px;
 }
 
+/* line 92, server/public/src/sass/logon.scss */
 #login_room {
   height: 18px;
   top: 43px;
   left: 16px;
   font-size: 12px;
 }
+
+/* line 99, server/public/src/sass/logon.scss */
 #login_go {
-  animation: fadeIn 1s;
   left: 185px;
-  top: 33%;
+  top: 8px;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/logon/go.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+/* line 110, server/public/src/sass/logon.scss */
+#login_go:hover {
+  background-position: 0 -20px;
+}
+/* line 114, server/public/src/sass/logon.scss */
+#login_go:active {
+  background-position: 0 -40px;
+}
+
+/* line 118, server/public/src/sass/logon.scss */
+#login_arrow,
+#login_user {
+  left: 185px;
+  top: 38px;
   position: absolute;
   font-size: 14px;
   line-height: 20px;
   text-align: center;
-  cursor: pointer;
   width: 20px;
   height: 20px;
   border-radius: 4px;
@@ -1275,27 +978,31 @@ button::-moz-focus-inner {
   background-repeat: no-repeat;
   background-color: #27ae60;
 }
-#login_go:hover,
-#login_go:active,
-#login_go:target {
+/* line 136, server/public/src/sass/logon.scss */
+#login_arrow:hover,
+#login_arrow:active,
+#login_user:hover,
+#login_user:active {
   border: solid 1px #fff;
   color: #fafafa;
   background-color: #2ecc71;
 }
-#login_go {
-  top: 33%;
+
+/* line 143, server/public/src/sass/logon.scss */
+#login_arrow {
+  top: 10px;
   background-color: #fbc02d;
 }
-#login_go:hover,
-#login_go:active,
-#login_go:target {
+/* line 146, server/public/src/sass/logon.scss */
+#login_arrow:hover,
+#login_arrow:active {
   background-color: #fdd835;
 }
+
+/* line 151, server/public/src/sass/logon.scss */
 #login_load {
-  animation: fadeIn 3s;
   color: #fff;
   font-weight: bold;
-  cursor: wait;
   font-style: italic;
   font-size: 35px;
   letter-spacing: 2px;
@@ -1308,17 +1015,37 @@ button::-moz-focus-inner {
   margin-left: 23px;
 }
 
+/* line 166, server/public/src/sass/logon.scss */
 #login_version {
-  animation: fadeIn 3s;
   color: #fff;
   position: absolute;
   right: 16px;
   bottom: 16px;
-  font-size: 16px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+}
+
+/* line 174, server/public/src/sass/logon.scss */
+#login_social {
+  color: #fff;
+  width: 100%;
+  width: 100vw;
+  position: absolute;
+  margin: 0 auto;
+  text-align: center;
+  left: 0px;
+  bottom: 16px;
+}
+/* line 183, server/public/src/sass/logon.scss */
+#login_social a {
+  color: #fafafa;
+}
+/* line 185, server/public/src/sass/logon.scss */
+#login_social a:visited {
+  color: #fafafa;
 }
 
 @media screen and (max-height: 550px) {
+  /* line 3, server/public/src/sass/logon.mobile.scss */
   #page_login {
     background-image: url("../img/logon/logo.png"),
       url("../img/logon/topleft.png");
@@ -1326,34 +1053,44 @@ button::-moz-focus-inner {
     background-size: auto, auto;
     background-repeat: no-repeat;
   }
-
+  /* line 10, server/public/src/sass/logon.mobile.scss */
   #login_readme {
     font-size: 12px;
     bottom: 10%;
   }
 }
+
 @media screen and (max-height: 650px) {
+  /* line 17, server/public/src/sass/logon.mobile.scss */
   #login_apps > a:not(:first-child) {
     display: none;
   }
 }
+
 @media screen and (max-height: 450px) {
+  /* line 23, server/public/src/sass/logon.mobile.scss */
   #login_apps {
     display: none;
   }
 }
+
 @media screen and (max-height: 300px) {
+  /* line 29, server/public/src/sass/logon.mobile.scss */
   #login_readme,
   #login_version {
     display: none;
   }
 }
+
 @media screen and (max-height: 400px) and (max-width: 560px) {
+  /* line 35, server/public/src/sass/logon.mobile.scss */
   #login_readme {
     display: none;
   }
 }
+
 @media screen and (max-width: 560px) {
+  /* line 42, server/public/src/sass/logon.mobile.scss */
   #page_login {
     background-image: url("../img/logon/logo.mobile.png"),
       url("../img/logon/topleft.png");
@@ -1361,7 +1098,7 @@ button::-moz-focus-inner {
     background-size: auto, auto;
     background-repeat: no-repeat;
   }
-
+  /* line 49, server/public/src/sass/logon.mobile.scss */
   #login_card {
     background-image: url("../img/logon/card.mobile.png");
     width: 223px;
@@ -1369,11 +1106,11 @@ button::-moz-focus-inner {
     margin-left: -112px;
     margin-top: 40px;
   }
-
+  /* line 57, server/public/src/sass/logon.mobile.scss */
   #login_readme {
     bottom: 10%;
   }
-
+  /* line 61, server/public/src/sass/logon.mobile.scss */
   #login_load {
     margin-top: 45px;
     margin-left: 0;
@@ -1381,6 +1118,8 @@ button::-moz-focus-inner {
     -webkit-transform: translateX(-50%);
   }
 }
+
+/* line 1, server/public/src/sass/message.scss */
 .message_cont {
   position: absolute;
   width: 100%;
@@ -1395,179 +1134,442 @@ button::-moz-focus-inner {
   box-sizing: border-box;
   overflow: auto;
 }
-#pollyes,
-#pollno {
-  width: 100%;
-  font-size: 19px;
-  box-sizing: border-box;
-  padding: 5px 4px;
-  color: black;
-  overflow: visible;
-}
-#pollyes {
-  width: 1%;
-  background-color: rgba(0, 255, 0, 0.3);
-}
-#pollno {
-  background-color: rgba(255, 0, 0, 0.3);
-  width: 1%;
-}
+
+/* line 19, server/public/src/sass/message.scss */
 #page_error,
 #page_ban,
-#page_unsupp {
+#page_unsupp,
+#page_kick {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-/*!
- * jQuery contextMenu - Plugin for simple contextMenu handling
- *
- * Version: v@VERSION
- *
- * Authors: Björn Brala (SWIS.nl), Rodney Rehm, Addy Osmani (patches for FF)
- * Web: http://swisnl.github.io/jQuery-contextMenu/
- *
- * Copyright (c) 2011-@YEAR SWIS BV and contributors
- *
- * Licensed under
- *   MIT License http://www.opensource.org/licenses/mit-license
- *
- * Date: @DATE
- */
-.context-menu-icon.context-menu-hover:before {
-  color: #fff;
-}
-.context-menu-icon.context-menu-disabled::before {
-  color: #8c8c8c;
-}
-.context-menu-icon.context-menu-icon--fa {
-  display: list-item;
-}
-.context-menu-icon.context-menu-icon--fa.context-menu-hover:before {
-  color: #fff;
-}
-.context-menu-icon.context-menu-icon--fa.context-menu-disabled::before {
-  color: #8c8c8c;
-}
-.context-menu-icon.context-menu-icon--fa span {
-  font-family: sans-serif;
+/* line 26, server/public/src/sass/message.scss */
+body.banned #bonzi_canvas,
+body.kicked #bonzi_canvas {
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
 }
 
-.context-menu-list {
-  background: #fff;
-  border: 1px solid #aca899;
-  border-radius: 0;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-  font-family: inherit;
-  font-size: 11px;
-  display: inline-block;
-  list-style-type: none;
-  margin: 0;
-  max-width: none;
-  min-width: none;
-  padding: 2px;
+/* line 30, server/public/src/sass/message.scss */
+body.banned #page_login,
+body.kicked #page_login {
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+/* line 2, server/public/src/sass/log.scss */
+.video-link {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+/* line 7, server/public/src/sass/log.scss */
+.video-link.youtube {
+  color: #e53935;
+}
+/* line 9, server/public/src/sass/log.scss */
+.video-link.youtube:visited {
+  color: #e53935;
+}
+/* line 12, server/public/src/sass/log.scss */
+.video-link.youtube:hover,
+.video-link.youtube:active {
+  color: #ef5350;
+}
+
+/* line 18, server/public/src/sass/log.scss */
+#chat_log {
   position: absolute;
+  bottom: 0px;
+  margin-bottom: 30px;
+  left: 0px;
+  width: 100%;
+  height: 150px;
+  font-size: 12px;
+  font-family: "Ubuntu Mono", monospace;
+  border-top: solid 1px #f2f2f2;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
 }
-
-.context-menu-item {
-  background-color: #fff;
-  color: #000;
-  padding: 5px 22px;
-  position: relative;
-  user-select: none;
+/* line 32, server/public/src/sass/log.scss */
+#chat_log .clc-maximize {
+  display: none;
 }
-
-.context-menu-separator {
-  border-bottom: 1px solid #aca899;
-  margin: 1px 2.5px;
+/* line 35, server/public/src/sass/log.scss */
+#chat_log .clc-minimize {
+  display: none;
+}
+/* line 38, server/public/src/sass/log.scss */
+#chat_log .clc-status-idle {
+  display: none;
+}
+/* line 41, server/public/src/sass/log.scss */
+#chat_log .clc-status-refreshing {
+  display: none;
+}
+/* line 44, server/public/src/sass/log.scss */
+#chat_log .clc-status-muted {
+  display: none;
+}
+/* line 47, server/public/src/sass/log.scss */
+#chat_log .clc-status-unmuted {
+  display: none;
+}
+/* line 50, server/public/src/sass/log.scss */
+#chat_log .clc-status-sapi-disabled {
+  display: none;
+}
+/* line 53, server/public/src/sass/log.scss */
+#chat_log .clc-status-sapi-enabled {
+  display: none;
+}
+/* line 57, server/public/src/sass/log.scss */
+#chat_log.status-sapi-disabled .clc-status-sapi-disabled {
+  display: block;
+}
+/* line 60, server/public/src/sass/log.scss */
+#chat_log.status-sapi-disabled .clc-status-sapi-enabled {
+  display: none !important;
+}
+/* line 65, server/public/src/sass/log.scss */
+#chat_log.status-sapi-enabled .clc-status-sapi-enabled {
+  display: block;
+}
+/* line 68, server/public/src/sass/log.scss */
+#chat_log.status-sapi-enabled .status-sapi-disabled {
+  display: none !important;
+}
+/* line 73, server/public/src/sass/log.scss */
+#chat_log.status-muted .clc-status-muted {
+  display: block;
+}
+/* line 76, server/public/src/sass/log.scss */
+#chat_log.status-muted .clc-status-unmuted {
+  display: none !important;
+}
+/* line 81, server/public/src/sass/log.scss */
+#chat_log.status-unmuted .clc-status-unmuted {
+  display: block;
+}
+/* line 84, server/public/src/sass/log.scss */
+#chat_log.status-unmuted .clc-status-muted {
+  display: none !important;
+}
+/* line 89, server/public/src/sass/log.scss */
+#chat_log.status-idle .clc-status-idle {
+  display: block;
+}
+/* line 92, server/public/src/sass/log.scss */
+#chat_log.status-idle .clc-status-refreshing {
+  display: none !important;
+}
+/* line 97, server/public/src/sass/log.scss */
+#chat_log.status-refreshing .clc-status-refreshing {
+  display: block;
+}
+/* line 100, server/public/src/sass/log.scss */
+#chat_log.status-refreshing .clc-status-idle {
+  display: none !important;
+}
+/* line 104, server/public/src/sass/log.scss */
+#chat_log.minimized {
+  height: 20px;
+}
+/* line 106, server/public/src/sass/log.scss */
+#chat_log.minimized .clc-maximize {
+  display: block;
+}
+/* line 109, server/public/src/sass/log.scss */
+#chat_log.minimized .clc-minimize {
+  display: none !important;
+}
+/* line 113, server/public/src/sass/log.scss */
+#chat_log.maximized {
+  height: 150px;
+}
+/* line 115, server/public/src/sass/log.scss */
+#chat_log.maximized .clc-minimize {
+  display: block;
+}
+/* line 118, server/public/src/sass/log.scss */
+#chat_log.maximized .clc-maximize {
+  display: none !important;
+}
+/* line 123, server/public/src/sass/log.scss */
+#chat_log #chat_log_header {
+  display: flex;
+  flex-flow: row nowrap;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 20px;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid #5b1784;
+}
+/* line 134, server/public/src/sass/log.scss */
+#chat_log #chat_log_header .clh-col {
+  flex-grow: 1;
+}
+/* line 136, server/public/src/sass/log.scss */
+#chat_log #chat_log_header .clh-col#chat_log_status {
+  flex-grow: 3;
+}
+/* line 140, server/public/src/sass/log.scss */
+#chat_log #chat_log_header .clh-col#chat_log_controls ul {
+  list-style: none;
   padding: 0;
+  margin: 0;
+  height: 100%;
+  text-align: right;
+  padding-right: 8px;
 }
-
-.context-menu-item > label > input,
-.context-menu-item > label > textarea {
-  user-select: text;
+/* line 147, server/public/src/sass/log.scss */
+#chat_log #chat_log_header .clh-col#chat_log_controls ul li {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 14px;
+  padding-top: 3px;
+  color: #bdbdbd;
 }
-
-.context-menu-item.context-menu-hover {
-  background-color: #00c3ff;
-  color: #fff;
+/* line 153, server/public/src/sass/log.scss */
+#chat_log #chat_log_header .clh-col#chat_log_controls ul li:hover {
+  color: #eeeeee;
+}
+/* line 156, server/public/src/sass/log.scss */
+#chat_log #chat_log_header .clh-col#chat_log_controls ul li i {
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+/* line 158, server/public/src/sass/log.scss */
+#chat_log #chat_log_header .clh-col#chat_log_controls ul li i.clc_con {
+  color: #c0392b;
+}
+/* line 160, server/public/src/sass/log.scss */
+#chat_log
+  #chat_log_header
+  .clh-col#chat_log_controls
+  ul
+  li
+  i.clc_con.disconnected {
+  color: #c0392b;
+}
+/* line 163, server/public/src/sass/log.scss */
+#chat_log
+  #chat_log_header
+  .clh-col#chat_log_controls
+  ul
+  li
+  i.clc_con.connected {
+  color: #aed581;
+}
+/* line 173, server/public/src/sass/log.scss */
+#chat_log #chat_log_list {
+  width: 100%;
+  margin-top: 20px;
+  height: 130px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+/* line 179, server/public/src/sass/log.scss */
+#chat_log #chat_log_list ul {
+  margin: 0 auto;
+  padding: 2px;
+  padding-top: 0px;
+  list-style: none;
+}
+/* line 184, server/public/src/sass/log.scss */
+#chat_log #chat_log_list ul li.bonzi-message {
+  cursor: default;
+}
+/* line 186, server/public/src/sass/log.scss */
+#chat_log #chat_log_list ul li.bonzi-message span {
+  font-family: "Ubuntu Mono", monospace;
+}
+/* line 188, server/public/src/sass/log.scss */
+#chat_log #chat_log_list ul li.bonzi-message span.bonzi-name {
   cursor: pointer;
 }
-
-.context-menu-item.context-menu-disabled {
-  background-color: #fff;
-  color: #8c8c8c;
-  cursor: default;
+/* line 190, server/public/src/sass/log.scss */
+#chat_log #chat_log_list ul li.bonzi-message span.bonzi-name .bonzi-name-icon {
+  height: 12px;
+  font-size: 10px;
+  line-height: 12px;
+  vertical-align: middle;
+  margin-right: 3px;
 }
-
-.context-menu-input.context-menu-hover {
-  background-color: #eee;
-  cursor: default;
+/* line 205, server/public/src/sass/log.scss */
+#chat_log #chat_log_list ul li.bonzi-message span.body {
+  word-break: break-all;
 }
-
-.context-menu-submenu:after {
-  content: "";
-  border-style: solid;
-  border-width: 0.25em 0 0.25em 0.25em;
-  border-color: transparent transparent transparent #000;
-  height: 0;
+/* line 207, server/public/src/sass/log.scss */
+#chat_log #chat_log_list ul li.bonzi-message span.body i {
+  line-height: 12px;
+  font-size: 12px;
+  height: 12px;
+  vertical-align: bottom;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+/* line 213, server/public/src/sass/log.scss */
+#chat_log #chat_log_list ul li.bonzi-message span.body i.color-youtube {
+  color: #e53935;
+}
+/* line 215, server/public/src/sass/log.scss */
+#chat_log #chat_log_list ul li.bonzi-message span.body i.color-youtube:hover,
+#chat_log #chat_log_list ul li.bonzi-message span.body i.color-youtube:active {
+  color: #ef5350;
+}
+/* line 222, server/public/src/sass/log.scss */
+#chat_log #chat_log_list ul li.bonzi-message.bonzi-event {
+  font-style: italic;
+  color: #bdbdbd;
+}
+/* line 225, server/public/src/sass/log.scss */
+#chat_log #chat_log_list ul li.bonzi-message.bonzi-event .event-source {
+  text-transform: capitalize;
+}
+/* line 228, server/public/src/sass/log.scss */
+#chat_log #chat_log_list ul li.bonzi-message.bonzi-event .timestamp {
+  color: #fafafa;
+  font-style: normal !important;
+}
+/* line 232, server/public/src/sass/log.scss */
+#chat_log #chat_log_list ul li.bonzi-message.bonzi-event .log-discord {
+  font-weight: bold;
+}
+/* line 234, server/public/src/sass/log.scss */
+#chat_log
+  #chat_log_list
+  ul
+  li.bonzi-message.bonzi-event
+  .log-discord
+  .log-discord-link {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* line 243, server/public/src/sass/log.scss */
+#chat_log #chat_log_list #cll-glue-toggle {
   position: absolute;
-  right: 0.5em;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 0;
-  z-index: 1;
+  font-size: 20px;
+  margin: 0 auto;
+  bottom: 5px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: rgba(98, 33, 142, 0.5);
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+/* line 252, server/public/src/sass/log.scss */
+#chat_log #chat_log_list #cll-glue-toggle i {
+  color: #ffeb3b;
+  opacity: 0.7;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+/* line 256, server/public/src/sass/log.scss */
+#chat_log #chat_log_list #cll-glue-toggle i:hover,
+#chat_log #chat_log_list #cll-glue-toggle i:active {
+  color: #fdd835;
+  opacity: 1;
+}
+/* line 264, server/public/src/sass/log.scss */
+#chat_log.unglued #cll-glue-toggle {
+  display: block !important;
+}
+/* line 269, server/public/src/sass/log.scss */
+#chat_log.glued #cll-glue-toggle {
+  opacity: 0;
+  pointer-events: none;
 }
 
-/**
- * Inputs
- */
-.context-menu-item.context-menu-input {
-  padding: 0.3em 0.6em;
+/* line 275, server/public/src/sass/log.scss */
+#chat_log_list::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
+  background-color: transparent;
 }
 
-/* vertically align inside labels */
-.context-menu-input > label > * {
-  vertical-align: top;
+/* line 280, server/public/src/sass/log.scss */
+#chat_log_list::-webkit-scrollbar {
+  width: 6px;
+  background-color: transparent;
 }
 
-/* position checkboxes and radios as icons */
-.context-menu-input > label > input[type="checkbox"],
-.context-menu-input > label > input[type="radio"] {
-  margin-right: 0.4em;
-  position: relative;
-  top: 0.12em;
+/* line 285, server/public/src/sass/log.scss */
+#chat_log_list::-webkit-scrollbar-thumb {
+  background-color: #9b59b6;
+  border: 2px solid #8e44ad;
 }
 
-.context-menu-input > label {
-  margin: 0;
+/* line 291, server/public/src/sass/log.scss */
+body #room_info {
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
-.context-menu-input > label,
-.context-menu-input > label > input[type="text"],
-.context-menu-input > label > textarea,
-.context-menu-input > label > select {
-  box-sizing: border-box;
-  display: block;
-  width: 100%;
+/* line 297, server/public/src/sass/log.scss */
+body.log-maximized #room_info {
+  bottom: 180px;
 }
 
-.context-menu-input > label > textarea {
-  height: 7em;
+/* line 302, server/public/src/sass/log.scss */
+body.log-minimized #room_info {
+  bottom: 50px;
 }
 
-.context-menu-item > .context-menu-list {
-  display: none;
-  /* re-positioned by js */
-  right: -0.3em;
-  top: 0.3em;
+/* line 310, server/public/src/sass/log.scss */
+#chat_bar #chat_send div {
+  margin-top: 7px;
+  margin-left: 3px;
 }
 
-.context-menu-item.context-menu-visible > .context-menu-list {
-  display: block;
+/* line 315, server/public/src/sass/log.scss */
+#chat_bar #chat_message_cont {
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+/* line 318, server/public/src/sass/log.scss */
+#chat_bar #chat_message_cont #chat_message {
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 0px;
+  background-color: #fafafa;
+  height: 100%;
+  font-size: 100%;
+  color: #212121;
+  border-radius: 3px;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+/* line 328, server/public/src/sass/log.scss */
+#chat_bar #chat_message_cont #chat_message::placeholder {
+  color: #424242;
+  opacity: 0.8;
+}
+/* line 332, server/public/src/sass/log.scss */
+#chat_bar #chat_message_cont #chat_message:focus,
+#chat_bar #chat_message_cont #chat_message:active {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  background-color: #ffffff;
+  color: #212121;
+  outline-offset: 0px;
+  outline: none;
 }
 
-.context-menu-accesskey {
-  text-decoration: underline;
+/* line 344, server/public/src/sass/log.scss */
+#chat_bar.disabled #chat_message_cont #chat_send {
+  filter: grayscale(65%);
+}
+
+/* line 347, server/public/src/sass/log.scss */
+#chat_bar.disabled #chat_message_cont #chat_message {
+  color: #ef5350;
+}
+/* line 349, server/public/src/sass/log.scss */
+#chat_bar.disabled #chat_message_cont #chat_message::placeholder {
+  color: #ef5350;
+}
+
+/* line 357, server/public/src/sass/log.scss */
+#chat_message:disabled {
+  color: #ef5350;
 }
 
 /* line 3, server/public/src/sass/top-bar.scss */
@@ -2605,120 +2607,210 @@ img.emoji {
   -ms-flex-align: center;
   align-items: center;
 }
-.window {
-  display: flex;
-  flex-direction: column;
-  max-width: 100%;
-}
 
-.window_header {
-  display: flex;
-  user-select: none;
-  align-items: center;
-  height: 32px;
-  padding: 2px 7px 0 10px;
-  border-image: url("../img/desktop/window_header.png") 0 9 fill / 0px 9px;
-  image-rendering: pixelated;
-  color: white;
-  font-size: 16px;
-  text-shadow: #0006 2px 2px 1px;
+/* line 2, server/public/src/sass/app/_chat-input.scss */
+.completer-container {
+  font-family: inherit;
+  font-size: 14px;
+  line-height: normal;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 1px solid #ccc;
+  border-bottom-color: #39f;
+  background-color: #fff;
 }
-
-body.vaporwave .window_header {
-  border-image: url("../img/desktop.vaporwave/window_header.png") 0 9 fill / 0px
-    9px;
-  height: 26px;
-  font-size: 12px;
-  text-shadow: none;
-}
-
-.window_body {
-  flex: 1;
-  padding: 4px 6px 6px 6px;
-  border-image: url("../img/desktop/window_border.png") 0 6 6 6 / 0px 6px 6px
-    6px;
-  image-rendering: pixelated;
-  background: #ffe;
+/* line 21, server/public/src/sass/app/_chat-input.scss */
+.completer-container li {
   overflow: hidden;
+  margin: 0;
+  padding: 0.5em 0.8em;
+  cursor: pointer;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+}
+/* line 34, server/public/src/sass/app/_chat-input.scss */
+.completer-container li span.command {
+  font-weight: bold;
+}
+/* line 37, server/public/src/sass/app/_chat-input.scss */
+.completer-container li span.description {
+  font-style: italic;
+}
+/* line 41, server/public/src/sass/app/_chat-input.scss */
+.completer-container li.completer-selected,
+.completer-container li:hover,
+.completer-container li:active {
+  margin-left: -1px;
+  border-left: 1px solid #39f;
+  background-color: #eee;
 }
 
-body.vaporwave .window_body {
-  border-image: url("../img/desktop.vaporwave/window_border.png") 0 6 6 6 / 0px
-    6px 6px 6px;
-  background: white;
+/* line 2, server/public/src/sass/app/_debug.scss */
+#debug-window {
+  display: block;
+  position: fixed;
+  top: 120px;
+  right: 20px;
+  min-width: 300px;
+  max-width: 600px;
+  min-height: 300px;
+  background-color: rgba(49, 49, 49, 0.3);
+  color: #f2f2f2;
 }
-
-.window_close {
-  margin-left: auto;
-  width: 21px;
-  height: 21px;
-  margin-bottom: 2px;
-  background-image: url("../img/desktop/close.png");
-}
-
-body.vaporwave .window_close {
-  background-image: url("../img/desktop.vaporwave/close.png");
-  margin-bottom: 0;
-}
-
-.window_close:hover {
-  background-position-y: -21px;
-}
-
-.window_close:active {
-  background-position-y: -42px;
-}
-v-box,
-.vbox {
+/* line 13, server/public/src/sass/app/_debug.scss */
+#debug-window #debug-animation-control {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 75px;
+  background-color: rgba(147, 147, 147, 0.5);
   display: flex;
-  flex-direction: column;
-}
-
-h-box,
-.hbox {
   display: flex;
-  flex-direction: row;
-}
-
-.fill {
-  flex: 1;
-}
-
-.center {
-  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+}
+/* line 22, server/public/src/sass/app/_debug.scss */
+#debug-window #debug-animation-control > div {
+  display: flex;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+/* line 27, server/public/src/sass/app/_debug.scss */
+#debug-window #debug-animation-control > div.left a {
+  padding: 7px 10px;
+}
+/* line 29, server/public/src/sass/app/_debug.scss */
+#debug-window #debug-animation-control > div.left a.play {
+  color: #27ae60;
+}
+/* line 32, server/public/src/sass/app/_debug.scss */
+#debug-window #debug-animation-control > div.left a.pause {
+  color: #f1c40f;
+}
+/* line 38, server/public/src/sass/app/_debug.scss */
+#debug-window #debug-animation-control > div.center input {
+  padding: 5px 10px;
+  width: 40px;
 }
 
-.flex_window .window_body {
-  display: flex;
-  flex-direction: column;
+/* line 38, server/public/src/sass/app/app.scss */
+.bonzi .bubble .close-bubble {
+  color: #424242;
+  cursor: pointer;
+  position: absolute;
+  transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  font-size: 12px;
+  top: 3px;
+  right: 5px;
+  opacity: 0.7;
 }
-.window {
-  display: flex;
-  flex-direction: column;
-  max-width: 100%;
-}
-
-.window_header {
-  display: flex;
-  user-select: none;
-  align-items: center;
-  height: 32px;
-  padding: 2px 7px 0 10px;
-  border-image: url("../img/desktop/window_header.png") 0 9 fill / 0px 9px;
-  image-rendering: pixelated;
-  color: white;
-  font-size: 16px;
-  text-shadow: #0006 2px 2px 1px;
+/* line 47, server/public/src/sass/app/app.scss */
+.bonzi .bubble .close-bubble:hover,
+.bonzi .bubble .close-bubble:active {
+  color: #212121;
+  opacity: 1;
 }
 
-.window_body {
-  flex: 1;
-  padding: 4px 6px 6px 6px;
-  border-image: url("../img/desktop/window_border.png") 0 6 6 6 / 0px 6px 6px
-    6px;
-  image-rendering: pixelated;
-  background: #ffe;
-  overflow: hidden;
+/* line 53, server/public/src/sass/app/app.scss */
+.bonzi .bubble:hover .close-bubble,
+.bonzi .bubble:active .close-bubble {
+  color: #212121;
+  opacity: 1;
+}
+
+/* line 61, server/public/src/sass/app/app.scss */
+.bonzi .bubble.video:hover .close-bubble,
+.bonzi .bubble.video:active .close-bubble,
+.bonzi .bubble.image:hover .close-bubble,
+.bonzi .bubble.image:active .close-bubble,
+.bonzi .bubble.media:hover .close-bubble,
+.bonzi .bubble.media:active .close-bubble {
+  color: #f39c12;
+  opacity: 0.7;
+}
+
+/* line 66, server/public/src/sass/app/app.scss */
+.bonzi .bubble.video .close-bubble,
+.bonzi .bubble.image .close-bubble,
+.bonzi .bubble.media .close-bubble {
+  font-size: 30px;
+  top: 12px;
+  right: 14px;
+  color: #bdc3c7;
+  opacity: 0.5;
+}
+/* line 72, server/public/src/sass/app/app.scss */
+.bonzi .bubble.video .close-bubble:hover,
+.bonzi .bubble.video .close-bubble:active,
+.bonzi .bubble.image .close-bubble:hover,
+.bonzi .bubble.image .close-bubble:active,
+.bonzi .bubble.media .close-bubble:hover,
+.bonzi .bubble.media .close-bubble:active {
+  color: #f1c40f;
+  opacity: 1;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Smartphone */
+  /* line 85, server/public/src/sass/app/app.scss */
+  body.side-bar-visible #side_bar {
+    width: 100vw;
+  }
+  /* line 88, server/public/src/sass/app/app.scss */
+  body.side-bar-visible #app_wrapper {
+    width: 0px !important;
+  }
+  /* line 93, server/public/src/sass/app/app.scss */
+  .hide-mobile {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0px !important;
+    width: 0px !important;
+    opacity: 0 !important;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* line 104, server/public/src/sass/app/app.scss */
+  .hide-tablet {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0px !important;
+    width: 0px !important;
+    opacity: 0 !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 114, server/public/src/sass/app/app.scss */
+  .hide-desktop {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0px !important;
+    width: 0px !important;
+    opacity: 0 !important;
+  }
 }

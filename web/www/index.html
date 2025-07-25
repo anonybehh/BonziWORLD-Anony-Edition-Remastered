@@ -52,7 +52,7 @@
     <meta name="mobile-web-app-capable" content="yes" />
 
     <link rel="stylesheet" type="text/css" href="./css/style.min.css" />
-     
+    <link rel="stylesheet" type="text/css" herf="./css/bdotw.css" />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -213,6 +213,56 @@
 			</div>
 
 		</div>
+    <div class="top-bar-wrapper ng-cloak" id="top_bar">
+      <div class="top-bar-inner">
+          <div class="top-bar-item top-bar-left"><img src="/bonzi/bonzi_sg-32x32.png" alt="BonziWORLD" title="BonziWORLD" /></div>
+          <div class="top-bar-item top-bar-middle"></div>
+          <div class="top-bar-item top-bar-right">
+              <div class="left-group">
+                  <span hidden>
+                      <div class="top-bar-user tbr-item" id="tb-user-dd-toggle">
+                          <div class="directory-wrapper">
+                              <div class="directory-badge" title="Directory" data-ng-click="global.sbCtrl.changeView('directory:default');"><i class="fas fa-comments" aria-hidden="true"></i><span> Rooms</span></div>
+                          </div>
+                      </div>
+                  </span>
+                  <div class="top-discord-user tbr-item" id="tb-discord-toggle">
+                      <div class="tbr-i-inner">
+                          <div class="badge" title="Discord" onclick="window.open('https://discord.com/invite/CNgYtPqagK')"><i class="fab fa-discord" aria-hidden="true"></i><span> Discord</span></div>
+                      </div>
+                  </div>
+                  <div class="top-roblox-user tbr-item" id="tb-roblox-toggle">
+                      <div class="directory-wrapper">
+                          <div class="directory-badge" title="Directory" onclick="window.open('https://www.roblox.com/games/92105806166117/BonziWORLD-Revived-Crossplay#!/about')">
+                              <img src="roblox_black.png" width="16" /><span> Roblox</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="top-discord-user tbr-item" id="tb-discord-toggle">
+                      <div class="tbr-i-inner">
+                          <div class="badge" title="Games" id="games_button">🎮<span> Games</span></div>
+                      </div>
+                  </div>
+              </div>
+              <div class="top-bar-user" id="tb-user-dd-toggle">
+                  <div id="bonzicoins" onclick="coinPopup()"><b>You have <span class="coin_count">0</span> BonziCOINs. <img src="bonzicoin.png" width=16></b></div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="top-bar-wrapper ng-cloak" id="sub_top_bar">
+      <div class="top-bar-inner">
+          <div class="top-bar-item top-bar-left top-bar-room-info">
+              <div class="room-name-wrapper ng-cloak" data-ng-if="global.room">
+                  <div class="room-icon" title="Room Icon"><i class="far fa-comments" aria-hidden="true"></i></div>
+                  <div class="room-name" title="Room Name"><span class="room-name" data-ng-bind="global.room.name"></span></div>
+              </div>
+          </div>
+          <div class="top-bar-item top-bar-middle"></div>
+          <div class="top-bar-item top-bar-right">
+          </div>
+      </div>
+  </div>
             <div id="desktop_icons">
               <div id="arcade_icon" class="no_selection log-minimized" alt="Arcade" title="Arcade" onclick='$("#page_arcade_menu").show()'>
                 <img src="./img/icons/other/arcade_v2.png" width="64" draggable="false" /><br />
@@ -469,7 +519,27 @@
           <br />
         </div>
       </div>
-
+      <div id="page_error" class="page" style="display: none">
+        <div id="error_cont" class="message_cont">
+          <img src="./img/error/logo.png" /><br />
+          <br />
+          <h1>BonziWORLDAnonyEditionRemastered.exe has encountered an error and needs to close.</h1>
+          <br />
+          <br />
+          Nah, but seriously there was an error and you got disconnected from the server. Chances are, your internet just died out for a brief moment or your device went to sleep. Otherwise the server just screwed up.<br />
+          <br />
+          Try and reload the page. If that doesn't work and your internet is
+          okay, then panic. We'll probably be back up Soon&trade; though.<br />
+          <br />
+          <br />
+          Copyright © 2025 IdealBEHH Productions. All Rights Reserved.
+          <br />
+          <br />
+          <button onclick="window.location.reload()">Reload?</button><br />
+          <br />
+          Room ID - <span class="room_id">???</span><br />
+        </div>
+      </div>
       <div id="page_ban" class="page" style="display: none">
         <div id="ban_cont" class="message_cont">
           <img src="./img/ban/logo.png" /><br />
