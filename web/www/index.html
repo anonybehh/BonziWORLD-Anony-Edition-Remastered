@@ -213,56 +213,6 @@
 			</div>
 
 		</div>
-    <div class="top-bar-wrapper ng-cloak" id="top_bar">
-      <div class="top-bar-inner">
-          <div class="top-bar-item top-bar-left"><img src="/bonzi/bonzi_sg-32x32.png" alt="BonziWORLD" title="BonziWORLD" /></div>
-          <div class="top-bar-item top-bar-middle"></div>
-          <div class="top-bar-item top-bar-right">
-              <div class="left-group">
-                  <span hidden>
-                      <div class="top-bar-user tbr-item" id="tb-user-dd-toggle">
-                          <div class="directory-wrapper">
-                              <div class="directory-badge" title="Directory" data-ng-click="global.sbCtrl.changeView('directory:default');"><i class="fas fa-comments" aria-hidden="true"></i><span> Rooms</span></div>
-                          </div>
-                      </div>
-                  </span>
-                  <div class="top-discord-user tbr-item" id="tb-discord-toggle">
-                      <div class="tbr-i-inner">
-                          <div class="badge" title="Discord" onclick="window.open('https://discord.com/invite/CNgYtPqagK')"><i class="fab fa-discord" aria-hidden="true"></i><span> Discord</span></div>
-                      </div>
-                  </div>
-                  <div class="top-roblox-user tbr-item" id="tb-roblox-toggle">
-                      <div class="directory-wrapper">
-                          <div class="directory-badge" title="Directory" onclick="window.open('https://www.roblox.com/games/92105806166117/BonziWORLD-Revived-Crossplay#!/about')">
-                              <img src="roblox_black.png" width="16" /><span> Roblox</span>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="top-discord-user tbr-item" id="tb-discord-toggle">
-                      <div class="tbr-i-inner">
-                          <div class="badge" title="Games" id="games_button">🎮<span> Games</span></div>
-                      </div>
-                  </div>
-              </div>
-              <div class="top-bar-user" id="tb-user-dd-toggle">
-                  <div id="bonzicoins" onclick="coinPopup()"><b>You have <span class="coin_count">0</span> BonziCOINs. <img src="bonzicoin.png" width=16></b></div>
-              </div>
-          </div>
-      </div>
-  </div>
-  <div class="top-bar-wrapper ng-cloak" id="sub_top_bar">
-      <div class="top-bar-inner">
-          <div class="top-bar-item top-bar-left top-bar-room-info">
-              <div class="room-name-wrapper ng-cloak" data-ng-if="global.room">
-                  <div class="room-icon" title="Room Icon"><i class="far fa-comments" aria-hidden="true"></i></div>
-                  <div class="room-name" title="Room Name"><span class="room-name" data-ng-bind="global.room.name"></span></div>
-              </div>
-          </div>
-          <div class="top-bar-item top-bar-middle"></div>
-          <div class="top-bar-item top-bar-right">
-          </div>
-      </div>
-  </div>
             <div id="desktop_icons">
               <div id="arcade_icon" class="no_selection log-minimized" alt="Arcade" title="Arcade" onclick='$("#page_arcade_menu").show()'>
                 <img src="./img/icons/other/arcade_v2.png" width="64" draggable="false" /><br />
@@ -280,7 +230,7 @@
                         <div id="media_icon" class="no_selection log-minimized" alt="AnonyMEDIA" title="Media Player" onclick='$("#page_media").show()'>
                   <img src="./img/icons/other/themes.png" width="45" draggable="false" /><br />
                   <big><span id="media_label" class="no_selection">Anony Media Player</span></big>
-              </div>
+                        </div>
         Room ID - <span class="room_id">???</span><br />
         <span id="room_public">This room is public.</span>
         <span id="room_private">This room is private.</span>
@@ -374,20 +324,16 @@
           </td>
         </tr>
       </table>
-
       <div id="page_login" class="page">
         <div id="login_apps" class="app_showcase"></div>
-        <div id="login_headline">
-          Anonybehh says: "OfficerPoop247 Is a fucking retarded Go!Turd."
-          </div>
         <div id="login_readme">
-          <b><a href="./misc/">Miscellaneous Links</a></b><br>
-          <b><a href="./classic/">Check out the classic version of BonziWORLD Anony Edition!</a></b><br>
-          <b><big><a href="https://noobworld.onrender.com">Check out NoobWORLD!</a></big></b>
+          <b id="tips"></b>
+          <hr>
+          <b><a href="./misc/">Miscellaneous Links</a></b>
           <hr>
           Make sure to check out the
           <a id="readme" href="./readme/" target="_blank">README</a> and <a id="readme" href="./rules/" target="_blank">RULES</a> before
-          use.
+          use. Because the BonziWORLD Drama finally ended, BWAER IS BACK!!!!!! WOOOOOOHOO!!! <img src="./img/faces/excited.png", width="16"></img> <img src="./img/faces/smile.png", width="16"></img>
        </div>
         <div id="login_card" style="display: none">
           <input id="login_name" type="text" placeholder="Nickname" />
@@ -416,7 +362,7 @@
       <div id="page_media" class="page" style="display: none">
         <div id="error_cont" class="message_cont">
           <h1>AnonyMEDIA</h1><br>
-          <p>Welcome to AnonyMEDIA, It's a media player of BWAER, So you can play music on BWAER.</p>
+          <p>Welcome to AnonyMEDIA, Where you can play music on BWAER!</p>
           <input id="media_link" placeholder="Type music link here..."></input><br>
           <button onclick="playmusic1()">Play</button><button onclick="stopmusic()">Stop</button><button onclick="theclose()">Close</button>
         </div>
@@ -471,6 +417,13 @@
                 <b>Code: </b><input id="code_input" /><br />
                 <button onclick="unlock()" class="btn no_selection">Enter</button>
             </div>
+            <div class="orbium_page no_selection" id="orbium_page" style="display: none;">
+              <div class="message_cont_arcade bubble_autowidth bubble_autoheight">
+                  <iframe id="arcade_placeholder_cont" class="no_selection" src="https://orbium.onrender.com" width="1024" height="568" style="border-radius: 7px; overflow: hidden;"></iframe><br />
+                  <button onclick='$("#orbium_page").hide()' class="btn no_selection">Close Orbium</button> | 
+              </div>
+          </div>
+            
       <div id="page_changelog" class="page" style="display: none">
         <div id="error_cont" class="message_cont">
           <h1>Changelogs</h1>
@@ -810,13 +763,22 @@
   </div>
 </div>
     </div>
-
+    <div id="flashed" class="page" style="display: none"></div>
     <div id="titlebar">
       <div id="minimize"></div>
       <div id="maximize"></div>
       <div id="close"></div>
-    </div>
-
+    </div> 
+    <script>
+      var tiptext = document.getElementById("tips");
+      var tipsfacts = [
+           "Asshair is a retard",
+           "If someone bullied you, then insult them and mute them!"
+      ];
+      var number =  Math.floor(Math.random() * tipsfacts.length);
+      var text = tipfacts[number];
+      tiptext.innerText = text
+    </script>  
     <ad></ad>
   </body>
 </html>

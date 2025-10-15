@@ -1197,7 +1197,11 @@ button::-moz-focus-inner {
   background-size: auto, 100% 100px, 100% 122px, auto, 1px 100%;
   background-repeat: no-repeat;
 }
-
+#flashed {
+  background-color: #ffffff;
+  background-size: auto, 100% 100px, 100% 122px, auto, 1px 100%;
+  background-repeat: no-repeat;
+}
 #login_apps {
   display: flex;
   justify-content: center;

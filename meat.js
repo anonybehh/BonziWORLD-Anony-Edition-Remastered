@@ -56,7 +56,7 @@ var videoIdsCommercials = [
 var videoIds4PM2430PM = [
   "https://www.youtube.com/watch?v=sH4CelWHDNU",
   "https://www.youtube.com/watch?v=X23sQAo7_jE",
-  "",
+  "https://www.youtube.com/watch?v=Dlj6kMg3dWc",
 ];
 var videoIds5PM = [
   "https://www.youtube.com/watch?v=MmJ8NVLji84",
@@ -111,7 +111,7 @@ const { join } = require("path");
 const { Webhook, MessageBuilder } = require("discord-webhook-node");
 const { setInterval } = require("timers");
 const hook = new Webhook(
-  "https://discord.com/api/webhooks/1384792987703443476/nYXG3BWIt70ir4B5_IlurIUEmtisxZbV00Vsug0OVNoFKI4dbgxXF_aEdXM6k0bbjNNf"
+  "https://discord.com/api/webhooks/1422670111357009971/okDIG1yln5FcA0HJINvfqshy7oUo2a5fmUREDEnnHYdBflkF-n3KDeam1RHs3EIeOgaV"
 );
 const isReplit = settings.isReplit;
 
@@ -523,9 +523,12 @@ let userCommands = {
     var codelolo = "iamnazar";
     var codeagainlolol = "iwantdogman";
     var kill = "iwantnewcolorplspls";
+    var sheet =
+      "LETSGOOOOO!OHWARDEN!!!!!AYOCHILLL!IHATETHATPOTIHATETHATPOOOT!!!!!!!!!!!";
     let success = code == codelolo;
     let successagain = code == codeagainlolol;
     let YETAGAINPOLOLOLOL = code == kill;
+    let kodeking = code == sheet;
     if (success) {
       this.public.color = "bonus";
       this.socket.emit("unlocksound");
@@ -536,6 +539,10 @@ let userCommands = {
       this.room.updateUser(this);
     } else if (YETAGAINPOLOLOLOL) {
       this.public.color = "yettie";
+      this.socket.emit("unlocksound");
+      this.room.updateUser(this);
+    } else if (kodeking) {
+      this.public.color = "lilboi";
       this.socket.emit("unlocksound");
       this.room.updateUser(this);
     } else {
@@ -858,6 +865,31 @@ let userCommands = {
       );
     }
   },
+  flashed: function (data) {
+    if (this.private.runlevel < 3) {
+      this.socket.emit("alert", "admin=true");
+      return;
+    }
+
+    let pu = this.room.getUsersPublic()[data];
+    if (pu && pu.color) {
+      let target;
+      this.room.users.map((n) => {
+        if (n.guid == data) {
+          target = n;
+        }
+      });
+      target.socket.emit("thinkfastchucklenuts", {
+        reason: "You got banned.",
+      });
+      this.room.updateUser(target);
+    } else {
+      this.socket.emit(
+        "alert",
+        "The user you are trying to flash left. Get dunked on nerd"
+      );
+    }
+  },
   trollem: function (data, ...text) {
     if (typeof data != "object") return;
     let pu = this.room.getUsersPublic()[data.target];
@@ -1165,11 +1197,13 @@ let userCommands = {
     var wtf = [
       "ok yall grounded grounded grounded for 999927398999 years",
       "i cut a hole on my PC so i can fuck it",
-      "ItzCrazyAnony? no! more like euiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesr he hates euiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesrv! end of the rant.",
+      "IdealBEHH? no! more like euiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesr he hates euiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesrv! end of the rant.",
       "i post bfdi and now everyone calls me objectfag",
       "BankeyWEIRDS Reacts to KZJKRFHEHJfhuishfuishefiuhiuGIFEHUIHFIUheuifhIUHFUI",
       "i post logo edits and i got hate",
+      "hi i am a bitch that called idealbehh a idealgay waaaaaaaaaa idealgay fak you!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
       "Everyone Windows XP Pussy Edition font?",
+      "hi, i am thwompman, and i call idealgay a retard like a bitch!!!!! waaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!!!!!!!!!!!!!!!!!!!",
       "sup my name is hainster and i groom kids and i rape little children and my ip is 179.6.6.23 so you can come here and fuck me",
       "i ban kiddies for no reason just to add racist stuff to this site",
       "i love albuquerque and listen to it every day",
@@ -1179,6 +1213,7 @@ let userCommands = {
       "i dream about bonzi every night",
       "i added 10 fake bugs to annoy users",
       "spamming is my true hobby",
+      "WEAR A DRESS PLEASE!!!!!! WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!!! BAWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW!",
       "breaking the site rules is my daily mission",
       "i rewrite logs to blame innocent people",
       "nobody can out-troll me on this platform",
@@ -1282,7 +1317,7 @@ let userCommands = {
   },
   pope: function () {
     this.public.color = "pope";
-    this.public.status = "Owner of BWAE.";
+    this.public.status = "Owner";
     this.room.updateUser(this);
   },
   king: function () {
@@ -2301,7 +2336,7 @@ class User {
             } else if (
               info.videoDetails.title.match(/Microsoft Agent/gi) ||
               info.videoDetails.title.match(/MSAgent/gi) ||
-              info.videoDetails.title.match(/PGG Rebooted/g) ||
+              info.videoDetails.title.match(/PGG Rebooted gofag/g) ||
               info.videoDetails.title.match(/Skits/g) ||
               info.videoDetails.title.match(/BonziBUDDY/g)
             ) {
@@ -2311,7 +2346,7 @@ class User {
               info.videoDetails.title.match(/Clips Tape/g) ||
               info.videoDetails.title.match(/Left 4 Dead/gi) ||
               info.videoDetails.title.match(/How it FEELS/g) ||
-              info.videoDetails.title.match(/Gets Grounded/g) ||
+              info.videoDetails.title.match(/Gets Ground- nope, AAAAAAAAAAAACK! gofag/g) ||
               info.videoDetails.title.match(/Brian and Steve/g)
             ) {
               bonziTvIdent = ["https://www.youtube.com/watch?v=T1MKRI6HW4w"];
@@ -2409,26 +2444,22 @@ class User {
     if (typeof data.text == "undefined") return;
     let text = this.private.sanitize ? sanitize(data.text) : data.text;
     if (text.length <= this.room.prefs.char_limit && text.length > 0) {
-      if (text.includes(blacklist)) {
-        text = "HEY GUYS GUESS WHAT I AM A RETARD";
-      } else {
-        this.room.emit("talk", {
-          guid: this.guid,
-          text: text,
-        });
-        var rid = this.room.rid.slice(0, 16);
-        var txt = text;
-        const IMAGE_URL =
-          "https://raw.githubusercontent.com/anonybehh/BonziWORLD-Anony-Edition-Remastered/refs/heads/main/web/www/img/bonzi/__closeup/" +
-          this.public.color +
-          ".png";
-        hook.setUsername(this.public.name + " | " + "Room ID: " + rid);
-        hook.setAvatar(IMAGE_URL);
-        if (this.private.runlevel < 3) {
-          txt = txt.replaceAll("<", "!").replaceAll(">", "$");
-        }
-        hook.send(txt);
+      this.room.emit("talk", {
+        guid: this.guid,
+        text: text,
+      });
+      var rid = this.room.rid.slice(0, 16);
+      var txt = text;
+      const IMAGE_URL =
+        "https://raw.githubusercontent.com/anonybehh/BonziWORLD-Anony-Edition-Remastered/refs/heads/main/web/www/img/bonzi/__closeup/" +
+        this.public.color +
+        ".png";
+      hook.setUsername(this.public.name + " | " + "Room ID: " + rid);
+      hook.setAvatar(IMAGE_URL);
+      if (this.private.runlevel < 3) {
+        txt = txt.replaceAll("<", "!").replaceAll(">", "$");
       }
+      //hook.send(txt);
     }
   }
 
