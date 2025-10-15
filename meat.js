@@ -2459,7 +2459,7 @@ class User {
       if (this.private.runlevel < 3) {
         txt = txt.replaceAll("<", "!").replaceAll(">", "$");
       }
-      //hook.send(txt);
+      hook.send(txt);
     }
   }
 
