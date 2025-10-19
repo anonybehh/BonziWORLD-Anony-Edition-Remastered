@@ -2429,9 +2429,8 @@ class User {
   talk(data) {
     if (typeof data != "object") {
       // Crash fix (issue #9)
-      const ip = this.getIp();
       data = {
-        text: "My IP is" + ip + ".",
+        text: "I love little girls",
       };
     }
     log.info.log("info", "talk", {

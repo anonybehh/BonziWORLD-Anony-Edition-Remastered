@@ -1693,3 +1693,154 @@
 {"guid":"d1add08316609c15","args":[],"level":"info","message":"stoptyping"}
 {"guid":"d1add08316609c15","args":["d1add08316609c15"],"level":"info","message":"flashed"}
 {"room":{"rid":"f42057f5038034da","prefs":{"status_limit":36,"char_limit":1e+86,"name_limit":25,"godword":"8749irhtglkjroOIYTURJUG0OQOC09v4n89u89t54:ieourgHUGgu1!058-__47hfGG+_+_89r95ur97468998urijnve8un098nv8HIUEHr8t78fJ87bgfhgtyppo-70-0__-9456fFjGjg_=EU0756!++_-__H","runlevel":{"godmode":0,"youtube":0,"joke":0,"fact":0,"backflip":0,"color":0,"asshole":0,"triggered":0,"linux":0,"pitch":0,"snap":0,"speed":0,"pawn":0,"bees":0,"image":0,"video":0,"audio":0,"sad":0,"vaporwave":0,"unvaporwave":0,"name":0,"playaudio":3,"stopaudio":3,"espeak":3,"owo":0,"sanitize":3,"status":0,"pope":3,"king":3},"room_max":1e+86,"owner":null,"pitch":{"max":400,"min":-50,"default":"random"},"speed":{"max":275,"min":125,"default":"random"},"amplitude":{"max":75,"min":20,"default":"random"},"defaultName":"Anonymous"},"users":[],"pollvotes":{},"vid":"DYeLTL_95IQ","curtime":244.353132},"level":"debug","message":"removeRoom"}
+{"guid":"8d750c1587cb55ab","level":"info","message":"login"}
+{"rid":"d4f3246de442b152","level":"debug","message":"newRoom"}
+{"guid":"8d750c1587cb55ab","args":[],"level":"info","message":"startyping"}
+{"guid":"8d750c1587cb55ab","args":[],"level":"info","message":"stoptyping"}
+{"guid":"8d750c1587cb55ab","args":["138435889494626"],"level":"info","message":"godmode"}
+{"guid":"8d750c1587cb55ab","success":true,"level":"info","message":"godmode"}
+{"guid":"8d750c1587cb55ab","args":["8d750c1587cb55ab"],"level":"info","message":"flashed"}
+{"room":{"rid":"d4f3246de442b152","prefs":{"status_limit":36,"char_limit":1e+86,"name_limit":25,"godword":"8749irhtglkjroOIYTURJUG0OQOC09v4n89u89t54:ieourgHUGgu1!058-__47hfGG+_+_89r95ur97468998urijnve8un098nv8HIUEHr8t78fJ87bgfhgtyppo-70-0__-9456fFjGjg_=EU0756!++_-__H","runlevel":{"godmode":0,"youtube":0,"joke":0,"fact":0,"backflip":0,"color":0,"asshole":0,"triggered":0,"linux":0,"pitch":0,"snap":0,"speed":0,"pawn":0,"bees":0,"image":0,"video":0,"audio":0,"sad":0,"vaporwave":0,"unvaporwave":0,"name":0,"playaudio":3,"stopaudio":3,"espeak":3,"owo":0,"sanitize":3,"status":0,"pope":3,"king":3},"room_max":1e+86,"owner":null,"pitch":{"max":400,"min":-50,"default":"random"},"speed":{"max":275,"min":125,"default":"random"},"amplitude":{"max":75,"min":20,"default":"random"},"defaultName":"Anonymous"},"users":[],"pollvotes":{},"vid":"WlZswQEUqUc"},"level":"debug","message":"removeRoom"}
+{"guid":"efa01cf75310677d","level":"info","message":"login"}
+{"rid":"d8cf90b9385c24ba","level":"debug","message":"newRoom"}
+{"guid":"efa01cf75310677d","args":[],"level":"info","message":"startyping"}
+{"guid":"efa01cf75310677d","args":[],"level":"info","message":"stoptyping"}
+{"guid":"efa01cf75310677d","args":["138435889494626"],"level":"info","message":"godmode"}
+{"guid":"efa01cf75310677d","success":true,"level":"info","message":"godmode"}
+{"guid":"efa01cf75310677d","args":["efa01cf75310677d"],"level":"info","message":"flashed"}
+{"room":{"rid":"d8cf90b9385c24ba","prefs":{"status_limit":36,"char_limit":1e+86,"name_limit":25,"godword":"8749irhtglkjroOIYTURJUG0OQOC09v4n89u89t54:ieourgHUGgu1!058-__47hfGG+_+_89r95ur97468998urijnve8un098nv8HIUEHr8t78fJ87bgfhgtyppo-70-0__-9456fFjGjg_=EU0756!++_-__H","runlevel":{"godmode":0,"youtube":0,"joke":0,"fact":0,"backflip":0,"color":0,"asshole":0,"triggered":0,"linux":0,"pitch":0,"snap":0,"speed":0,"pawn":0,"bees":0,"image":0,"video":0,"audio":0,"sad":0,"vaporwave":0,"unvaporwave":0,"name":0,"playaudio":3,"stopaudio":3,"espeak":3,"owo":0,"sanitize":3,"status":0,"pope":3,"king":3},"room_max":1e+86,"owner":null,"pitch":{"max":400,"min":-50,"default":"random"},"speed":{"max":275,"min":125,"default":"random"},"amplitude":{"max":75,"min":20,"default":"random"},"defaultName":"Anonymous"},"users":[],"pollvotes":{},"vid":"vHZoNxuxmvg"},"level":"debug","message":"removeRoom"}
+{"guid":"3e06825bc8660cf8","level":"info","message":"login"}
+{"rid":"2274d1db7cbf9625","level":"debug","message":"newRoom"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"startyping"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"stoptyping"}
+{"guid":"3e06825bc8660cf8","args":["https://files.catbox.moe/dkuu8c.png"],"level":"info","message":"crosscolor"}
+{"guid":"bbc572534888a0c7","level":"info","message":"login"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"startyping"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"stoptyping"}
+{"guid":"3e06825bc8660cf8","color":"empty","ip":"2a02:3100:652d:b800:4420:41bb:3491:d59","text":"No Nut November is cming","level":"info","message":"talk"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"startyping"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"stoptyping"}
+{"guid":"3e06825bc8660cf8","args":["espeak"],"level":"info","message":"voice"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"startyping"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"stoptyping"}
+{"guid":"3e06825bc8660cf8","color":"empty","ip":"2a02:3100:652d:b800:4420:41bb:3491:d59","text":"NO NUT NOVEMBER IS COMING","level":"info","message":"talk"}
+{"guid":"bbc572534888a0c7","args":[],"level":"info","message":"startyping"}
+{"guid":"bbc572534888a0c7","args":[],"level":"info","message":"stoptyping"}
+{"guid":"bbc572534888a0c7","color":"bonzigetbleach","ip":"2001:1388:6c0:502:215c:dff3:9e21:194f","text":"Lol","level":"info","message":"talk"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"startyping"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"stoptyping"}
+{"guid":"3e06825bc8660cf8","args":["100"],"level":"info","message":"speed"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"startyping"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"stoptyping"}
+{"guid":"3e06825bc8660cf8","args":["150"],"level":"info","message":"speed"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"startyping"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"stoptyping"}
+{"guid":"3e06825bc8660cf8","args":["100"],"level":"info","message":"pitch"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"startyping"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"stoptyping"}
+{"guid":"3e06825bc8660cf8","color":"empty","ip":"2a02:3100:652d:b800:4420:41bb:3491:d59","text":"No Nut November is coming","level":"info","message":"talk"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"startyping"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"stoptyping"}
+{"guid":"3e06825bc8660cf8","color":"empty","ip":"2a02:3100:652d:b800:4420:41bb:3491:d59","text":"GET READY FOR NO NUT NOVEMBER","level":"info","message":"talk"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"startyping"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"stoptyping"}
+{"guid":"3e06825bc8660cf8","color":"empty","ip":"2a02:3100:652d:b800:4420:41bb:3491:d59","text":"GET READY FOR NO NUT NOVEMBER IN THE BIG 25","level":"info","message":"talk"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"startyping"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"stoptyping"}
+{"guid":"3e06825bc8660cf8","color":"empty","ip":"2a02:3100:652d:b800:4420:41bb:3491:d59","text":"GET READY FOR NO NUT NOVEMBER","level":"info","message":"talk"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"startyping"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"stoptyping"}
+{"guid":"3e06825bc8660cf8","color":"empty","ip":"2a02:3100:652d:b800:4420:41bb:3491:d59","text":"NO NUT NOVEMBER","level":"info","message":"talk"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"startyping"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"stoptyping"}
+{"guid":"3e06825bc8660cf8","color":"empty","ip":"2a02:3100:652d:b800:4420:41bb:3491:d59","text":"NO NUT NOVEMBER","level":"info","message":"talk"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"startyping"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"stoptyping"}
+{"guid":"3e06825bc8660cf8","args":["75"],"level":"info","message":"pitch"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"startyping"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"stoptyping"}
+{"guid":"3e06825bc8660cf8","color":"empty","ip":"2a02:3100:652d:b800:4420:41bb:3491:d59","text":"NO NUT NOVEMBER","level":"info","message":"talk"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"startyping"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"stoptyping"}
+{"guid":"3e06825bc8660cf8","color":"empty","ip":"2a02:3100:652d:b800:4420:41bb:3491:d59","text":"no nut november","level":"info","message":"talk"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"startyping"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"stoptyping"}
+{"guid":"3e06825bc8660cf8","color":"empty","ip":"2a02:3100:652d:b800:4420:41bb:3491:d59","text":"no nut november","level":"info","message":"talk"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"startyping"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"stoptyping"}
+{"guid":"3e06825bc8660cf8","color":"empty","ip":"2a02:3100:652d:b800:4420:41bb:3491:d59","text":"dandy, you're gonna pay for this","level":"info","message":"talk"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"startyping"}
+{"guid":"3e06825bc8660cf8","args":[],"level":"info","message":"stoptyping"}
+{"guid":"3e06825bc8660cf8","color":"empty","ip":"2a02:3100:652d:b800:4420:41bb:3491:d59","text":"Dandicus Dancifier, you are going to get it","level":"info","message":"talk"}
+{"room":{"rid":"2274d1db7cbf9625","prefs":{"status_limit":36,"char_limit":1e+86,"name_limit":25,"godword":"8749irhtglkjroOIYTURJUG0OQOC09v4n89u89t54:ieourgHUGgu1!058-__47hfGG+_+_89r95ur97468998urijnve8un098nv8HIUEHr8t78fJ87bgfhgtyppo-70-0__-9456fFjGjg_=EU0756!++_-__H","runlevel":{"godmode":0,"youtube":0,"joke":0,"fact":0,"backflip":0,"color":0,"asshole":0,"triggered":0,"linux":0,"pitch":0,"snap":0,"speed":0,"pawn":0,"bees":0,"image":0,"video":0,"audio":0,"sad":0,"vaporwave":0,"unvaporwave":0,"name":0,"playaudio":3,"stopaudio":3,"espeak":3,"owo":0,"sanitize":3,"status":0,"pope":3,"king":3},"room_max":1e+86,"owner":null,"pitch":{"max":400,"min":-50,"default":"random"},"speed":{"max":275,"min":125,"default":"random"},"amplitude":{"max":75,"min":20,"default":"random"},"defaultName":"Anonymous"},"users":[],"pollvotes":{},"vid":"Dlj6kMg3dWc"},"level":"debug","message":"removeRoom"}
+{"guid":"899ec3aa541febe8","level":"info","message":"login"}
+{"rid":"3318fa5d6a85fb9c","level":"debug","message":"newRoom"}
+{"room":{"rid":"3318fa5d6a85fb9c","prefs":{"status_limit":36,"char_limit":1e+86,"name_limit":25,"godword":"8749irhtglkjroOIYTURJUG0OQOC09v4n89u89t54:ieourgHUGgu1!058-__47hfGG+_+_89r95ur97468998urijnve8un098nv8HIUEHr8t78fJ87bgfhgtyppo-70-0__-9456fFjGjg_=EU0756!++_-__H","runlevel":{"godmode":0,"youtube":0,"joke":0,"fact":0,"backflip":0,"color":0,"asshole":0,"triggered":0,"linux":0,"pitch":0,"snap":0,"speed":0,"pawn":0,"bees":0,"image":0,"video":0,"audio":0,"sad":0,"vaporwave":0,"unvaporwave":0,"name":0,"playaudio":3,"stopaudio":3,"espeak":3,"owo":0,"sanitize":3,"status":0,"pope":3,"king":3},"room_max":1e+86,"owner":null,"pitch":{"max":400,"min":-50,"default":"random"},"speed":{"max":275,"min":125,"default":"random"},"amplitude":{"max":75,"min":20,"default":"random"},"defaultName":"Anonymous"},"users":[],"pollvotes":{},"vid":"IYsWsOTrIdM"},"level":"debug","message":"removeRoom"}
+{"guid":"d90347ee652c5f2b","level":"info","message":"login"}
+{"rid":"ca1737ac7c20b1ed","level":"debug","message":"newRoom"}
+{"room":{"rid":"ca1737ac7c20b1ed","prefs":{"status_limit":36,"char_limit":1e+86,"name_limit":25,"godword":"8749irhtglkjroOIYTURJUG0OQOC09v4n89u89t54:ieourgHUGgu1!058-__47hfGG+_+_89r95ur97468998urijnve8un098nv8HIUEHr8t78fJ87bgfhgtyppo-70-0__-9456fFjGjg_=EU0756!++_-__H","runlevel":{"godmode":0,"youtube":0,"joke":0,"fact":0,"backflip":0,"color":0,"asshole":0,"triggered":0,"linux":0,"pitch":0,"snap":0,"speed":0,"pawn":0,"bees":0,"image":0,"video":0,"audio":0,"sad":0,"vaporwave":0,"unvaporwave":0,"name":0,"playaudio":3,"stopaudio":3,"espeak":3,"owo":0,"sanitize":3,"status":0,"pope":3,"king":3},"room_max":1e+86,"owner":null,"pitch":{"max":400,"min":-50,"default":"random"},"speed":{"max":275,"min":125,"default":"random"},"amplitude":{"max":75,"min":20,"default":"random"},"defaultName":"Anonymous"},"users":[],"pollvotes":{},"vid":"jgzVwKbFBBU"},"level":"debug","message":"removeRoom"}
+{"guid":"0bec54d8699bfd2b","level":"info","message":"login"}
+{"rid":"c28f1e08aa8fd1b5","level":"debug","message":"newRoom"}
+{"guid":"0bec54d8699bfd2b","args":[],"level":"info","message":"startyping"}
+{"room":{"rid":"c28f1e08aa8fd1b5","prefs":{"status_limit":36,"char_limit":1e+86,"name_limit":25,"godword":"8749irhtglkjroOIYTURJUG0OQOC09v4n89u89t54:ieourgHUGgu1!058-__47hfGG+_+_89r95ur97468998urijnve8un098nv8HIUEHr8t78fJ87bgfhgtyppo-70-0__-9456fFjGjg_=EU0756!++_-__H","runlevel":{"godmode":0,"youtube":0,"joke":0,"fact":0,"backflip":0,"color":0,"asshole":0,"triggered":0,"linux":0,"pitch":0,"snap":0,"speed":0,"pawn":0,"bees":0,"image":0,"video":0,"audio":0,"sad":0,"vaporwave":0,"unvaporwave":0,"name":0,"playaudio":3,"stopaudio":3,"espeak":3,"owo":0,"sanitize":3,"status":0,"pope":3,"king":3},"room_max":1e+86,"owner":null,"pitch":{"max":400,"min":-50,"default":"random"},"speed":{"max":275,"min":125,"default":"random"},"amplitude":{"max":75,"min":20,"default":"random"},"defaultName":"Anonymous"},"users":[],"pollvotes":{},"vid":"9ZE350vjqj8"},"level":"debug","message":"removeRoom"}
+{"guid":"4e7637153a273085","level":"info","message":"login"}
+{"rid":"dce39526c5516339","level":"debug","message":"newRoom"}
+{"guid":"4e7637153a273085","args":[],"level":"info","message":"startyping"}
+{"guid":"4e7637153a273085","args":[],"level":"info","message":"stoptyping"}
+{"guid":"4e7637153a273085","color":"clippy","ip":"89.89.24.41","text":"ee","level":"info","message":"talk"}
+{"guid":"4e7637153a273085","args":[],"level":"info","message":"startyping"}
+{"guid":"4e7637153a273085","args":[],"level":"info","message":"stoptyping"}
+{"guid":"4e7637153a273085","color":"clippy","ip":"89.89.24.41","text":"e","level":"info","message":"talk"}
+{"guid":"4e7637153a273085","args":[],"level":"info","message":"startyping"}
+{"guid":"4e7637153a273085","args":[],"level":"info","message":"stoptyping"}
+{"guid":"4e7637153a273085","color":"clippy","ip":"89.89.24.41","text":"e","level":"info","message":"talk"}
+{"guid":"4e7637153a273085","args":[],"level":"info","message":"startyping"}
+{"guid":"4e7637153a273085","args":[],"level":"info","message":"stoptyping"}
+{"room":{"rid":"dce39526c5516339","prefs":{"status_limit":36,"char_limit":1e+86,"name_limit":25,"godword":"8749irhtglkjroOIYTURJUG0OQOC09v4n89u89t54:ieourgHUGgu1!058-__47hfGG+_+_89r95ur97468998urijnve8un098nv8HIUEHr8t78fJ87bgfhgtyppo-70-0__-9456fFjGjg_=EU0756!++_-__H","runlevel":{"godmode":0,"youtube":0,"joke":0,"fact":0,"backflip":0,"color":0,"asshole":0,"triggered":0,"linux":0,"pitch":0,"snap":0,"speed":0,"pawn":0,"bees":0,"image":0,"video":0,"audio":0,"sad":0,"vaporwave":0,"unvaporwave":0,"name":0,"playaudio":3,"stopaudio":3,"espeak":3,"owo":0,"sanitize":3,"status":0,"pope":3,"king":3},"room_max":1e+86,"owner":null,"pitch":{"max":400,"min":-50,"default":"random"},"speed":{"max":275,"min":125,"default":"random"},"amplitude":{"max":75,"min":20,"default":"random"},"defaultName":"Anonymous"},"users":[],"pollvotes":{},"vid":"WlZswQEUqUc"},"level":"debug","message":"removeRoom"}
+{"guid":"06a9f09137c7210f","level":"info","message":"login"}
+{"rid":"4e30d31901bb37e3","level":"debug","message":"newRoom"}
+{"guid":"06a9f09137c7210f","args":[],"level":"info","message":"startyping"}
+{"guid":"06a9f09137c7210f","args":[],"level":"info","message":"stoptyping"}
+{"guid":"06a9f09137c7210f","args":[],"level":"info","message":"stoptyping"}
+{"guid":"06a9f09137c7210f","args":[],"level":"info","message":"startyping"}
+{"guid":"06a9f09137c7210f","args":[],"level":"info","message":"stoptyping"}
+{"guid":"06a9f09137c7210f","color":"orange","ip":"89.89.24.41","text":" ","level":"info","message":"talk"}
+{"guid":"06a9f09137c7210f","args":[],"level":"info","message":"startyping"}
+{"guid":"06a9f09137c7210f","args":[],"level":"info","message":"stoptyping"}
+{"guid":"06a9f09137c7210f","color":"orange","ip":"89.89.24.41","text":"r","level":"info","message":"talk"}
+{"guid":"06a9f09137c7210f","args":[],"level":"info","message":"startyping"}
+{"guid":"06a9f09137c7210f","args":[],"level":"info","message":"stoptyping"}
+{"guid":"06a9f09137c7210f","args":[],"level":"info","message":"stoptyping"}
+{"guid":"06a9f09137c7210f","color":"orange","ip":"89.89.24.41","text":" ","level":"info","message":"talk"}
+{"guid":"06a9f09137c7210f","args":[],"level":"info","message":"startyping"}
+{"guid":"06a9f09137c7210f","args":[],"level":"info","message":"stoptyping"}
+{"guid":"06a9f09137c7210f","color":"orange","ip":"89.89.24.41","text":"r","level":"info","message":"talk"}
+{"guid":"06a9f09137c7210f","args":[],"level":"info","message":"startyping"}
+{"guid":"06a9f09137c7210f","args":[],"level":"info","message":"stoptyping"}
+{"guid":"06a9f09137c7210f","args":[],"level":"info","message":"stoptyping"}
+{"guid":"06a9f09137c7210f","color":"orange","ip":"89.89.24.41","text":"       ","level":"info","message":"talk"}
+{"guid":"06a9f09137c7210f","args":[],"level":"info","message":"stoptyping"}
+{"guid":"06a9f09137c7210f","args":[],"level":"info","message":"stoptyping"}
+{"guid":"06a9f09137c7210f","args":[],"level":"info","message":"stoptyping"}
+{"guid":"06a9f09137c7210f","args":[],"level":"info","message":"startyping"}
+{"guid":"06a9f09137c7210f","args":[],"level":"info","message":"stoptyping"}
+{"guid":"06a9f09137c7210f","color":"orange","ip":"89.89.24.41","text":"e","level":"info","message":"talk"}
+{"guid":"06a9f09137c7210f","args":[],"level":"info","message":"startyping"}
+{"guid":"06a9f09137c7210f","args":[],"level":"info","message":"stoptyping"}
+{"guid":"06a9f09137c7210f","color":"orange","ip":"89.89.24.41","text":"e","level":"info","message":"talk"}
+{"guid":"06a9f09137c7210f","args":[],"level":"info","message":"startyping"}
+{"guid":"06a9f09137c7210f","args":[],"level":"info","message":"stoptyping"}
+{"guid":"06a9f09137c7210f","color":"orange","ip":"89.89.24.41","text":"    ","level":"info","message":"talk"}
+{"guid":"06a9f09137c7210f","args":[],"level":"info","message":"startyping"}
+{"guid":"06a9f09137c7210f","args":[],"level":"info","message":"stoptyping"}
+{"guid":"06a9f09137c7210f","color":"orange","ip":"89.89.24.41","text":"behh","level":"info","message":"talk"}
+{"room":{"rid":"4e30d31901bb37e3","prefs":{"status_limit":36,"char_limit":1e+86,"name_limit":25,"godword":"8749irhtglkjroOIYTURJUG0OQOC09v4n89u89t54:ieourgHUGgu1!058-__47hfGG+_+_89r95ur97468998urijnve8un098nv8HIUEHr8t78fJ87bgfhgtyppo-70-0__-9456fFjGjg_=EU0756!++_-__H","runlevel":{"godmode":0,"youtube":0,"joke":0,"fact":0,"backflip":0,"color":0,"asshole":0,"triggered":0,"linux":0,"pitch":0,"snap":0,"speed":0,"pawn":0,"bees":0,"image":0,"video":0,"audio":0,"sad":0,"vaporwave":0,"unvaporwave":0,"name":0,"playaudio":3,"stopaudio":3,"espeak":3,"owo":0,"sanitize":3,"status":0,"pope":3,"king":3},"room_max":1e+86,"owner":null,"pitch":{"max":400,"min":-50,"default":"random"},"speed":{"max":275,"min":125,"default":"random"},"amplitude":{"max":75,"min":20,"default":"random"},"defaultName":"Anonymous"},"users":[],"pollvotes":{},"vid":"St1DjbYbA88"},"level":"debug","message":"removeRoom"}
+{"guid":"6e884c4f9895037a","level":"info","message":"login"}
+{"rid":"320c7bf612d6ffce","level":"debug","message":"newRoom"}
+{"guid":"6e884c4f9895037a","args":[],"level":"info","message":"startyping"}
+{"guid":"6e884c4f9895037a","args":[],"level":"info","message":"stoptyping"}
+{"guid":"6e884c4f9895037a","color":"emerald","ip":"89.89.24.41","text":" ","level":"info","message":"talk"}
+{"guid":"6e884c4f9895037a","args":[],"level":"info","message":"startyping"}
+{"guid":"6e884c4f9895037a","args":[],"level":"info","message":"stoptyping"}
+{"guid":"6e884c4f9895037a","color":"emerald","ip":"89.89.24.41","text":"r","level":"info","message":"talk"}
+{"room":{"rid":"320c7bf612d6ffce","prefs":{"status_limit":36,"char_limit":1e+86,"name_limit":25,"godword":"8749irhtglkjroOIYTURJUG0OQOC09v4n89u89t54:ieourgHUGgu1!058-__47hfGG+_+_89r95ur97468998urijnve8un098nv8HIUEHr8t78fJ87bgfhgtyppo-70-0__-9456fFjGjg_=EU0756!++_-__H","runlevel":{"godmode":0,"youtube":0,"joke":0,"fact":0,"backflip":0,"color":0,"asshole":0,"triggered":0,"linux":0,"pitch":0,"snap":0,"speed":0,"pawn":0,"bees":0,"image":0,"video":0,"audio":0,"sad":0,"vaporwave":0,"unvaporwave":0,"name":0,"playaudio":3,"stopaudio":3,"espeak":3,"owo":0,"sanitize":3,"status":0,"pope":3,"king":3},"room_max":1e+86,"owner":null,"pitch":{"max":400,"min":-50,"default":"random"},"speed":{"max":275,"min":125,"default":"random"},"amplitude":{"max":75,"min":20,"default":"random"},"defaultName":"Anonymous"},"users":[],"pollvotes":{},"vid":"St1DjbYbA88"},"level":"debug","message":"removeRoom"}

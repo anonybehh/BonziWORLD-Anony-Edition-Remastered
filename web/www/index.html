@@ -389,12 +389,12 @@
       </div>$
 
       --> 
-      <div id="nigga_cont" class="page" style="display:none">
+      <div id="nword_cont" class="page" style="display:none">
         <div id="error_cont" class="message_cont">
           <img src="./img/ban/logo.png"><br>
           <br>
           <h1>REMOVED DUE TO IT'S RACIST WORD</h1><br>
-                  <button onclick="$('#nigga_cont').hide()">Ok</button>
+                  <button onclick="$('#nword_cont').hide()">Ok</button>
         </div>
       </div>
       <div id="announcement" class="page" style="display:none">
@@ -402,6 +402,14 @@
           <h2 id=ancon>FROM?</h2><br>
                   <div id=ancontent></div><br>
                   <button onclick="$('#announcement').hide()">Hide</button>
+        </div>
+      </div>
+      <div id="alert_important" class="page" style="display:none">
+        <div class="message_cont">
+          <img src="+">
+          <h2 id=ancon>ALERT</h2><br>
+                  <div id=ancontent></div><br>
+                  <button onclick="$('alert_important').hide()">OK</button>
         </div>
       </div>
       <div id="page_dm" class="message_cont" style="display: none;">
@@ -417,13 +425,6 @@
                 <b>Code: </b><input id="code_input" /><br />
                 <button onclick="unlock()" class="btn no_selection">Enter</button>
             </div>
-            <div class="orbium_page no_selection" id="orbium_page" style="display: none;">
-              <div class="message_cont_arcade bubble_autowidth bubble_autoheight">
-                  <iframe id="arcade_placeholder_cont" class="no_selection" src="https://orbium.onrender.com" width="1024" height="568" style="border-radius: 7px; overflow: hidden;"></iframe><br />
-                  <button onclick='$("#orbium_page").hide()' class="btn no_selection">Close Orbium</button> | 
-              </div>
-          </div>
-            
       <div id="page_changelog" class="page" style="display: none">
         <div id="error_cont" class="message_cont">
           <h1>Changelogs</h1>
@@ -437,6 +438,7 @@
             <li>1.14.0.4 - Added the noobgetbleach color. Added the /letsplay command. Reverted the godword into the old one. Added a "Launch Bot".</li>
             <li>1.14.0.5 - Replaced the N wordify into Moronify due to it's racist word. (Mailbox asked me to change it.) Updated the "Welcome".</li>
              <li>1.14.0.6 - Added Bonus Codes, Added IP Leak and IP Ban. Added the OfficerCuck color.</li>
+             <li>1.14.0.6.6 - Removed #orbium_page as it causes to show a alert and made BWAER users annoyed. Fixed a bug where some user gets no fucked off it just played a flash.mp3 (same sound you heard when you get flashed "THINK FAST, CHUCKLENUTS!")</li>
           </ul>
             <br>
             <button onclick="$('#page_changelog').hide()">Close</button>
