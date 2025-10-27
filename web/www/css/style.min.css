@@ -1208,6 +1208,35 @@ button::-moz-focus-inner {
   padding: 16px;
   flex-wrap: wrap;
 }
+#start_menu {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  bottom: 30px;
+  left: 95px;
+  width: 300px;
+  height: 500px;
+  border-image: url("../img/desktop/start_menu.png") 64 59 40 59 / 64px 59px
+    40px 59px;
+  padding: 0 2px;
+  box-shadow: 2px 2px 4px #0004;
+  border-top-right-radius: 7px;
+  image-rendering: pixelated;
+  z-index: 9000;
+}
+
+#start_menu_header {
+  height: 64px;
+}
+
+#start_menu_body {
+  flex: 1;
+  background: white;
+}
+
+#start_menu_footer {
+  height: 40px;
+}
 
 #login_card {
   animation: fadeIn 3s;

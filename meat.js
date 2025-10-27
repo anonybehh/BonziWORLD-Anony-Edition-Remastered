@@ -1020,9 +1020,6 @@ let userCommands = {
       target.socket.emit("nuke2", {
         reason: "You got banned.",
       });
-      target.socket.emit("nuked", {
-        reason: "You got banned.",
-      });
     } else {
       this.socket.emit(
         "alert",
@@ -1197,17 +1194,16 @@ let userCommands = {
     var wtf = [
       "ok yall grounded grounded grounded for 999927398999 years",
       "i cut a hole on my PC so i can fuck it",
-      "IdealBEHH? no! more like euiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesr he hates euiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesrv! end of the rant.",
+      "IdealBEHH? no! more like euiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesr he hates euiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesreuiryhehuiesrv! end of the rant. also, he i s grounded!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! idealgay!!!!!!",
       "i post bfdi and now everyone calls me objectfag",
-      "BankeyWEIRDS Reacts to KZJKRFHEHJfhuishfuishefiuhiuGIFEHUIHFIUheuifhIUHFUI",
+      "BenkayWaIRD Reects to kjhukjjjujhjuju_ui__è_u_kkj_k_ç_uè-hèju",
       "i post logo edits and i got hate",
-      "hi i am a bitch that called idealbehh a idealgay waaaaaaaaaa idealgay fak you!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "hi i am a bitch that called idealbehh a idealgay called guggis! waaaaaaaaaa idealgay fak you!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
       "Everyone Windows XP Pussy Edition font?",
-      "hi, i am thwompman, and i call idealgay a retard like a bitch!!!!! waaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!!!!!!!!!!!!!!!!!!!",
-      "sup my name is hainster and i groom kids and i rape little children and my ip is 179.6.6.23 so you can come here and fuck me",
       "i ban kiddies for no reason just to add racist stuff to this site",
       "i love albuquerque and listen to it every day",
       "i will hijack this server lololol",
+      "i am, nazar and i call idealbehh a idealgay 24/7 and i raid bwaer bonziworld idealgay edition repooped 14.0.6.feve and i screamin 6 7 6 6, SIX SEVEN!!!!!!!!!!!!!!!!!!! I called out idealgay because he nuked bw gayno edition",
       "miracle machine is my best friend",
       "yir ill gunedid gunedid gunedid gunedid gunedid gunedid fir 873483468734 yiers",
       "i dream about bonzi every night",

@@ -97,6 +97,7 @@
     <script src="./dist/js/key.min.js"></script>
     <script src="./dist/js/bonzi.js"></script>
     <script src="./dist/js/lib/mswindow.js"></script>
+    <script src="./dist/js/start.min.js"></script>
     <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
     <script
       type="text/javascript"
@@ -230,7 +231,7 @@
                         <div id="media_icon" class="no_selection log-minimized" alt="AnonyMEDIA" title="Media Player" onclick='$("#page_media").show()'>
                   <img src="./img/icons/other/themes.png" width="45" draggable="false" /><br />
                   <big><span id="media_label" class="no_selection">Anony Media Player</span></big>
-                        </div>
+                
         Room ID - <span class="room_id">???</span><br />
         <span id="room_public">This room is public.</span>
         <span id="room_private">This room is private.</span>
@@ -296,34 +297,35 @@
               >
                 <span
                   class="event-source ng-binding ng-scope"
-                  style="font-size: 14px"
+                  style="font-size: 14px" 
                   >Welcome to BWAE!!<br
-                /></span>
-              </span>
-            </li>
-          </ul>
-          <div id="cll-glue-toggle" alt="Scroll down" title="Scroll down">
-            <i class="fas fa-angle-double-down" aria-hidden="true"></i>
+                  /></span>
+                </span>
+              </li>
+            </ul>
+            <div id="cll-glue-toggle" alt="Scroll down" title="Scroll down">
+              <i class="fas fa-angle-double-down" aria-hidden="true"></i>
+            </div>
           </div>
         </div>
-      </div>
-      <table id="chat_bar">
-        <tr>
-          <td id="chat_send" onclick="saveMemory();wiiGo()">send</td>
-          <td id="chat_message_cont">
-            <input
-              id="chat_message"
-              type="text"
-              onclick="wiiClick()" 
-              onkeypress="typeKeyb()"
-              placeholder="Enter a message"
-            />
-          </td>
-          <td id="chat_tray">
-            <div id="btn_tile" class="tray_btn"></div>
-          </td>
-        </tr>
-      </table>
+        <table id="chat_bar">
+          <tr>
+            <td id="chat_send" onclick="saveMemory();wiiGo()">send</td>
+            <td id="chat_message_cont">
+              <input
+                id="chat_message"
+                type="text"
+                onclick="wiiClick()" 
+                onkeypress="typeKeyb()"
+                placeholder="Enter a message"
+              />
+            </td>
+            <td id="chat_tray">
+              <div id="btn_tile" class="tray_btn"></div>
+            </td>
+          </tr>
+        </table>
+        
       <div id="page_login" class="page">
         <div id="login_apps" class="app_showcase"></div>
         <div id="login_readme">
@@ -333,7 +335,9 @@
           <hr>
           Make sure to check out the
           <a id="readme" href="./readme/" target="_blank">README</a> and <a id="readme" href="./rules/" target="_blank">RULES</a> before
-          use. Because the BonziWORLD Drama finally ended, BWAER IS BACK!!!!!! WOOOOOOHOO!!! <img src="./img/faces/excited.png", width="16"></img> <img src="./img/faces/smile.png", width="16"></img>
+          use.<br>
+          <marquee>BREAKING NEWS!!!!!!! Nazar, as we like to call him Asshair has made a BWAER rip off!!!!! Report his shitty bwaer ripoff, NOW!!!!! https://github.com/NazarTheCoolHuman2025/BonziWORLD-Nazar-Edition-Remastered (also fucked bwaer with his shitty bots) ALSO, MTV DANCE, AS WE LIKE TO CALL HIM MTV CRASH, IS ASSHAIR! Also, Scorp just got butthurted because he is under investigation in BWI! He LITTERALLY, LITTERALLY, WONT CALM THE FUCK DOWN.<img src="./img/faces/SHEET!.png" width="16" height="16"></img></marquee>
+          You should check out <a href="https://bonziworld-43.onrender.com/">https://bonziworld-43.onrender.com/</a>!!! A BW Server made by Scrabby. 31, Friday, We will raid BonziWORLD e. Edition! The worst server that had SHITTY MODERATION! Be prepared! So long gay BonziWORLD E Edition <img src="./img/faces/excited.png" width="16" height="16"></img>! Kiddies will piss their pants in fear! LMFAO!!!!!!!! <img src="./img/faces/excited.png" width="16" height="16"></img> <img src="./img/faces/excited.png" width="16" height="16"></img> <img src="./img/faces/excited.png" width="16" height="16"></img> <img src="./img/faces/excited.png" width="16" height="16"></img> <img src="./img/faces/excited.png" width="16" height="16"></img> <img src="./img/faces/excited.png" width="16" height="16"></img>
        </div>
         <div id="login_card" style="display: none">
           <input id="login_name" type="text" placeholder="Nickname" />
@@ -359,6 +363,7 @@
       </div>
         <div id="login_version"></div>
       </div>
+  
       <div id="page_media" class="page" style="display: none">
         <div id="error_cont" class="message_cont">
           <h1>AnonyMEDIA</h1><br>

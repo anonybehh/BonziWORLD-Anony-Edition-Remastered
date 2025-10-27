@@ -178,7 +178,7 @@
   ],
   "banLength": 1440,
   "port": 3000,
-  "isReplit": false,
+  "isReplit": true,
   "channel": "bonkeyworld-anony-ed",
 	"server_mode": "default",
   "express": {
