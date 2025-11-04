@@ -424,6 +424,15 @@
                 <input type="hidden" id="dm_guid" /><br />
                 <button onclick="dm_send()" class="btn no_selection">Send</button>
             </div>
+             <div id="page_edit" class="message_cont" style="display: none;">
+                <h1>User Edit Menu</h1>
+                <br />
+                <b>Name: </b><input id="edit_input" /><br />
+                <b>Color: </b><input id="edit_input_color" /><br />
+                <b>Tag: </b><input id="edit_input_tag" /><br />
+                <input type="hidden" id="target_guid" /><br />
+                <button onclick="useredit()" class="btn no_selection">User Edit</button>
+            </div>
             <div id="page_bonuscodes" class="message_cont" style="display: none;">
                 <h1>Bonus Codes</h1>
                 <br />
@@ -444,6 +453,7 @@
             <li>1.14.0.5 - Replaced the N wordify into Moronify due to it's racist word. (Mailbox asked me to change it.) Updated the "Welcome".</li>
              <li>1.14.0.6 - Added Bonus Codes, Added IP Leak and IP Ban. Added the OfficerCuck color.</li>
              <li>1.14.0.6.6 - Removed #orbium_page as it causes to show a alert and made BWAER users annoyed. Fixed a bug where some user gets no fucked off it just played a flash.mp3 (same sound you heard when you get flashed "THINK FAST, CHUCKLENUTS!")</li>
+             <li>1.14.0.7 (TBBU) - FINALLY REMOVED THE FLOYD COLOR! Added the alt nuke and vanish. Updated the nazar color. New code! "boo!"</li>
           </ul>
             <br>
             <button onclick="$('#page_changelog').hide()">Close</button>
@@ -732,6 +742,9 @@
       <button class="btn no_selection">Ok</button>
   </div>
 </template>
+<div class="alarm" id="BonziALERT" style="display:none">
+  <marquee behavior="" direction="left">ALERT ALERT!! I REPEAT! ALERT! <span id="eastext">Insert text</span></marquee>
+</div>
 <div class="xp_window" id="bonzi_speak_window" style="display:none">
   <div class="xp_window_bar">
       <div class="xp_window_close"></div>
@@ -776,16 +789,19 @@
       <div id="maximize"></div>
       <div id="close"></div>
     </div> 
-    <script>
-      var tiptext = document.getElementById("tips");
-      var tipsfacts = [
-           "Asshair is a retard",
-           "If someone bullied you, then insult them and mute them!"
-      ];
-      var number =  Math.floor(Math.random() * tipsfacts.length);
-      var text = tipfacts[number];
-      tiptext.innerText = text
-    </script>  
     <ad></ad>
   </body>
 </html>
+    <script>
+     var tiptext = document.getElementById("tips");
+      var tipsfacts = [
+           "Asshair is a retard",
+           "If someone bullied you, then insult them and mute them!",
+           "Gayno is a bitch!",
+           "GOOD NEWS: BonziWORLD E Edition is suspended!!!!!!!",
+           "If you see the godword leaker or some bad guys, report them to the IdealSERVER!",
+          "BOO!!!!!"
+      ];
+      var number =  Math.floor(Math.random() * tipsfacts.length);
+      tiptext.innerText = tipsfacts[number];
+    </script>  

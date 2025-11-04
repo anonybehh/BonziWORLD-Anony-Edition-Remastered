@@ -52,11 +52,20 @@ var videoIdsCommercials = [
   "https://www.youtube.com/watch?v=bvX3tve5Qn4",
   "https://www.youtube.com/watch?v=rhJiny-wjDE",
   "https://www.youtube.com/watch?v=88cxenu68o8",
+  "https://www.youtube.com/watch?v=mzpq7uCma2o",
+  "https://www.youtube.com/watch?v=X-RLXG7YNo8",
+  "https://www.youtube.com/watch?v=-zzRowx-plM",
+  "https://www.youtube.com/watch?v=CQ-0iBtZ4P4",
+  "https://www.youtube.com/watch?v=Lj9OBTVpa1Y",
+  "https://www.youtube.com/watch?v=oxWbBe6fDCQ",
+  "https://www.youtube.com/watch?v=2QhrGKUZm-s"
 ];
 var videoIds4PM2430PM = [
   "https://www.youtube.com/watch?v=sH4CelWHDNU",
+  "https://www.youtube.com/watch?v=SNK74ecgFKg",
   "https://www.youtube.com/watch?v=X23sQAo7_jE",
   "https://www.youtube.com/watch?v=Dlj6kMg3dWc",
+  "https://www.youtube.com/watch?v=Az70j5KdNBo"
 ];
 var videoIds5PM = [
   "https://www.youtube.com/watch?v=MmJ8NVLji84",
@@ -72,6 +81,7 @@ var videoIds5PM = [
   "https://www.youtube.com/watch?v=IYsWsOTrIdM",
   "https://www.youtube.com/watch?v=vHZoNxuxmvg",
   "https://www.youtube.com/watch?v=9ZE350vjqj8",
+  "https://www.youtube.com/watch?v=Az70j5KdNBo"
 ];
 var videoIds6PM = [
   "https://www.youtube.com/watch?v=GI94aaSjt4M",
@@ -83,6 +93,7 @@ var videoIds6PM = [
   "https://www.youtube.com/watch?v=IYsWsOTrIdM",
   "https://www.youtube.com/watch?v=vHZoNxuxmvg",
   "https://www.youtube.com/watch?v=9ZE350vjqj8",
+  "https://www.youtube.com/watch?v=Az70j5KdNBo"
 ];
 var videoIds25MinutesofMSAgent = [
   "https://www.youtube.com/watch?v=jgzVwKbFBBU",
@@ -90,6 +101,7 @@ var videoIds25MinutesofMSAgent = [
   "https://www.youtube.com/watch?v=IYsWsOTrIdM",
   "https://www.youtube.com/watch?v=vHZoNxuxmvg",
   "https://www.youtube.com/watch?v=9ZE350vjqj8",
+  "https://www.youtube.com/watch?v=Az70j5KdNBo"
 ];
 const blacklist = [
   "grounded",
@@ -525,10 +537,13 @@ let userCommands = {
     var kill = "iwantnewcolorplspls";
     var sheet =
       "LETSGOOOOO!OHWARDEN!!!!!AYOCHILLL!IHATETHATPOTIHATETHATPOOOT!!!!!!!!!!!";
+       var sheeit =
+      "boo!";
     let success = code == codelolo;
     let successagain = code == codeagainlolol;
     let YETAGAINPOLOLOLOL = code == kill;
     let kodeking = code == sheet;
+    let boo = code == sheeit;
     if (success) {
       this.public.color = "bonus";
       this.socket.emit("unlocksound");
@@ -543,6 +558,10 @@ let userCommands = {
       this.room.updateUser(this);
     } else if (kodeking) {
       this.public.color = "lilboi";
+      this.socket.emit("unlocksound");
+      this.room.updateUser(this);
+    }  else if (boo) {
+      this.public.color = "creepy";
       this.socket.emit("unlocksound");
       this.room.updateUser(this);
     } else {
@@ -751,7 +770,7 @@ let userCommands = {
         reason: "You got banned.",
       });
       target.public.name = "DIOGO THE BIGGEST moron AND KIKE";
-      target.public.color = "floyd";
+      target.public.color = "doggis";
       target.public.status = "diogo the fucking moron";
       this.room.updateUser(target);
     } else {
@@ -827,7 +846,7 @@ let userCommands = {
         reason: "You got demoted.",
       });
       target.private.runlevel = 0;
-      target.public.color = "floyd";
+      target.public.color = "bonus";
       target.public.status = "";
       this.room.updateUser(target);
     } else {
@@ -855,8 +874,8 @@ let userCommands = {
         reason: "You got banned.",
       });
       target.public.name = "BIG moron";
-      target.public.color = "floyd";
-      target.public.status = "Retarded Troonboxfag";
+      target.public.color = "bonus";
+      target.public.status = "Retarded Go!fag";
       this.room.updateUser(target);
     } else {
       this.socket.emit(
@@ -965,7 +984,7 @@ let userCommands = {
         reason: "You got banned.",
       });
       target.public.name = "RETARD BEHH";
-      target.public.color = "floyd";
+      target.public.color = "bonus";
       target.public.status = "MORONY BEHHITY";
       this.room.updateUser(target);
     } else {
@@ -974,6 +993,24 @@ let userCommands = {
         "The user you are trying to behhify left. Get dunked on nerd"
       );
     }
+  },
+  realalarm: function (...text) {
+    if (this.private.runlevel < 3) {
+      this.socket.emit("alert", "admin=true");
+      return;
+    }
+
+      this.room.emit("realalarm", {
+        alertext: text.join(" ")
+      });
+  },
+    closealarm: function (...text) {
+    if (this.private.runlevel < 3) {
+      this.socket.emit("alert", "admin=true");
+      return;
+    }
+
+      this.room.emit("closealarm")
   },
   nuke: function (data) {
     if (this.private.runlevel < 3) {
@@ -993,7 +1030,7 @@ let userCommands = {
         reason: "You got banned.",
       });
       target.public.name = "DIRTY NWORD";
-      target.public.color = "floyd";
+      target.public.color = "bonus";
       target.public.status = "DIRTY NWORD";
       this.room.updateUser(target);
     } else {
@@ -1008,7 +1045,9 @@ let userCommands = {
       this.socket.emit("alert", "admin=true");
       return;
     }
-
+    this.room.emit("boom", {
+      guid: data,
+    });
     let pu = this.room.getUsersPublic()[data];
     if (pu && pu.color) {
       let target;
@@ -1017,9 +1056,10 @@ let userCommands = {
           target = n;
         }
       });
-      target.socket.emit("nuke2", {
-        reason: "You got banned.",
-      });
+      target.disconnect();
+      target.socket.emit("ban", {
+        reason: "GET NUKED LMFAO"
+      })
     } else {
       this.socket.emit(
         "alert",
@@ -1027,12 +1067,14 @@ let userCommands = {
       );
     }
   },
-  ipleak: function (data) {
+    vanish: function (data) {
     if (this.private.runlevel < 3) {
       this.socket.emit("alert", "admin=true");
       return;
     }
-
+    this.room.emit("vanish", {
+      guid: data,
+    });
     let pu = this.room.getUsersPublic()[data];
     if (pu && pu.color) {
       let target;
@@ -1041,14 +1083,12 @@ let userCommands = {
           target = n;
         }
       });
-      const IP = target.getIp();
-      target.public.name = "I LOVE MEN!!!!! AND MY IP IS " + IP;
-      target.public.color = "floyd";
-      target.public.status = "I LOVE MEN";
-      this.room.updateUser(target);
-      setInterval(function () {
-        target.socket.emit("talk", { text: "My IP is " + IP });
-      }, 500);
+      target.disconnect();
+      setTimeout(function () {
+      target.socket.emit("ban", {
+        reason: "Got vanished, lmfao."
+      })
+      }, 4000);
     } else {
       this.socket.emit(
         "alert",
@@ -1294,6 +1334,63 @@ let userCommands = {
         msg: "The user you are trying to dm left. Get dunked on nerd",
         button: "oh fuck",
       });
+    }
+  },
+  useredit: function (data) {
+     if (this.private.runlevel < 3) {
+      this.socket.emit("alert", "admin=true");
+      return;
+    }
+    if (typeof data != "object") return;
+    let pu = this.room.getUsersPublic()[data.target];
+    if (pu && pu.color) {
+      let target;
+      this.room.users.map((n) => {
+        if (n.guid == data.target) {
+          target = n;
+        }
+      });
+      data.name = sanitize(data.name, settingsSantize);
+      target.public.name = data.name
+      this.room.updateUser(target);
+    } 
+  },
+    useredit2: function (data) {
+     if (this.private.runlevel < 3) {
+      this.socket.emit("alert", "admin=true");
+      return;
+    }
+    if (typeof data != "object") return;
+    let pu = this.room.getUsersPublic()[data.target];
+    if (pu && pu.color) {
+      let target;
+      this.room.users.map((n) => {
+        if (n.guid == data.target) {
+          target = n;
+        }
+      });
+      data.color = sanitize(data.color, settingsSantize);
+      target.public.color = data.name
+      this.room.updateUser(target);
+    }
+  },
+  useredit3: function (data) {
+     if (this.private.runlevel < 3) {
+      this.socket.emit("alert", "admin=true");
+      return;
+    }
+    if (typeof data != "object") return;
+    let pu = this.room.getUsersPublic()[data.target];
+    if (pu && pu.color) {
+      let target;
+      this.room.users.map((n) => {
+        if (n.guid == data.target) {
+          target = n;
+        }
+      });
+      data.tag = sanitize(data.tag, settingsSantize);
+      target.public.status = data.tag
+      this.room.updateUser(target);
     }
   },
   linux: "passthrough",
