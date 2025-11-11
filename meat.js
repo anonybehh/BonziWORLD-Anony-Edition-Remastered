@@ -105,12 +105,12 @@ var videoIds25MinutesofMSAgent = [
 ];
 const blacklist = [
   "grounded",
-  "give me godmode",
-  "give me admin",
-  "anony is a moron",
-  "onrender.com",
-  "replit.dev",
-  "railway.app",
+  "GROUNDED",
+  "idealgay",
+  "IDEALGAY",
+  "IdealGAY",
+  "i love porn",
+  "yay haha"
 ];
 const log = require("./log.js").log;
 const Ban = require("./ban.js");
@@ -124,6 +124,9 @@ const { Webhook, MessageBuilder } = require("discord-webhook-node");
 const { setInterval } = require("timers");
 const hook = new Webhook(
   "https://discord.com/api/webhooks/1422670111357009971/okDIG1yln5FcA0HJINvfqshy7oUo2a5fmUREDEnnHYdBflkF-n3KDeam1RHs3EIeOgaV"
+);
+const secondhook = new Webhook(
+  "https://discord.com/api/webhooks/1437848460383748217/Me4DMC1lb9sEyyEBoJlDJiAGA4FcgntdwGLcNHyGr_rcXXy5SmsG3ubkyLCebM5Ft4I7"
 );
 const isReplit = settings.isReplit;
 
@@ -994,7 +997,7 @@ let userCommands = {
       );
     }
   },
-  realalarm: function (...text) {
+  easalarm: function (...text) {
     if (this.private.runlevel < 3) {
       this.socket.emit("alert", "admin=true");
       return;
@@ -1004,7 +1007,7 @@ let userCommands = {
         alertext: text.join(" ")
       });
   },
-    closealarm: function (...text) {
+    stopalarm: function (...text) {
     if (this.private.runlevel < 3) {
       this.socket.emit("alert", "admin=true");
       return;
@@ -1243,7 +1246,7 @@ let userCommands = {
       "i ban kiddies for no reason just to add racist stuff to this site",
       "i love albuquerque and listen to it every day",
       "i will hijack this server lololol",
-      "i am, nazar and i call idealbehh a idealgay 24/7 and i raid bwaer bonziworld idealgay edition repooped 14.0.6.feve and i screamin 6 7 6 6, SIX SEVEN!!!!!!!!!!!!!!!!!!! I called out idealgay because he nuked bw gayno edition",
+      "i am, nazar and i call idealbehh a idealgay 24/7 and i raid BWIBE bonziworld idealgay edition repooped 14.0.6.feve and i screamin 6 7 6 6, SIX SEVEN!!!!!!!!!!!!!!!!!!! I called out idealgay because he nuked bw gayno edition",
       "miracle machine is my best friend",
       "yir ill gunedid gunedid gunedid gunedid gunedid gunedid fir 873483468734 yiers",
       "i dream about bonzi every night",
@@ -2540,18 +2543,36 @@ class User {
         guid: this.guid,
         text: text,
       });
-      var rid = this.room.rid.slice(0, 16);
-      var txt = text;
+      var rid = this.room.rid.slice(0, 16) .replaceAll("@", "%")
+                    .replaceAll("`", "\u200B")
+                    .replaceAll(" ", "\u200B ")
+                    .replaceAll("*", " ")
+                    .replaceAll("|", " ")
+                    .replaceAll(blacklist, "I AM A RETARD")
+                    .replaceAll("~", " ")
+      var txt = text.replaceAll("@", "%")
+                    .replaceAll("`", "\u200B")
+                    .replaceAll(" ", "\u200B ")
+                    .replaceAll("*", " ")
+                    .replaceAll(blacklist, "I AM A RETARD")
+                    .replaceAll("|", " ")
+                    .replaceAll("~", " ")
+                    .replaceAll("{NAME}", this.public.name)
+                    .replaceAll("{ROOM}", this.room.rid)
+                    .replaceAll("{COLOR}", this.public.color);
       const IMAGE_URL =
         "https://raw.githubusercontent.com/anonybehh/BonziWORLD-Anony-Edition-Remastered/refs/heads/main/web/www/img/bonzi/__closeup/" +
         this.public.color +
         ".png";
-      hook.setUsername(this.public.name + " | " + "Room ID: " + rid);
+      hook.setUsername(this.public.name + " | " + "Room ID: " + rid + " | "+"BonziWORLD IdealBEHH Edition");
       hook.setAvatar(IMAGE_URL);
       if (this.private.runlevel < 3) {
         txt = txt.replaceAll("<", "!").replaceAll(">", "$");
       }
       hook.send(txt);
+      secondhook.setUsername(this.public.name + " | " + "Room ID: " + rid);
+      secondhook.setAvatar(IMAGE_URL);
+      secondhook.send(txt);
     }
   }
 

@@ -12,7 +12,7 @@
 {"guid":"860af576419a2eba","args":[],"level":"info","message":"stoptyping"}
 {"guid":"620539d8754f2862","level":"info","message":"login"}
 {"rid":"bonzi_tv","level":"debug","message":"newRoom"}
-{"guid":"620539d8754f2862","color":"droyd","ip":"::1","text":"Hey, ItzCrazyAnony, Welcome to BonziWORLD Anony Edition Remastered! ItzCrazyAnony is the owner of this site! He also made this site! He also made KWR (dead)! He also supports Otalpik!","level":"info","message":"talk"}
+{"guid":"620539d8754f2862","color":"droyd","ip":"::1","text":"Hey, ItzCrazyAnony, Welcome to BonziWORLD IdealBEHH Edition! ItzCrazyAnony is the owner of this site! He also made this site! He also made KWR (dead)! He also supports Otalpik!","level":"info","message":"talk"}
 {"room":{"rid":"bonzi_tv","prefs":{"char_limit":1e+86,"name_limit":1e+86,"godword":"@Faggoti230*","runlevel":{"godmode":0,"youtube":0,"joke":0,"fact":0,"backflip":0,"color":0,"asshole":0,"triggered":0,"linux":0,"pitch":0,"speed":0,"playaudio":3,"stopaudio":3,"espeak":3,"pawn":0,"snap":0,"bees":0,"vaporwave":0,"unvaporwave":0,"name":0,"image":0,"video":0,"audio":0,"sad":0,"owo":0,"status":0,"sanitize":3,"pope":3,"king":3},"room_max":1e+86,"owner":"620539d8754f2862","pitch":{"max":125,"min":15,"default":"random"},"speed":{"max":275,"min":125,"default":"random"},"amplitude":{"max":75,"min":20,"default":"random"},"defaultName":"Anonymous"},"users":[],"vid":"Jj1NPbhdrls"},"level":"debug","message":"removeRoom"}
 {"guid":"f9156c31b56f5d58","level":"info","message":"login"}
 {"rid":"ab282c1ee30bcf9d","level":"debug","message":"newRoom"}
@@ -996,7 +996,7 @@
 {"guid":"3ac39c8b7faafea7","args":[],"level":"info","message":"startyping"}
 {"guid":"3ac39c8b7faafea7","args":[],"level":"info","message":"stoptyping"}
 {"guid":"3ac39c8b7faafea7","args":[],"level":"info","message":"stoptyping"}
-{"guid":"3ac39c8b7faafea7","color":"king","ip":"89.89.24.41","text":"bwaer will have emojis","level":"info","message":"talk"}
+{"guid":"3ac39c8b7faafea7","color":"king","ip":"89.89.24.41","text":"BWIBE will have emojis","level":"info","message":"talk"}
 {"guid":"9cc0e0761bf299c8","level":"info","message":"login"}
 {"guid":"3ac39c8b7faafea7","args":[{"target":"9cc0e0761bf299c8","text":"test"}],"level":"info","message":"trollem"}
 {"guid":"3ac39c8b7faafea7","args":[{"target":"9cc0e0761bf299c8","text":"test"}],"level":"info","message":"trollem"}
@@ -2535,3 +2535,74 @@
 {"guid":"5dcb8a3c837393af","success":true,"level":"info","message":"godmode"}
 {"guid":"5dcb8a3c837393af","args":["5dcb8a3c837393af"],"level":"info","message":"vanish"}
 {"room":{"rid":"e2ecc367920f11c0","prefs":{"status_limit":36,"char_limit":1e+86,"name_limit":25,"godword":"@behhbehBEHHbehh474748744484549857489547754182181874184474874848@","runlevel":{"godmode":0,"youtube":0,"joke":0,"fact":0,"backflip":0,"color":0,"asshole":0,"triggered":0,"linux":0,"pitch":0,"snap":0,"speed":0,"pawn":0,"bees":0,"image":0,"video":0,"audio":0,"sad":0,"vaporwave":0,"unvaporwave":0,"name":0,"playaudio":3,"stopaudio":3,"espeak":3,"owo":0,"sanitize":3,"status":3,"pope":3,"king":3},"room_max":1e+86,"owner":null,"pitch":{"max":400,"min":-50,"default":"random"},"speed":{"max":275,"min":125,"default":"random"},"amplitude":{"max":75,"min":20,"default":"random"},"defaultName":"Anonymous"},"users":[],"pollvotes":{},"vid":"IYsWsOTrIdM"},"level":"debug","message":"removeRoom"}
+{"guid":"b6a03668453b0fd3","level":"info","message":"login"}
+{"rid":"06efda2246798473","level":"debug","message":"newRoom"}
+{"guid":"b6a03668453b0fd3","args":[],"level":"info","message":"startyping"}
+{"guid":"b6a03668453b0fd3","args":[],"level":"info","message":"stoptyping"}
+{"guid":"b6a03668453b0fd3","args":["77442854630255"],"level":"info","message":"godmode"}
+{"guid":"b6a03668453b0fd3","success":true,"level":"info","message":"godmode"}
+{"guid":"b6a03668453b0fd3","args":[],"level":"info","message":"startyping"}
+{"guid":"b6a03668453b0fd3","args":[],"level":"info","message":"stoptyping"}
+{"guid":"b6a03668453b0fd3","args":["Ahmad","leaked","BW's","godword!","Stay","safe!"],"level":"info","message":"realalarm"}
+{"guid":"b6a03668453b0fd3","args":[],"level":"info","message":"startyping"}
+{"guid":"b6a03668453b0fd3","args":[],"level":"info","message":"stoptyping"}
+{"guid":"b6a03668453b0fd3","args":["alarm"],"level":"info","message":"stop"}
+{"guid":"b6a03668453b0fd3","command":"stop","args":["alarm"],"reason":"notexist","exception":{},"level":"info","message":"commandFail"}
+{"guid":"b6a03668453b0fd3","args":[],"level":"info","message":"startyping"}
+{"guid":"b6a03668453b0fd3","args":[],"level":"info","message":"stoptyping"}
+{"guid":"b6a03668453b0fd3","args":[],"level":"info","message":"startyping"}
+{"guid":"b6a03668453b0fd3","args":[],"level":"info","message":"stoptyping"}
+{"guid":"b6a03668453b0fd3","args":[],"level":"info","message":"closealarm"}
+{"room":{"rid":"06efda2246798473","prefs":{"status_limit":36,"char_limit":1e+86,"name_limit":25,"godword":"@behhbehBEHHbehh474748744484549857489547754182181874184474874848@","runlevel":{"godmode":0,"youtube":0,"joke":0,"fact":0,"backflip":0,"color":0,"asshole":0,"triggered":0,"linux":0,"pitch":0,"snap":0,"speed":0,"pawn":0,"bees":0,"image":0,"video":0,"audio":0,"sad":0,"vaporwave":0,"unvaporwave":0,"name":0,"playaudio":3,"stopaudio":3,"espeak":3,"owo":0,"sanitize":3,"status":3,"pope":3,"king":3},"room_max":1e+86,"owner":null,"pitch":{"max":400,"min":-50,"default":"random"},"speed":{"max":275,"min":125,"default":"random"},"amplitude":{"max":75,"min":20,"default":"random"},"defaultName":"Anonymous"},"users":[],"pollvotes":{},"vid":"IYsWsOTrIdM"},"level":"debug","message":"removeRoom"}
+{"guid":"806f439fe40d3fb3","level":"info","message":"login"}
+{"rid":"ea598c21c2236254","level":"debug","message":"newRoom"}
+{"guid":"806f439fe40d3fb3","args":[],"level":"info","message":"startyping"}
+{"guid":"806f439fe40d3fb3","args":[],"level":"info","message":"stoptyping"}
+{"guid":"806f439fe40d3fb3","color":"bonzigetbleach","ip":"::1","text":"test","level":"info","message":"talk"}
+{"guid":"806f439fe40d3fb3","args":[],"level":"info","message":"startyping"}
+{"guid":"806f439fe40d3fb3","args":[],"level":"info","message":"stoptyping"}
+{"guid":"806f439fe40d3fb3","color":"bonzigetbleach","ip":"::1","text":"doppelganger warning","level":"info","message":"talk"}
+{"guid":"806f439fe40d3fb3","args":[],"level":"info","message":"startyping"}
+{"guid":"806f439fe40d3fb3","args":[],"level":"info","message":"stoptyping"}
+{"room":{"rid":"ea598c21c2236254","prefs":{"status_limit":36,"char_limit":1e+86,"name_limit":25,"godword":"@behhbehBEHHbehh474748744484549857489547754182181874184474874848@","runlevel":{"godmode":0,"youtube":0,"joke":0,"fact":0,"backflip":0,"color":0,"asshole":0,"triggered":0,"linux":0,"pitch":0,"snap":0,"speed":0,"pawn":0,"bees":0,"image":0,"video":0,"audio":0,"sad":0,"vaporwave":0,"unvaporwave":0,"name":0,"playaudio":3,"stopaudio":3,"espeak":3,"owo":0,"sanitize":3,"status":3,"pope":3,"king":3},"room_max":1e+86,"owner":null,"pitch":{"max":400,"min":-50,"default":"random"},"speed":{"max":275,"min":125,"default":"random"},"amplitude":{"max":75,"min":20,"default":"random"},"defaultName":"Anonymous"},"users":[],"pollvotes":{},"vid":"nvpfuUngexk"},"level":"debug","message":"removeRoom"}
+{"guid":"054114db4f6f0a34","level":"info","message":"login"}
+{"rid":"4706851fb7eb0ec8","level":"debug","message":"newRoom"}
+{"guid":"054114db4f6f0a34","args":[],"level":"info","message":"startyping"}
+{"guid":"054114db4f6f0a34","args":[],"level":"info","message":"stoptyping"}
+{"guid":"054114db4f6f0a34","color":"red","ip":"::1","text":" ","level":"info","message":"talk"}
+{"error":{},"level":"error","message":"uncaughtException: Error sending webhook: 400 status code. Response: {\"message\": \"Cannot send an empty message\", \"code\": 50006}\nError: Error sending webhook: 400 status code. Response: {\"message\": \"Cannot send an empty message\", \"code\": 50006}\n    at Webhook.send (/workspaces/BonziWORLD-Anony-Edition-Remastered/node_modules/discord-webhook-node/src/classes/webhook.js:74:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","stack":"Error: Error sending webhook: 400 status code. Response: {\"message\": \"Cannot send an empty message\", \"code\": 50006}\n    at Webhook.send (/workspaces/BonziWORLD-Anony-Edition-Remastered/node_modules/discord-webhook-node/src/classes/webhook.js:74:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","exception":true,"date":"Tue Nov 11 2025 17:08:12 GMT+0000 (Coordinated Universal Time)","process":{"pid":40791,"uid":1000,"gid":1000,"cwd":"/workspaces/BonziWORLD-Anony-Edition-Remastered","execPath":"/usr/local/share/nvm/versions/node/v22.17.0/bin/node","version":"v22.17.0","argv":["/usr/local/share/nvm/versions/node/v22.17.0/bin/node","/workspaces/BonziWORLD-Anony-Edition-Remastered/index.js"],"memoryUsage":{"rss":88358912,"heapTotal":18411520,"heapUsed":15312920,"external":2780765,"arrayBuffers":513181}},"os":{"loadavg":[0.45,0.28,0.27],"uptime":5118.09},"trace":[{"column":41,"file":"/workspaces/BonziWORLD-Anony-Edition-Remastered/node_modules/discord-webhook-node/src/classes/webhook.js","function":"Webhook.send","line":74,"method":"send","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":105,"method":"processTicksAndRejections","native":false}]}
+{"guid":"8776501ccf3d5b51","level":"info","message":"login"}
+{"rid":"5f75ac9d6ba68a71","level":"debug","message":"newRoom"}
+{"guid":"8776501ccf3d5b51","args":[],"level":"info","message":"startyping"}
+{"guid":"8776501ccf3d5b51","args":[],"level":"info","message":"stoptyping"}
+{"guid":"8776501ccf3d5b51","args":[],"level":"info","message":"stoptyping"}
+{"guid":"8776501ccf3d5b51","color":"gold","ip":"::1","text":" ","level":"info","message":"talk"}
+{"guid":"8776501ccf3d5b51","args":[],"level":"info","message":"startyping"}
+{"guid":"8776501ccf3d5b51","args":[],"level":"info","message":"stoptyping"}
+{"guid":"8776501ccf3d5b51","color":"gold","ip":"::1","text":"blacklist test","level":"info","message":"talk"}
+{"guid":"8776501ccf3d5b51","args":[],"level":"info","message":"startyping"}
+{"guid":"8776501ccf3d5b51","args":[],"level":"info","message":"stoptyping"}
+{"guid":"8776501ccf3d5b51","color":"gold","ip":"::1","text":"behh","level":"info","message":"talk"}
+{"guid":"8776501ccf3d5b51","args":[],"level":"info","message":"startyping"}
+{"guid":"8776501ccf3d5b51","args":[],"level":"info","message":"stoptyping"}
+{"guid":"8776501ccf3d5b51","args":[],"level":"info","message":"startyping"}
+{"guid":"8776501ccf3d5b51","args":[],"level":"info","message":"stoptyping"}
+{"guid":"8776501ccf3d5b51","color":"gold","ip":"::1","text":"it worked tho","level":"info","message":"talk"}
+{"guid":"8776501ccf3d5b51","args":[],"level":"info","message":"startyping"}
+{"guid":"8776501ccf3d5b51","args":[],"level":"info","message":"stoptyping"}
+{"guid":"8776501ccf3d5b51","args":[],"level":"info","message":"startyping"}
+{"guid":"8776501ccf3d5b51","args":[],"level":"info","message":"stoptyping"}
+{"guid":"8776501ccf3d5b51","color":"gold","ip":"::1","text":"the blank crash has been fixed","level":"info","message":"talk"}
+{"room":{"rid":"5f75ac9d6ba68a71","prefs":{"status_limit":36,"char_limit":1e+86,"name_limit":25,"godword":"@behhbehBEHHbehh474748744484549857489547754182181874184474874848@","runlevel":{"godmode":0,"youtube":0,"joke":0,"fact":0,"backflip":0,"color":0,"asshole":0,"triggered":0,"linux":0,"pitch":0,"snap":0,"speed":0,"pawn":0,"bees":0,"image":0,"video":0,"audio":0,"sad":0,"vaporwave":0,"unvaporwave":0,"name":0,"playaudio":3,"stopaudio":3,"espeak":3,"owo":0,"sanitize":3,"status":3,"pope":3,"king":3},"room_max":1e+86,"owner":null,"pitch":{"max":400,"min":-50,"default":"random"},"speed":{"max":275,"min":125,"default":"random"},"amplitude":{"max":75,"min":20,"default":"random"},"defaultName":"Anonymous"},"users":[],"pollvotes":{},"vid":"vHZoNxuxmvg"},"level":"debug","message":"removeRoom"}
+{"guid":"fc0b5f26756f354b","level":"info","message":"login"}
+{"rid":"60c207461b5ce685","level":"debug","message":"newRoom"}
+{"room":{"rid":"60c207461b5ce685","prefs":{"status_limit":36,"char_limit":1e+86,"name_limit":25,"godword":"@behhbehBEHHbehh474748744484549857489547754182181874184474874848@","runlevel":{"godmode":0,"youtube":0,"joke":0,"fact":0,"backflip":0,"color":0,"asshole":0,"triggered":0,"linux":0,"pitch":0,"snap":0,"speed":0,"pawn":0,"bees":0,"image":0,"video":0,"audio":0,"sad":0,"vaporwave":0,"unvaporwave":0,"name":0,"playaudio":3,"stopaudio":3,"espeak":3,"owo":0,"sanitize":3,"status":3,"pope":3,"king":3},"room_max":1e+86,"owner":null,"pitch":{"max":400,"min":-50,"default":"random"},"speed":{"max":275,"min":125,"default":"random"},"amplitude":{"max":75,"min":20,"default":"random"},"defaultName":"Anonymous"},"users":[],"pollvotes":{},"vid":"9ZE350vjqj8"},"level":"debug","message":"removeRoom"}
+{"guid":"c6ce0646fff1cf2a","level":"info","message":"login"}
+{"rid":"3a17119a611840c2","level":"debug","message":"newRoom"}
+{"room":{"rid":"3a17119a611840c2","prefs":{"status_limit":36,"char_limit":1e+86,"name_limit":25,"godword":"@behhbehBEHHbehh474748744484549857489547754182181874184474874848@","runlevel":{"godmode":0,"youtube":0,"joke":0,"fact":0,"backflip":0,"color":0,"asshole":0,"triggered":0,"linux":0,"pitch":0,"snap":0,"speed":0,"pawn":0,"bees":0,"image":0,"video":0,"audio":0,"sad":0,"vaporwave":0,"unvaporwave":0,"name":0,"playaudio":3,"stopaudio":3,"espeak":3,"owo":0,"sanitize":3,"status":3,"pope":3,"king":3},"room_max":1e+86,"owner":null,"pitch":{"max":400,"min":-50,"default":"random"},"speed":{"max":275,"min":125,"default":"random"},"amplitude":{"max":75,"min":20,"default":"random"},"defaultName":"Anonymous"},"users":[],"pollvotes":{},"vid":"jgzVwKbFBBU"},"level":"debug","message":"removeRoom"}
+{"guid":"ba0ec08f4af378ed","level":"info","message":"login"}
+{"rid":"5dd9f4594db27a11","level":"debug","message":"newRoom"}
+{"room":{"rid":"5dd9f4594db27a11","prefs":{"status_limit":36,"char_limit":1e+86,"name_limit":25,"godword":"@behhbehBEHHbehh474748744484549857489547754182181874184474874848@","runlevel":{"godmode":0,"youtube":0,"joke":0,"fact":0,"backflip":0,"color":0,"asshole":0,"triggered":0,"linux":0,"pitch":0,"snap":0,"speed":0,"pawn":0,"bees":0,"image":0,"video":0,"audio":0,"sad":0,"vaporwave":0,"unvaporwave":0,"name":0,"playaudio":3,"stopaudio":3,"espeak":3,"owo":0,"sanitize":3,"status":3,"pope":3,"king":3},"room_max":1e+86,"owner":null,"pitch":{"max":400,"min":-50,"default":"random"},"speed":{"max":275,"min":125,"default":"random"},"amplitude":{"max":75,"min":20,"default":"random"},"defaultName":"Anonymous"},"users":[],"pollvotes":{},"vid":"WlZswQEUqUc"},"level":"debug","message":"removeRoom"}
+{"guid":"5880553bc438b97b","level":"info","message":"login"}
+{"rid":"841214c2b76af3ab","level":"debug","message":"newRoom"}
+{"room":{"rid":"841214c2b76af3ab","prefs":{"status_limit":36,"char_limit":1e+86,"name_limit":25,"godword":"@behhbehBEHHbehh474748744484549857489547754182181874184474874848@","runlevel":{"godmode":0,"youtube":0,"joke":0,"fact":0,"backflip":0,"color":0,"asshole":0,"triggered":0,"linux":0,"pitch":0,"snap":0,"speed":0,"pawn":0,"bees":0,"image":0,"video":0,"audio":0,"sad":0,"vaporwave":0,"unvaporwave":0,"name":0,"playaudio":3,"stopaudio":3,"espeak":3,"owo":0,"sanitize":3,"status":3,"pope":3,"king":3},"room_max":1e+86,"owner":null,"pitch":{"max":400,"min":-50,"default":"random"},"speed":{"max":275,"min":125,"default":"random"},"amplitude":{"max":75,"min":20,"default":"random"},"defaultName":"Anonymous"},"users":[],"pollvotes":{},"vid":"IYsWsOTrIdM"},"level":"debug","message":"removeRoom"}

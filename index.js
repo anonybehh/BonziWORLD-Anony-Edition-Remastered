@@ -69,7 +69,7 @@ Ban.init();
 // Start actually listening
 server.listen(port, function () {
   console.log(
-    " Welcome to BonziWORLD Anony Edition Remastered!!\n", "HTTP Express Server listening on port " + port + "\n", "=+.----------------*-<|{ Logs }|>-*----------------.+=\n",
+    " Welcome to BonziWORLD IdealBEHH Edition!!\n", "HTTP Express Server listening on port " + port + "\n", "=+.----------------*-<|{ Logs }|>-*----------------.+=\n",
   );
 });
 app.use(express.static(__dirname + "/public"));

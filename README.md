@@ -1,4 +1,4 @@
-# BonziWORLD Anony Edition Remastered
+# BonziWORLD IdealBEHH Edition
 Some literal retarded shitty bloated modded Replica of BonziWORLD 2.
 
 All the source code for the server and client is publically available here. If you want to run a fork of my replica BonziWORLD 2, by all means go ahead.
@@ -22,7 +22,7 @@ Yes, there are.
 * * **Unedited:** Joseph Judge was the only creator of the original BonziWORLD. Pretty cool huh? Original BonziWORLD features black/brown/red/green/blue/purple/pink/pope bonzis, with some commands.
   * **Modified:** The original BonziWORLD 2 was currently abandoned by Seamus. I understand why he created it but then later took it down due to kiddies back in 2020. There are also more bonzis: magenta, yellow, emerald, diamond and orange.
 * **Replica**: Kind of, accurately done by me via creating bonzis with Paint.NET and usually replacing original BZW images with modified BZW images or literal shit.
-* **BonziWORLD Anony Edition Remastered (fork of bonziworld 2)** Now there's new bonzis and agents, Here is it: floyd, droyd, qmark, peedy, clippy
+* **BonziWORLD IdealBEHH Edition (fork of bonziworld 2)** Now there's new bonzis and agents, Here is it: floyd, droyd, qmark, peedy, clippy
 
 ## Website Rules/Guidelines
 
