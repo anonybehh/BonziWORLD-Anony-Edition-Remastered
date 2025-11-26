@@ -1814,3 +1814,394 @@
 {"guid":"ba0ec08f4af378ed","ip":"::1","level":"info","message":"disconnect"}
 {"guid":"5880553bc438b97b","ip":"::1","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
 {"guid":"5880553bc438b97b","ip":"::1","level":"info","message":"disconnect"}
+{"guid":"dae2be23afee86c3","ip":"2001:861:3e8a:d700:7842:db67:5cf3:c99a","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"dae2be23afee86c3","ip":"2001:861:3e8a:d700:7842:db67:5cf3:c99a","level":"info","message":"disconnect"}
+{"guid":"580bf4743d9da3c3","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"784d9bb8143e3f8f","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"cbd5581c470c756c","ip":"89.89.24.41","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"0b04ed815f89989d","ip":"89.89.24.41","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"a732740cb5bb0fd6","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"a732740cb5bb0fd6","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","level":"info","message":"disconnect"}
+{"guid":"ff95f06bd2994cc1","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"ff95f06bd2994cc1","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","level":"info","message":"disconnect"}
+{"guid":"bf98356ad437f100","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"4f45755dd0bfef2f","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"94f06a5910a48069","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"94f06a5910a48069","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","level":"info","message":"disconnect"}
+{"guid":"4f45755dd0bfef2f","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","level":"info","message":"disconnect"}
+{"guid":"150902cccca3178a","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"80f4580aff6e4e0f","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"150902cccca3178a","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","level":"info","message":"disconnect"}
+{"guid":"80f4580aff6e4e0f","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","level":"info","message":"disconnect"}
+{"guid":"db80f62c23a3d489","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"db80f62c23a3d489","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","level":"info","message":"disconnect"}
+{"guid":"50841d772f185647","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"124bca1df8633f46","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"a0d19e716b80538e","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"28b714ea8ccde5f5","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"9e1ee4e0e2b5b268","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"2e507b82e9654f94","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"c30eed4eb3b7df0b","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"7f2709c1391b0bb4","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"f037547ef893ca4c","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"2bfd168639631206","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"2bfd168639631206","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","level":"info","message":"disconnect"}
+{"error":{},"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'end')\nTypeError: Cannot read properties of undefined (reading 'end')\n    at exports.handleBan (/project/workspace/ban.js:55:16)\n    at new User (/project/workspace/meat.js:2087:11)\n    at Namespace.<anonymous> (/project/workspace/meat.js:145:5)\n    at Namespace.emit (node:events:518:28)\n    at Namespace.emit (/project/workspace/node_modules/socket.io/lib/namespace.js:213:10)\n    at /project/workspace/node_modules/socket.io/lib/namespace.js:181:14\n    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)","stack":"TypeError: Cannot read properties of undefined (reading 'end')\n    at exports.handleBan (/project/workspace/ban.js:55:16)\n    at new User (/project/workspace/meat.js:2087:11)\n    at Namespace.<anonymous> (/project/workspace/meat.js:145:5)\n    at Namespace.emit (node:events:518:28)\n    at Namespace.emit (/project/workspace/node_modules/socket.io/lib/namespace.js:213:10)\n    at /project/workspace/node_modules/socket.io/lib/namespace.js:181:14\n    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)","exception":true,"date":"Wed Nov 19 2025 14:18:17 GMT+0000 (Coordinated Universal Time)","process":{"pid":27345,"uid":0,"gid":0,"cwd":"/project/workspace","execPath":"/usr/local/share/nvm/versions/node/v20.12.1/bin/node","version":"v20.12.1","argv":["/usr/local/share/nvm/versions/node/v20.12.1/bin/node","/project/workspace/index"],"memoryUsage":{"rss":84074496,"heapTotal":18141184,"heapUsed":16893320,"external":3501647,"arrayBuffers":1332052}},"os":{"loadavg":[0.54,0.28,0.2],"uptime":5233.52},"trace":[{"column":16,"file":"/project/workspace/ban.js","function":"exports.handleBan","line":55,"method":"handleBan","native":false},{"column":11,"file":"/project/workspace/meat.js","function":"new User","line":2087,"method":null,"native":false},{"column":5,"file":"/project/workspace/meat.js","function":null,"line":145,"method":null,"native":false},{"column":28,"file":"node:events","function":"Namespace.emit","line":518,"method":"emit","native":false},{"column":10,"file":"/project/workspace/node_modules/socket.io/lib/namespace.js","function":"Namespace.emit","line":213,"method":"emit","native":false},{"column":14,"file":"/project/workspace/node_modules/socket.io/lib/namespace.js","function":null,"line":181,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":77,"method":"processTicksAndRejections","native":false}]}
+{"guid":"80bb7454d0a66883","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","level":"info","message":"ban"}
+{"guid":"80bb7454d0a66883","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","level":"info","message":"disconnect"}
+{"guid":"80bb7454d0a66883","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","level":"info","message":"disconnect"}
+{"ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","level":"info","message":"ban"}
+{"guid":"e55ceeec2f2eaad9","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","level":"info","message":"ban"}
+{"guid":"807517aa7fe959b9","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"909b24be98d2a724","ip":"2604:2dc0:100:19af::","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"909b24be98d2a724","ip":"2604:2dc0:100:19af::","level":"info","message":"disconnect"}
+{"guid":"96bf7a15017147de","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"98739da81385c767","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"e1419c1b90c76ab2","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"e1419c1b90c76ab2","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","level":"info","message":"disconnect"}
+{"guid":"9c73b24398e54458","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"db35e11ae8b55697","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"db35e11ae8b55697","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","level":"info","message":"disconnect"}
+{"guid":"6b9b03d50b62fc80","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"0b914e9c1d80403f","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"6b9b03d50b62fc80","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","level":"info","message":"disconnect"}
+{"guid":"277d6b8126c1e34b","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"6285c41a837586c2","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"211f9c5d214a7ab3","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"c05a63585220fb59","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"bbddc9c5290c4856","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"14adf2509c246178","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"14adf2509c246178","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","level":"info","message":"disconnect"}
+{"guid":"fb8c6106c1d2f438","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"d745019f73e21894","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"51831e86f085905a","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"e6cec91f87668658","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"ecf336c041eb983b","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"08eeea47ae3e9a64","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"2664adf2c1b41b91","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"2afeffd0a71d118d","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"606010c69bd581bd","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"b43c098183e26e34","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"59d2e1cc0a5ca877","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"771e9a3543f26cbe","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"20c3e803fa858ba7","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"4e1c05097be7df49","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"7e9c3104d5aa446d","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"be590dcbe764e362","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"9f4ac15a19988ab8","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"6e018cee46be65fd","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"918fabe8cfe268b5","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"918fabe8cfe268b5","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","level":"info","message":"disconnect"}
+{"guid":"7897c51fe7674316","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"7897c51fe7674316","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","level":"info","message":"disconnect"}
+{"guid":"2e8a66bb6b4b6021","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"2e8a66bb6b4b6021","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","level":"info","message":"disconnect"}
+{"guid":"31b67abfcac67929","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"31b67abfcac67929","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","level":"info","message":"disconnect"}
+{"guid":"deffd60d4b10ac78","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"deffd60d4b10ac78","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","level":"info","message":"disconnect"}
+{"guid":"eff7e3d62bffc618","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"eff7e3d62bffc618","ip":"2001:861:3e8a:d700:a9d3:9256:3cf0:d753","level":"info","message":"disconnect"}
+{"guid":"bc7b85eaaf45c2ca","ip":"2001:861:3e8a:d700:2194:9d12:8bc7:a2a3","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"bc7b85eaaf45c2ca","ip":"2001:861:3e8a:d700:2194:9d12:8bc7:a2a3","level":"info","message":"disconnect"}
+{"guid":"f4819c92cdf38faa","ip":"2001:861:3e8a:d700:2194:9d12:8bc7:a2a3","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"f4819c92cdf38faa","ip":"2001:861:3e8a:d700:2194:9d12:8bc7:a2a3","level":"info","message":"disconnect"}
+{"guid":"fa02e0d06632e4d5","ip":"2001:861:3e8a:d700:2194:9d12:8bc7:a2a3","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"8f78834ffba61849","ip":"2001:861:3e8a:d700:2194:9d12:8bc7:a2a3","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"faca8a3c5b7f47ec","ip":"2001:861:3e8a:d700:2194:9d12:8bc7:a2a3","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"faca8a3c5b7f47ec","ip":"2001:861:3e8a:d700:2194:9d12:8bc7:a2a3","level":"info","message":"disconnect"}
+{"guid":"6c3841aab9203586","ip":"2001:861:3e8a:d700:2194:9d12:8bc7:a2a3","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"1fb532d289dd7b07","ip":"2001:861:3e8a:d700:2194:9d12:8bc7:a2a3","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"1fb532d289dd7b07","ip":"2001:861:3e8a:d700:2194:9d12:8bc7:a2a3","level":"info","message":"disconnect"}
+{"guid":"f2b9977afb30cf4c","ip":"2001:861:3e8a:d700:2194:9d12:8bc7:a2a3","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"f2b9977afb30cf4c","ip":"2001:861:3e8a:d700:2194:9d12:8bc7:a2a3","level":"info","message":"disconnect"}
+{"guid":"5f9b392d2ccbb038","ip":"2001:861:3e8a:d700:2194:9d12:8bc7:a2a3","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"5f9b392d2ccbb038","ip":"2001:861:3e8a:d700:2194:9d12:8bc7:a2a3","level":"info","message":"disconnect"}
+{"guid":"1afc1e5fd49c871e","ip":"2001:861:3e8a:d700:2194:9d12:8bc7:a2a3","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"1afc1e5fd49c871e","ip":"2001:861:3e8a:d700:2194:9d12:8bc7:a2a3","level":"info","message":"disconnect"}
+{"guid":"2e430fc3e51a2a8d","ip":"2001:861:3e8a:d700:2194:9d12:8bc7:a2a3","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"54339a22091827bb","ip":"2001:861:3e8a:d700:2194:9d12:8bc7:a2a3","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"2e430fc3e51a2a8d","ip":"2001:861:3e8a:d700:2194:9d12:8bc7:a2a3","level":"info","message":"disconnect"}
+{"guid":"54339a22091827bb","ip":"2001:861:3e8a:d700:2194:9d12:8bc7:a2a3","level":"info","message":"disconnect"}
+{"guid":"5475591e9db0d51b","ip":"2001:861:3e8a:d700:2194:9d12:8bc7:a2a3","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"5475591e9db0d51b","ip":"2001:861:3e8a:d700:2194:9d12:8bc7:a2a3","level":"info","message":"disconnect"}
+{"guid":"37fc115c467777b3","ip":"2001:861:3e8a:d700:2194:9d12:8bc7:a2a3","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"37fc115c467777b3","ip":"2001:861:3e8a:d700:2194:9d12:8bc7:a2a3","level":"info","message":"disconnect"}
+{"guid":"13c708639f425a5d","ip":"2001:861:3e8a:d700:2194:9d12:8bc7:a2a3","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"13c708639f425a5d","ip":"2001:861:3e8a:d700:2194:9d12:8bc7:a2a3","level":"info","message":"disconnect"}
+{"guid":"3cefa0dd9b062f88","ip":"2001:861:3e8a:d700:2194:9d12:8bc7:a2a3","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"937784490c03a693","ip":"2001:861:3e8a:d700:2194:9d12:8bc7:a2a3","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"937784490c03a693","ip":"2001:861:3e8a:d700:2194:9d12:8bc7:a2a3","level":"info","message":"disconnect"}
+{"guid":"e69fe7cccec9fce1","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"e69fe7cccec9fce1","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"b6846b78745b8568","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"6d1fff6d7da160dd","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"3b8ead6be8b1844e","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"3b8ead6be8b1844e","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"67b0e8f6b55dcb9f","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"3bc1c9b2b77e0bed","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"3bc1c9b2b77e0bed","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"1af1c0ebe9a97e73","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"342b5109e031aaae","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"f96ba64e07ca8672","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"f96ba64e07ca8672","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"b9b5b0105605f04c","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"b9b5b0105605f04c","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"af828b6fd0dc0a1c","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"a31d407cfc3486be","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"af828b6fd0dc0a1c","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"095c3ad2fa35ee23","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"c3b00d6b7525acd5","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"3b5bcb53e43cb163","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"faee9d870a051f34","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"029a4eb519c17209","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"2e3a07d780f21b34","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"da34bd4bfe61c3c4","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"c8dc9397f19bfacf","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"ab00fe39a4d4ecc4","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"34f92fb1f2cef89d","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"2b7a06ee374d05d5","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"bf0e1b58337daa7f","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"713830edb792e4c6","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"95573cd80f934b17","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"96b1f48946820b23","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"a83a27e79d4b635a","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"35f2283701851d10","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"713830edb792e4c6","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"bf0e1b58337daa7f","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"faee9d870a051f34","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"c8dc9397f19bfacf","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"95573cd80f934b17","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"029a4eb519c17209","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"095c3ad2fa35ee23","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"c3b00d6b7525acd5","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"2e3a07d780f21b34","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"ab00fe39a4d4ecc4","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"34f92fb1f2cef89d","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"2b7a06ee374d05d5","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"96b1f48946820b23","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"3b5bcb53e43cb163","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"da34bd4bfe61c3c4","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"a31d407cfc3486be","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"a83a27e79d4b635a","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"35f2283701851d10","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"97799b40b8d5e595","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"97799b40b8d5e595","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"e790f6198693d7a0","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"1689eaa232e4656d","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"5a6a125ef1901f1a","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"6e2d3ee645324d4d","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"6e2d3ee645324d4d","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"bf1804a78a00341a","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"0485570613dbeff9","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"0485570613dbeff9","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"c0bb404e945f42b4","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"c0bb404e945f42b4","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"bb451b1ccd834c9f","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"bb451b1ccd834c9f","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"6f64888df981b460","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"6f64888df981b460","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"bb2ded789acfbe62","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"bb2ded789acfbe62","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"aa9bacf4a2cf11da","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"aa9bacf4a2cf11da","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"e947a27a1b2ce563","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"fcb189fbf3994a03","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"fcb189fbf3994a03","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"87abcdee468f6068","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"27c0e4462b854186","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"27c0e4462b854186","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"2fa203a748b5e40b","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"2fa203a748b5e40b","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","level":"info","message":"disconnect"}
+{"guid":"0f27902f3710a095","ip":"2001:861:3e8a:d700:105d:179b:63e9:c78f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"20e7f506531850f4","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"20e7f506531850f4","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","level":"info","message":"disconnect"}
+{"guid":"f4d054d94b891c2b","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"fa9ac050447a8526","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"545ae4879cac1dc5","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"c24ebe0817a1ddec","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"cae39e523e9ce438","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"c9a693791c178390","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"55183bffc1c9c5e6","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"1c2c559ab2ada99a","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"63760c8306b4fdb2","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"63760c8306b4fdb2","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","level":"info","message":"disconnect"}
+{"guid":"36c1647f2a11c814","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"e9ce385af1ab2b7b","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"7fb334a6fbc8df32","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"7fb334a6fbc8df32","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","level":"info","message":"disconnect"}
+{"guid":"1da7f17e9e1efdd9","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"1da7f17e9e1efdd9","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","level":"info","message":"disconnect"}
+{"guid":"bbf298bc152c03c0","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"4f151053a1b826e3","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"eab41b61c2c99689","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"eab41b61c2c99689","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","level":"info","message":"disconnect"}
+{"guid":"7e290dc8fd9d5f1f","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"7e290dc8fd9d5f1f","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","level":"info","message":"disconnect"}
+{"guid":"53347cf0447b57f3","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"beddc4d6f2c866f9","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"beddc4d6f2c866f9","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","level":"info","message":"disconnect"}
+{"guid":"a2bc8a57ec7deb69","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"a2bc8a57ec7deb69","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","level":"info","message":"disconnect"}
+{"guid":"8528207a18ee50c8","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"8528207a18ee50c8","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","level":"info","message":"disconnect"}
+{"guid":"a23287cb897aa518","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"a23287cb897aa518","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","level":"info","message":"disconnect"}
+{"guid":"bc2c09fb27cad565","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"bc2c09fb27cad565","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","level":"info","message":"disconnect"}
+{"guid":"c6da10f007126882","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"f4667c46a33ae61c","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"f4667c46a33ae61c","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","level":"info","message":"disconnect"}
+{"guid":"dba4a5bf3602a346","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"dba4a5bf3602a346","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","level":"info","message":"disconnect"}
+{"guid":"1600c67dd795b951","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"1600c67dd795b951","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","level":"info","message":"disconnect"}
+{"guid":"53105bf676ffb75e","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"53105bf676ffb75e","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","level":"info","message":"disconnect"}
+{"guid":"58e039864894a57f","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"5d0c68a0216949d4","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"ab08e7c5ecd1ef81","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"96ae9cc2de478d78","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"bfa6fbc2168f129e","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"bfa6fbc2168f129e","ip":"2001:861:3e8a:d700:590f:3f0b:ad09:5daa","level":"info","message":"disconnect"}
+{"guid":"348678727bd1752f","ip":"2001:861:3e8a:d700:1dc:4ac1:1ece:3002","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"348678727bd1752f","ip":"2001:861:3e8a:d700:1dc:4ac1:1ece:3002","level":"info","message":"disconnect"}
+{"guid":"a7c679d4687e5327","ip":"2001:861:3e8a:d700:1dc:4ac1:1ece:3002","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"a7c679d4687e5327","ip":"2001:861:3e8a:d700:1dc:4ac1:1ece:3002","level":"info","message":"disconnect"}
+{"guid":"f63eb69f0cf5fc9b","ip":"2001:861:3e8a:d700:1dc:4ac1:1ece:3002","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"f63eb69f0cf5fc9b","ip":"2001:861:3e8a:d700:1dc:4ac1:1ece:3002","level":"info","message":"disconnect"}
+{"guid":"3966c914b8d83c31","ip":"2001:861:3e8a:d700:1dc:4ac1:1ece:3002","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"3966c914b8d83c31","ip":"2001:861:3e8a:d700:1dc:4ac1:1ece:3002","level":"info","message":"disconnect"}
+{"guid":"066b36ff66b56149","ip":"2001:861:3e8a:d700:1dc:4ac1:1ece:3002","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"066b36ff66b56149","ip":"2001:861:3e8a:d700:1dc:4ac1:1ece:3002","level":"info","message":"disconnect"}
+{"guid":"49cce6ad51131337","ip":"2001:861:3e8a:d700:1dc:4ac1:1ece:3002","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"94d307d92e2cfef2","ip":"89.89.24.41","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"19a3480c8e383e41","ip":"89.89.24.41","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"40262a5710525076","ip":"89.89.24.41","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"f798350efb545f7e","ip":"89.89.24.41","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"ba7fdaf208fc963c","ip":"2001:861:3e8a:d700:1dc:4ac1:1ece:3002","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"6847d95aa9a6f0f9","ip":"2001:861:3e8a:d700:1dc:4ac1:1ece:3002","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"cf3a8b0c6714aa71","ip":"2001:861:3e8a:d700:1dc:4ac1:1ece:3002","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"d31f161378a7a9a7","ip":"2001:861:3e8a:d700:1dc:4ac1:1ece:3002","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"df76629439b141a3","ip":"2001:861:3e8a:d700:1dc:4ac1:1ece:3002","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"01b88169a70e3783","ip":"2001:861:3e8a:d700:1dc:4ac1:1ece:3002","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"ef772ebe7bdc16f2","ip":"2001:861:3e8a:d700:1dc:4ac1:1ece:3002","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"ef772ebe7bdc16f2","ip":"2001:861:3e8a:d700:1dc:4ac1:1ece:3002","level":"info","message":"disconnect"}
+{"guid":"fe338f8cca376c06","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"fe338f8cca376c06","level":"info","message":"disconnect"}
+{"guid":"c7fbc0687b4fc3a0","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"c7fbc0687b4fc3a0","level":"info","message":"disconnect"}
+{"guid":"616d4a03856e1d77","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"616d4a03856e1d77","level":"info","message":"disconnect"}
+{"guid":"c7107633255f54d8","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"c7107633255f54d8","level":"info","message":"disconnect"}
+{"guid":"9e52978255476d04","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"9e52978255476d04","level":"info","message":"disconnect"}
+{"guid":"b5677f8d9520cd9b","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"38b814309d036452","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"8dcf315d97ec6aa5","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"8dcf315d97ec6aa5","level":"info","message":"disconnect"}
+{"guid":"136b721b302455be","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"ac9e93ac070252a3","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"ac9e93ac070252a3","level":"info","message":"disconnect"}
+{"guid":"d472e15e292d9456","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"d472e15e292d9456","level":"info","message":"disconnect"}
+{"guid":"b67c8d6b9df2d29f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"b67c8d6b9df2d29f","level":"info","message":"disconnect"}
+{"guid":"0c2b5245a71759d2","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"0c2b5245a71759d2","level":"info","message":"disconnect"}
+{"guid":"81df47fa28aa8260","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"81df47fa28aa8260","level":"info","message":"disconnect"}
+{"guid":"1218834421afd70d","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"d33c709fc026d36a","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"e1a4664420856c8a","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"488e9f3465075a61","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"76dceec7068ac2f2","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"6a666cbd09f4d6e5","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"87b1bcc392be88f2","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"180807af04c8d5a7","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"1c5a1efe34a82b9b","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"d10689cd2abbfc18","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"d10689cd2abbfc18","level":"info","message":"disconnect"}
+{"guid":"68593c857a141971","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"beefafed8c553892","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"beefafed8c553892","level":"info","message":"disconnect"}
+{"guid":"2cbd8d9e0d14b57f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"0e94388e5a7bae0c","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"d540988892a5b4d4","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"31f68f9ac2700b1f","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"31f68f9ac2700b1f","level":"info","message":"disconnect"}
+{"guid":"df87927c60c64e4d","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"bb6f6ac46fc27e70","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"bb6f6ac46fc27e70","level":"info","message":"disconnect"}
+{"guid":"717fc0b2199261fd","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"717fc0b2199261fd","level":"info","message":"disconnect"}
+{"guid":"5c981c7fcd85df11","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"f356864df4b35bda","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"5c981c7fcd85df11","level":"info","message":"disconnect"}
+{"guid":"fb8352e1cc50fd42","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"92561bb01111a329","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"5c397145a49ed6fa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"bc312f41eeac82bb","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"bc312f41eeac82bb","level":"info","message":"disconnect"}
+{"guid":"27a96e74ae09dd9d","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"27a96e74ae09dd9d","level":"info","message":"disconnect"}
+{"guid":"bc9dd45c1ca66c99","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"bc9dd45c1ca66c99","level":"info","message":"disconnect"}
+{"guid":"62c117d799ac584a","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"fd061bcf541d8453","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"9941a0c0d575e85a","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"9941a0c0d575e85a","level":"info","message":"disconnect"}
+{"guid":"1ed84c5978d9f584","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"1ed84c5978d9f584","level":"info","message":"disconnect"}
+{"guid":"cb64875ecea6d957","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"cb64875ecea6d957","level":"info","message":"disconnect"}
+{"guid":"1d936736a33d45e2","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"1d936736a33d45e2","level":"info","message":"disconnect"}
+{"guid":"f6e02e853a399eed","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"81489eea2a354d7a","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"83b35f257001bcd4","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"83b35f257001bcd4","level":"info","message":"disconnect"}
+{"guid":"18e5660d54bf24c8","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"18e5660d54bf24c8","level":"info","message":"disconnect"}
+{"guid":"992760e93f4e42cb","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"992760e93f4e42cb","level":"info","message":"disconnect"}
+{"guid":"daeec0b7374c5e2b","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"713a6e3dbbc409b4","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"626bd273e3c455e1","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"721217ad20ab2665","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"0a169a3ea0a226ac","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"721217ad20ab2665","level":"info","message":"disconnect"}
+{"guid":"60fa76aec6ffae13","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"60fa76aec6ffae13","level":"info","message":"disconnect"}
+{"guid":"b16cafb256109a2b","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"71b72f0adf038681","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"4564a2606c4c5c6c","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"7b21b0ef418d0070","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"e52a6b1d3e8f2ff0","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"a08640c0bc3c0742","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"ce0263b2e9db1b56","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"ce0263b2e9db1b56","level":"info","message":"disconnect"}
+{"guid":"527805626837a580","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"120a0b69b9cfa8a0","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"36f5f98907fd92aa","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"f644c74464a9fb54","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"fff31188e2dc2307","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"f644c74464a9fb54","level":"info","message":"disconnect"}
+{"guid":"3840029f57637938","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"e280969fc396a36e","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"05ad33ffe1889ab1","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"05ad33ffe1889ab1","level":"info","message":"disconnect"}
+{"guid":"24b62073f4f129c4","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"24b62073f4f129c4","level":"info","message":"disconnect"}
+{"guid":"fb825f21673151f0","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"d95228ef7dd97370","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"32279b9663e31ea8","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"df52e7bc951f49ac","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"df52e7bc951f49ac","level":"info","message":"disconnect"}
+{"guid":"b9b7f12956e0b964","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"d772cf3d20691a84","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"d772cf3d20691a84","level":"info","message":"disconnect"}
+{"guid":"9d43c823af8840cc","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}

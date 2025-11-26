@@ -1,8 +1,8 @@
 {
   "prefs": {
     "public": {
-      "status_limit": 36,
-      "char_limit": 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999,
+      "status_limit": 40,
+      "char_limit": 1900,
       "name_limit": 25,
       "godword": "@behhbehBEHHbehh474748744484549857489547754182181874184474874848@",
       "runlevel": {
@@ -173,6 +173,21 @@
     "magenta",
     "noob",
     "doggis"
+  ],
+  "bonziHats": [
+   "tophat",
+   "bfdi",
+   "bieber",
+   "evil",
+   "elon",
+   "kamala",
+   "maga",
+   "troll",
+   "bucket",
+   "obama",
+   "dank",
+   "witch",
+   "wizard"
   ],
   "banLength": 1440,
   "port": 3000,

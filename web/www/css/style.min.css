@@ -39,22 +39,64 @@ html {
   bottom: 270px;
   transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
 }
-@keyframes move {
-    from {
-        background-position-x: 500px;
-    }
-    to {
-        background-position-x: 0;
-    }
+gay-big {
+  font-size: 1.5em;
+  font-weight: bold;
+  display: inline;
+}
+
+gay-spoiler {
+  background-color: #2f4f4f;
+  border-radius: 3px;
+  color: transparent;
+  user-select: none;
+  transition: background-color 0.2s, color 0.2s;
+  cursor: pointer;
+  padding: 1px 4px;
+  margin: 0 1px;
+  display: inline;
+}
+
+gay-spoiler:hover {
+  background-color: #556666;
+}
+
+gay-spoiler.reveal {
+  background-color: rgba(85, 85, 85, 0.3);
+  color: inherit;
+  user-select: text;
+  cursor: text;
 }
 
 gay-rainbow {
-    background-image: linear-gradient(120deg in hsl longer hue, red, red, red);
-    background-size: 500px;
-    background-clip: text;
-    color: transparent;
-    animation: move 2s linear infinite;
+  background-image: linear-gradient(120deg in hsl longer hue, red, red, red);
+  background-size: 500px;
+  background-clip: text;
+  color: transparent;
+  animation: move 2s linear infinite;
 }
+
+gay-code {
+  border: 1px solid #999;
+  background-color: #f0f0f0;
+  border-radius: 3px;
+  font-family: "Courier New", monospace;
+  font-size: 0.9em;
+  padding: 1px 4px;
+  margin: 0 1px;
+  display: inline;
+}
+
+@keyframes move {
+  from {
+    background-position-x: 500px;
+  }
+
+  to {
+    background-position-x: 0;
+  }
+}
+
 #themes_icon {
   color: rgba(255, 255, 255, 0.5);
   font-weight: bold;
@@ -820,7 +862,7 @@ input[type="text"] {
   left: 0;
 }
 body {
-  background-image: url(../img/desktop/bliss.jpg);
+  background-image: url(../img/desktop/bliss.png);
   background-size: cover;
 }
 #login_headline {
@@ -859,7 +901,18 @@ body {
 .bonzi_placeholder {
   position: absolute;
 }
-
+.bonzi_hat {
+  position: absolute !important;
+  top: 0px !important;
+  left: 0 !important;
+  width: 200px !important;
+  height: 160px !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center top !important;
+  pointer-events: none !important;
+  z-index: 1 !important;
+}
 .bubble-content {
   padding: 12px;
   user-select: text;
@@ -1083,7 +1136,7 @@ body.vaporwave #chat_send:active {
 
 #content {
   background-color: #0a7cb196;
-  background-image: url("../img/desktop/logo.png"), url("../img/desktop/bg.png");
+  background-image: url("../img/desktop/logo.png");
   background-position: top left, center;
   background-repeat: no-repeat;
 }
@@ -1209,13 +1262,19 @@ button::-moz-focus-inner {
 }
 
 #page_login {
-  background-color: #36A7B8;
+  background-color: #36a7b8;
   background-image: url("../img/logon/logo.png"), url("../img/logon/top.png"),
     url("../img/logon/bottom.png"), url("../img/logon/topleft.png"),
     url("../img/logon/divider.png");
   background-position: center, top, bottom, top left, center;
   background-size: auto, 100% 100px, 100% 122px, auto, 1px 100%;
   background-repeat: no-repeat;
+}
+#bsod {
+  background-color: #02005f;
+  background-size: auto, 100% 100px, 100% 122px, auto, 1px 100%;
+  background-repeat: no-repeat;
+  color: #ffffff;
 }
 #flashed {
   background-color: #ffffff;
@@ -1422,7 +1481,6 @@ button::-moz-focus-inner {
     margin-left: -112px;
     margin-top: 40px;
   }
-
   #login_readme {
     bottom: 10%;
   }

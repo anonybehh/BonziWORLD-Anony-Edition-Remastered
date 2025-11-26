@@ -1,25 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Applets</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="../dist/css/arcade.css" />
-  </head>
-  <body>
-    <!-- partial:index.partial.html -->
-    <div class="wrapper no_selection">
-      <h2>
-        <strong>Applets</strong>
-      </h2>
-      
-      <div class="cards no_selection">
-        <a href="./" class="no_selection">
-          <figure class="card">
-            <img src="./img/logon/logo.mobile.png">
-            <figcaption>Mini BZWAER</figcaption>
-        </figure>
-      </a>
+<h1 id="pollname"></h1>
+<br />
+<div id="pollyes" onclick="socket.emit('vote', true)">Yes</div>
+<br />
+<div id="pollno" onclick="socket.emit('vote', false)">No</div>
+<br />
+<h3 id="votecount">0 Votes</h3>
+<br />

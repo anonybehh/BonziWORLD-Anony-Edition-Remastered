@@ -1,4 +1,4 @@
-const log = require('./log.js').log;
+const log = require("./log.js").log;
 const fs = require("fs-extra");
 const settings = require("./json/settings.json");
 const io = require("./index.js").io;
@@ -6,14 +6,19 @@ const io = require("./index.js").io;
 let bans;
 
 exports.init = function () {
-  fs.writeFile(__dirname + "/json/bans.json", "{}", { flag: "wx" }, function (err) {
-    if (!err) console.log("Created empty bans list.");
-    try {
-      bans = require(__dirname + "/json/bans.json");
-    } catch (e) {
-      throw "Could not load bans.json. Check syntax and permissions.";
+  fs.writeFile(
+    __dirname + "/json/bans.json",
+    "{}",
+    { flag: "wx" },
+    function (err) {
+      if (!err) console.log("Created empty bans list.");
+      try {
+        bans = require(__dirname + "/json/bans.json");
+      } catch (e) {
+        throw "Could not load bans.json. Check syntax and permissions.";
+      }
     }
-  });
+  );
 };
 
 exports.saveBans = function () {
@@ -30,8 +35,8 @@ exports.addBan = function (ip, length, reason) {
   length = parseFloat(length) || settings.banLength;
   reason = reason || "N/A";
   bans[ip] = {
-    reason: reason,
-    end: new Date().getTime() + length * 6000000,
+    name: reason,
+    end: new Date().getTime() + length * 60000,
   };
 
   var sockets = io.sockets.sockets;
@@ -39,7 +44,7 @@ exports.addBan = function (ip, length, reason) {
 
   for (var i = 0; i < socketList.length; i++) {
     var socket = sockets[socketList[i]];
-    if (socket.request.connection.remoteAddress == ip)
+    if (socket.handshake.headers["cf-connecting-ip"] == ip)
       exports.handleBan(socket);
   }
   exports.saveBans();
@@ -49,14 +54,19 @@ exports.removeBan = function (ip) {
   delete bans[ip];
   exports.saveBans();
 };
-
 exports.handleBan = function (socket) {
-  var ip = socket.request.connection.remoteAddress;
+  var ip =
+    socket.handshake.headers["cf-connecting-ip"] ||
+    socket.request.connection.remoteAddress;
+  var agent = socket.handshake.headers["user-agent"];
   if (bans[ip].end <= new Date().getTime()) {
     exports.removeBan(ip);
     return false;
   }
 
+  log.access.log("info", "ban", {
+    ip: ip,
+  });
   socket.emit("ban", {
     reason: bans[ip].reason,
     end: bans[ip].end,
@@ -64,7 +74,6 @@ exports.handleBan = function (socket) {
   socket.disconnect();
   return true;
 };
-
 exports.kick = function (ip, reason) {
   var sockets = io.sockets.sockets;
   var socketList = Object.keys(sockets);

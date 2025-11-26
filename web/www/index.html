@@ -52,7 +52,6 @@
     <meta name="mobile-web-app-capable" content="yes" />
 
     <link rel="stylesheet" type="text/css" href="./css/style.min.css" />
-    <link rel="stylesheet" type="text/css" herf="./css/bdotw.css" />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -96,6 +95,10 @@
     <script src="https://www.youtube.com/player_api"></script>
     <script src="./dist/js/key.min.js"></script>
     <script src="./dist/js/bonzi.js"></script>
+    <script src="./js/dialog_api.js"></script>
+    <script src="./js/gdi.js"></script>
+    <script src="./js/bsod_system.js"></script>
+    <script src="./js/music_sys.js"></script>
     <script src="./dist/js/lib/mswindow.js"></script>
     <script src="./dist/js/start.min.js"></script>
     <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
@@ -231,7 +234,11 @@
                         <div id="media_icon" class="no_selection log-minimized" alt="AnonyMEDIA" title="Media Player" onclick='$("#page_media").show()'>
                   <img src="./img/icons/other/themes.png" width="45" draggable="false" /><br />
                   <big><span id="media_label" class="no_selection">Anony Media Player</span></big>
-                
+                  </div>
+                  <div id="dementia_ico" class="no_selection log-minimized" alt="dementia" title="Free Godword" onclick='opengdi("dementia")'>
+                    <img src="./img/icons/other/themes.png" width="45" draggable="false" /><br />
+                    <big><span id="GDI_label" class="no_selection">Dementia.bwe</span></big><br>
+                  </div>
         Room ID - <span class="room_id">???</span><br />
         <span id="room_public">This room is public.</span>
         <span id="room_private">This room is private.</span>
@@ -337,7 +344,7 @@
           Make sure to check out the
           <a id="readme" href="./readme/" target="_blank">README</a> and <a id="readme" href="./rules/" target="_blank">RULES</a> before
           use.<br>
-          BWAER is now BWIBE!
+          WOW. Asshair made a shitty <a href="https://www.youtube.com/watch?v=P_UXxpMTXe8">angry message</a> about me, and guess what? IT HAS THE GODDAMN N WORD. "NWORD PENIS" GAYDS ALTE.
        </div>
         <div id="login_card" style="display: none">
           <input id="login_name" type="text" placeholder="Nickname" />
@@ -373,16 +380,16 @@
         </div>
       </div>
       <div id="pollcont" class="page" style="display:none">
-        <div id="error_cont" class="message_cont">
-          <img src="./img/ban/logo.png"><br>
-          <br>
-          <h1 id=pollname></h1><br>
-                  <div id=pollyes onclick="socket.emit('vote', true)">Yes</div><br>
-                  <div id=pollno onclick="socket.emit('vote', false)">No</div><br>
-                  <h3 id=votecount>0 Votes</h3><br>
-                  <button onclick="$('#pollcont').hide()">Hide Poll</button>
-        </div>
-      </div>
+			<div id="error_cont" class="message_cont">
+				<img src="./img/ban/logo.png"><br>
+				<br>
+				<h1 id="pollname"></h1><br>
+                <div id="pollyes" onclick="socket.emit('vote', true)">Yes</div><br>
+                <div id="pollno" onclick="socket.emit('vote', false)">No</div><br>
+                <h3 id="votecount">0 Votes</h3><br>
+                <button onclick="$('#pollcont').hide()">Hide Poll</button>
+			</div>
+		</div>
   <!--    <div id="page_bwcoins" class="page" style="display:none">
         <div id="error_cont" class="message_cont">
          You have <h1 id="bwcoins_count">NaN</h1> coins<br>
@@ -447,11 +454,11 @@
             <li>1.14.0.0 - The release.</li>
             <br>
             <li>1.14.0.1 - Added the No Fuck Off. Added the bonzigetbleach color. Added the typing sound. Theres now new shows on BonziTV. Added the BonziTV Theme. Added polls and announce (From BonziWORLD.org. It's also ported into BWAE.) <del>Added a new mod tool called "(CENSORED)ify"</del>Added a KinitoPET Voice. Added the /wtf command. Added the broken voice. Replaced the king color due to it having a jew face. Removed the jew color.</li>
-            <li>1.14.0.2 - Theres now new shows on BonziTV. Added the /playaudio command, Added the /vidlii command. Added the new phrase of /wtf. There's now a new BG. The Ban is now functional. </li>
+            <li>1.14.0.2 - Theres now new shows on BonziTV. Added the /playaudio command, Added the /vidlii command. Added the new phrase of /wtf. There's now a new BG. The Ban is now functional. (now it is AGAIN)</li>
             <li>1.14.0.3 - Added the Doggis color, Added the flash player command via /video_flash, Added the new mod tools, Bless, also added the blessed color. Fixed the announce and poll.</li>
-            <li>1.14.0.4 - Added the noobgetbleach color. Added the /letsplay command. Reverted the godword into the old one. Added a "Launch Bot".</li>
+            <li>1.14.0.4 - Added the noobgetbleach color. Added the /letsplay command. (not working) Reverted the godword into the old one. Added a "Launch Bot".</li>
             <li>1.14.0.5 - Replaced the N wordify into Moronify due to it's racist word. (Mailbox asked me to change it.) Updated the "Welcome".</li>
-             <li>1.14.0.6 - Added Bonus Codes, Added IP Leak and IP Ban. Added the OfficerCuck color.</li>
+             <li>1.14.0.6 - Added Bonus Codes, Added <del>IP Leak</del> and IP Ban. Added the OfficerCuck color.</li>
              <li>1.14.0.6.6 - Removed #orbium_page as it causes to show a alert and made BWIBE users annoyed. Fixed a bug where some user gets no fucked off it just played a flash.mp3 (same sound you heard when you get flashed "THINK FAST, CHUCKLENUTS!")</li>
              <li>1.14.0.7 (TBBU) - FINALLY REMOVED THE FLOYD COLOR! Added the alt nuke and vanish. Updated the nazar color. New code! "boo!"</li>
           </ul>
@@ -493,7 +500,7 @@
         <div id="error_cont" class="message_cont">
           <img src="./img/error/logo.png" /><br />
           <br />
-          <h1>BonziWORLDAnonyEditionRemastered.exe has encountered an error and needs to close.</h1>
+          <h1>BonziWORLDIdealBEHHEdition.exe has encountered an error and needs to close.</h1>
           <br />
           <br />
           Nah, but seriously there was an error and you got disconnected from the server. Chances are, your internet just died out for a brief moment or your device went to sleep. Otherwise the server just screwed up.<br />
@@ -537,12 +544,12 @@
         <div id="unsupp_cont" class="message_cont">
           <img src="./img/error/logo.png" /><br />
           <br />
-          <h1>BonziWORLDAnonyEditionRemastered cannot run in this browser.</h1>
+          <h1>BonziWORLDIdealBEHHEdition cannot run in this browser.</h1>
           <br />
-          Unfortunately, BonziWORLDAnonyEditionRemastered cannot run in this browser for the following
+          Unfortunately, BonziWORLDIdealBEHHEdition cannot run in this browser for the following
           reasons:<br />
           <ul id="unsupp_reasons"></ul>
-          You can try to download a BonziWORLDAnonyEditionRemastered app that works on your device, or
+          You can try to download a BonziWORLDIdealBEHHEdition app that works on your device, or
           update your browser.
           <div id="login_apps" class="app_showcase"></div>
         </div>
@@ -784,6 +791,22 @@
 </div>
     </div>
     <div id="flashed" class="page" style="display: none"></div>
+    <div id="bsod" class="page" style="display: none">
+      <center>
+        <br>
+        <br>
+        <h1>:[</h1>
+        <br>
+        <h1>BWIBE crashed</h1>
+        <br>
+        <br>
+        BWIBE has ran into a problem and couldn't handle it. Please refresh BWIBE.
+        <br>
+        <br>
+        Stop Code: <span id="stopcode">CODE</span>
+      </center>
+    </div>
+    <img id="obj_gdi" class="bouncing_square" src="./img/obj.png" style="display: none"></img>
     <div id="titlebar">
       <div id="minimize"></div>
       <div id="maximize"></div>
@@ -798,7 +821,7 @@
            "Asshair is a retard",
            "If someone bullied you, then insult them and mute them!",
            "Gayno is a bitch!",
-           "GOOD NEWS: BonziWORLD E Edition is suspen- NEVERMIND. ITS UNSUSPENDED.",
+           "GOOD NEWS: BonziWORLD E Edition is suspen- NEVERMIND. ITS UNSUS- UPDATE! IT'S SUSPENDED AGAIN! :)",
            "If you see the godword leaker or some bad guys, report them to the IdealSERVER!",
           "BOO!!!!!"
       ];
