@@ -189,7 +189,9 @@
    "witch",
    "wizard",
    "bowtie",
-   "pot"
+   "pot",
+    "santa",
+    "none"
   ],
   "banLength": 1440,
   "port": 3000,

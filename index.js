@@ -36,6 +36,33 @@ app.get('/readme.html', function(req, res) {
 app.get('/rules.html', function(req, res) {
   res.sendFile(__dirname + '/web/www/rules/index.html');
 });
+var https = require("https");
+app.get('/voiceforge', function(req, res) {
+  if (req.query.text && req.query.voice) {
+    var random = Math.random();
+    const q = new URLSearchParams({
+      msg: req.query.text,
+      voice: req.query.voice,
+      email: "null"
+    }).toString();
+
+    https.get({
+      hostname: "api.voiceforge.com",
+      path: `/swift_engine?${q}`,
+      headers: {
+        "User-Agent": "just_audio/2.7.0 (Linux;Android 11) ExoPlayerLib/2.15.0",
+        "HTTP_X_API_KEY": "8b3f76a8539",
+        "Accept-Encoding": "identity",
+        "Icy-Metadata": "1",
+      }
+    }, async (r) => {
+      r.pipe(res);
+    });
+  }
+  return res.writeHead(200, {
+    'Content-Type': 'audio/wav'
+  });
+})
 app.use(function(req, res) {
   res.status(404).type('html').sendFile(__dirname + '/404.html')
 })
@@ -99,3 +126,4 @@ Console.listen();
 
 
 const markup = require("./markup.js");
+

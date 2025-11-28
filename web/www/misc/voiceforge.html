@@ -154,7 +154,7 @@ var SAPI4 =
 {
 	SayTTS: async function(voice, text)
 	{
-		let url = ("https://mespeak-js-server-2.onrender.com/voiceforge?text=" + encodeURIComponent(text) + "&voice=" + encodeURIComponent(voice) + "&email=null");
+		let url = ("../voiceforge?text=" + encodeURIComponent(text) + "&voice=" + encodeURIComponent(voice) + "&email=null");
 
 		if (url.length > 4088) {
 			alert("Text too long");

@@ -2210,3 +2210,17 @@
 {"guid":"6d78ad092b258eb2","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
 {"guid":"d71290352e3b483d","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
 {"guid":"035fea1d783d976a","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","level":"info","message":"connect"}
+{"guid":"19b7002c1729d0d4","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"19b7002c1729d0d4","level":"info","message":"disconnect"}
+{"guid":"aefcfbdcf31c2f97","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"aefcfbdcf31c2f97","level":"info","message":"disconnect"}
+{"guid":"39d03e27052acae7","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"d23211158ba9a7f5","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"d23211158ba9a7f5","level":"info","message":"disconnect"}
+{"guid":"f285a3260220181c","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"f285a3260220181c","level":"info","message":"disconnect"}
+{"guid":"19468efb1e0e4233","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"eaf5def5443963c4","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"eaf5def5443963c4","level":"info","message":"disconnect"}
+{"guid":"fbb49c5caa54baf5","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}
+{"guid":"3b5b4afbd191d362","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0","level":"info","message":"connect"}

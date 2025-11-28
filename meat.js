@@ -1451,7 +1451,7 @@ let userCommands = {
       this.public.hat = hat;
     } else {
       let bh = settings.bonziHats;
-      this.public.hat = bh[Math.floor(Math.random() * bc.length)];
+      this.public.hat = bh[Math.floor(Math.random() * bh.length)];
     }
 
     this.room.updateUser(this);
@@ -1478,8 +1478,8 @@ let userCommands = {
       target: sanitize(Utils.argsString(arguments)),
     });
   },
-  heil: function () {
-    this.room.emit("heil", {
+  wuser: function () {
+    this.room.emit("wuser", {
       guid: this.guid,
       target: sanitize(Utils.argsString(arguments)),
     });
