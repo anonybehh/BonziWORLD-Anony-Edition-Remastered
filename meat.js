@@ -4,6 +4,10 @@
 
 // go behh yourself
 
+
+
+
+// now for bonzitv
 var bonziTvCommercialMode = false;
 var bonziTvCool = false;
 
@@ -108,6 +112,8 @@ const blacklist = [
   "IdealGAY",
   "i love porn",
   "yay haha",
+  "nigg",
+  "NIGG"
 ];
 const log = require("./log.js").log;
 const Ban = require("./ban.js");
@@ -125,6 +131,30 @@ const hook = new Webhook(
 const secondhook = new Webhook(
   "https://discord.com/api/webhooks/1437848460383748217/Me4DMC1lb9sEyyEBoJlDJiAGA4FcgntdwGLcNHyGr_rcXXy5SmsG3ubkyLCebM5Ft4I7"
 );
+// HATZ
+const allowedhats = [
+   "tophat",
+   "bfdi",
+   "bieber",
+   "evil",
+   "elon",
+   "kamala",
+   "maga",
+   "troll",
+   "bucket",
+   "obama",
+   "witch",
+   "wizard",
+   "bowtie",
+  "elf",
+   "pot",
+    "santa",
+];
+const blessedhats = [
+  "dank",
+  "cigar",
+  "nopupil",
+];
 const isReplit = settings.isReplit;
 
 if (isReplit === true) {
@@ -807,6 +837,7 @@ let userCommands = {
           target = n;
         }
       });
+      this.socket.emit("blessed");
       target.public.color = "blessed";
       target.public.status = "Blessed";
       target.public.runlevel = 1;
@@ -944,8 +975,30 @@ let userCommands = {
       });
     }
   },
+  glow: function() {
+    if (this.private.runlevel < 1) {
+      this.socket.emit(
+        "alert",
+        "This color is only for admins or blessed users."
+      );
+      return;
+    }
+    this.public.color = "glow";
+    this.room.updateUser(this);
+  },
+  angel: function() {
+    if (this.private.runlevel < 1) {
+      this.socket.emit(
+        "alert",
+        "This color is only for admins or blessed users."
+      );
+      return;
+    }
+    this.public.color = "blessed";
+    this.room.updateUser(this);
+  },
   announce: function (...text) {
-    if (this.private.runlevel < 1 && this.public.color != "blessed") {
+    if (this.private.runlevel < 1) {
       this.socket.emit(
         "alert",
         "This command is only for admins or blessed users."
@@ -959,7 +1012,7 @@ let userCommands = {
   },
 
   poll: function (...text) {
-    if (this.private.runlevel < 1 && this.public.color != "blessed") {
+    if (this.private.runlevel < 1) {
       this.socket.emit(
         "alert",
         "This command is only for admins or blessed users."
@@ -1012,7 +1065,6 @@ let userCommands = {
       this.socket.emit("alert", "admin=true");
       return;
     }
-
     this.room.emit("realalarm", {
       alertext: text.join(" "),
       cause: "unknown",
@@ -1078,8 +1130,8 @@ let userCommands = {
       this.socket.emit("alert", "admin=true");
       return;
     }
-    this.room.emit("nuke2", {
-      targetGuid: nukeTargetGuid,
+    this.room.emit("nukealte", {
+    guid: data,
     });
     let pu = this.room.getUsersPublic()[data];
     if (pu && pu.color) {
@@ -1283,6 +1335,7 @@ let userCommands = {
       "miracle machine is my best friend",
       "yir ill gunedid gunedid gunedid gunedid gunedid gunedid fir 873483468734 yiers",
       "i dream about bonzi every night",
+      "GRRRRRRRRRRR! HOW DARE IDEALGAY HACK BWEE! HE'S GROUNDED FOR LIFE! ",
       "i added 10 fake bugs to annoy users",
       "spamming is my true hobby",
       "WEAR A DRESS PLEASE!!!!!! WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!!! BAWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW!",
@@ -1344,7 +1397,7 @@ let userCommands = {
       }
     });
   },
-  dm2: function (data) {
+  dm: function (data) {
     if (typeof data != "object") return;
     let pu = this.room.getUsersPublic()[data.target];
     if (pu && pu.color) {
@@ -1373,10 +1426,6 @@ let userCommands = {
     }
   },
   useredit: function (data) {
-    if (this.private.runlevel < 3) {
-      this.socket.emit("alert", "admin=true");
-      return;
-    }
     if (typeof data != "object") return;
     let pu = this.room.getUsersPublic()[data.target];
     if (pu && pu.color) {
@@ -1386,28 +1435,18 @@ let userCommands = {
           target = n;
         }
       });
-      data.name = sanitize(data.name, settingsSantize);
+      data.name = data.name;
       target.public.name = data.name;
+      data.color = data.color;
+      target.public.color = data.color;
+      data.tag = data.tag;
+      target.public.status = data.tag;
       this.room.updateUser(target);
-    }
-  },
-  useredit2: function (data) {
-    if (this.private.runlevel < 3) {
-      this.socket.emit("alert", "admin=true");
-      return;
-    }
-    if (typeof data != "object") return;
-    let pu = this.room.getUsersPublic()[data.target];
-    if (pu && pu.color) {
-      let target;
-      this.room.users.map((n) => {
-        if (n.guid == data.target) {
-          target = n;
-        }
+    } else {
+      this.socket.emit("alert", {
+        msg: "The user you are trying to useredit left. Get dunked on nerd",
+        button: "oh fuck",
       });
-      data.color = sanitize(data.color, settingsSantize);
-      target.public.color = data.name;
-      this.room.updateUser(target);
     }
   },
   useredit3: function (data) {
@@ -1444,16 +1483,29 @@ let userCommands = {
 
     this.room.updateUser(this);
   },
-  hat: function (hat) {
-    if (typeof hat != "undefined") {
-      if (settings.bonziHats.indexOf(hat) == -1) return;
-
-      this.public.hat = hat;
+  hat: function (hats) {
+    if (!hats) {
+        this.public.hat = [];
     } else {
-      let bh = settings.bonziHats;
-      this.public.hat = bh[Math.floor(Math.random() * bh.length)];
-    }
+      const hatList = hats.toLowerCase().split(' ').map(h => h.trim()).filter(h => h);
+      const validHats = [];
 
+      console.log('Requested hats:', hatList);
+      let AllowedHatz = [...allowedhats];
+      if (this.private.runlevel >= 1) {
+        AllowedHatz = [...AllowedHatz, ...blessedhats]
+      }
+      hatList.forEach(hat => {
+          if (AllowedHatz.includes(hat)) {
+              validHats.push(hat);
+              console.log('Hat approved:', hat);
+          } else {
+              console.log('Hat rejected (not in list):', hat);
+          }
+      });
+
+      this.public.hat = validHats.slice(0, 3);
+    }
     this.room.updateUser(this);
   },
   pope: function () {
@@ -1560,6 +1612,7 @@ let userCommands = {
     this.room.updateUser(this);
   },
   fixbonzitv: function () {
+    this.room.emit("BonziTVTheme");
     const date = new Date();
     const hours = date.getHours();
     const minutes = date.getMinutes();

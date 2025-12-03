@@ -7,7 +7,7 @@ Do whatever you'd like with this code. Just try to put me somewhere in the credi
 ## Special Thanks To:
 
 - Joseph Judge (original; he was known as the creator of the original BonziWORLD)
-- Seamus (original creator of BW2; creator of bonkey.world (dead)/BWCE (bloated shitty server) (indefinitely dead))
+- Sea- I mean siobhan (original creator of BW2; creator of bonkey.world (dead)/BWCE (bloated shitty server) (indefinitely dead))
 - Fune 720 (i guess i gave him special thanks after the war ended; creator of BonziWORLD.org)
 - DonutScout (Maxwell Finch) (i think)
 - gir (maybe)

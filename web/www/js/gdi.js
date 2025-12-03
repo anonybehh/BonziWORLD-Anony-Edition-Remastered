@@ -8,7 +8,6 @@ function opengdi(gdi) {
     gdiEnabled = true;
     var firstpayload = new Audio("./sfx/gdi/dementia/html5bytebeat (3).wav");
     firstpayload.play();
-    var random = Math.random(Math.floor() * 100);
     var gdieffect1 = setInterval(function () {
       // Rotate the screen
       document.querySelector("#content").style.transform = `rotate(${Math.floor(

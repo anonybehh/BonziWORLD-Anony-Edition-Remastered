@@ -1263,7 +1263,7 @@ button::-moz-focus-inner {
 
 #page_login {
   background-color: #36a7b8;
-  background-image: url("../img/logon/logo.png"), url("../img/logon/top.png"),
+  background-image: url("../img/logon/logo.christmas.png"), url("../img/logon/top.png"),
     url("../img/logon/bottom.png"), url("../img/logon/topleft.png"),
     url("../img/logon/divider.png");
   background-position: center, top, bottom, top left, center;
@@ -1432,7 +1432,7 @@ button::-moz-focus-inner {
 
 @media screen and (max-height: 550px) {
   #page_login {
-    background-image: url("../img/logon/logo.png"),
+    background-image: url("../img/logon/logo.christmas.png"),
       url("../img/logon/topleft.png");
     background-position: center, 0 -100px;
     background-size: auto, auto;
@@ -1527,6 +1527,41 @@ button::-moz-focus-inner {
 #page_ban,
 #page_unsupp {
   background-color: rgba(0, 0, 0, 0.5);
+}
+.angel { background-image: url("./img/bonzi/blessed.png"); }
+.glow { background-image: url("./img/bonzi/glow.webp"); }
+.dank { background-image: url("./img/bonzi/dank.webp"); }
+.nopupil { background-image: url("./img/bonzi/nopupil.webp"); }
+.cigar { background-image: url("./img/bonzi/cigar.webp"); }
+.blessed_body {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.roulette {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    padding: 4px;
+    gap: 4px;
+}
+.card, .cardhat {
+    width: 75px;
+    height: 100px;
+    background-position: -28px 0px;
+    image-rendering: auto;
+}
+
+:is(.card, .cardhat):hover {
+    background-color: #00ccff66;
+}
+
+.card {
+    background-size: 1600px;
+}
+
+.cardhat {
+    background-size: 130px;
 }
 
 /*!
