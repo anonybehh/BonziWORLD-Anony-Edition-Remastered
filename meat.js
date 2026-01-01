@@ -104,7 +104,7 @@ var videoIds25MinutesofMSAgent = [
   "https://www.youtube.com/watch?v=vXZw29lK1Uk",
   "https://www.youtube.com/watch?v=n3nAZIPiYko",
 ];
-const blacklist = [
+var blacklist = [
   "grounded",
   "GROUNDED",
   "idealgay",
@@ -113,7 +113,17 @@ const blacklist = [
   "i love porn",
   "yay haha",
   "nigg",
-  "NIGG"
+  "NIGG",
+  "gayce",
+  "Gayce",
+  "GAYCE",
+  "IDealGAY",
+  "IdealJEW",
+  "idealjew",
+  "IDEALJEW",
+  "IDEALNIGG",
+  "IdealNIGG",
+  "idealnigg"
 ];
 const log = require("./log.js").log;
 const Ban = require("./ban.js");
@@ -125,6 +135,7 @@ const { data } = require("jquery");
 const { join } = require("path");
 const { Webhook, MessageBuilder } = require("discord-webhook-node");
 const { setInterval } = require("timers");
+const strict = require("assert/strict");
 const hook = new Webhook(
   "https://discord.com/api/webhooks/1422670111357009971/okDIG1yln5FcA0HJINvfqshy7oUo2a5fmUREDEnnHYdBflkF-n3KDeam1RHs3EIeOgaV"
 );
@@ -146,9 +157,9 @@ const allowedhats = [
    "witch",
    "wizard",
    "bowtie",
-  "elf",
+   "elf",
    "pot",
-    "santa",
+   "santa",
 ];
 const blessedhats = [
   "dank",
@@ -534,11 +545,14 @@ function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min) + min); // The maximum is exclusive and the minimum is inclusive
 }
 let godword_random = Math.floor(Math.random() * 1000000000000000 + 10);
+let kingword = Math.floor(Math.random() * 100000000000000000000);
 if (isReplit === true) {
   console.log("Godword:", godword_random);
+  console.log("Kingword:", kingword);
 
   setInterval(function () {
     console.log("Godword:", godword_random);
+    console.log("Kingword:", kingword);
   }, 60 * 1000);
 }
 
@@ -561,6 +575,19 @@ let userCommands = {
       success: success,
     });
   },
+  kingmode: function (kingworder) {
+    let success = kingworder == kingword;
+    if (success) {
+      this.private.runlevel = 2;
+      this.socket.emit("admin");
+    } else {
+      this.socket.emit("alert", 'Wrong password. Did you try "Password"?');
+    }
+    log.info.log("info", "kingmode", {
+      guid: this.guid,
+      success: success,
+    });
+  },
   guess: function (code) {
     var sheeit = "boo!";
     let success = code == "iamnazar";
@@ -571,7 +598,7 @@ let userCommands = {
       "LETSGOOOOO!OHWARDEN!!!!!AYOCHILLL!IHATETHATPOTIHATETHATPOOOT!!!!!!!!!!!";
     let boo = code == "boo!";
     let niko = code == "retardiko";
-    let mrsoi = code == "MrAck";
+    let mrsoi = code == "MrFuck";
     if (success) {
       this.public.color = "bonus";
       this.socket.emit("unlocksound");
@@ -705,7 +732,7 @@ let userCommands = {
     });
   },
   kick: function (data) {
-    if (this.private.runlevel < 3) {
+    if (this.private.runlevel < 2) {
       this.socket.emit("alert", "admin=true");
       return;
     }
@@ -796,7 +823,7 @@ let userCommands = {
     }
   },
   doggis: function (data) {
-    if (this.private.runlevel < 3) {
+    if (this.private.runlevel < 2) {
       this.socket.emit("alert", "admin=true");
       return;
     }
@@ -824,7 +851,7 @@ let userCommands = {
     }
   },
   bless: function (data) {
-    if (this.private.runlevel < 3) {
+    if (this.private.runlevel < 2) {
       this.socket.emit("alert", "admin=true");
       return;
     }
@@ -901,7 +928,7 @@ let userCommands = {
     }
   },
   rape: function (data) {
-    if (this.private.runlevel < 3) {
+    if (this.private.runlevel < 2) {
       this.socket.emit("alert", "admin=true");
       return;
     }
@@ -929,7 +956,7 @@ let userCommands = {
     }
   },
   flashed: function (data) {
-    if (this.private.runlevel < 3) {
+    if (this.private.runlevel < 2) {
       this.socket.emit("alert", "admin=true");
       return;
     }
@@ -1033,7 +1060,7 @@ let userCommands = {
     this.room.emit("stopaudio", a);
   },
   behh: function (data) {
-    if (this.private.runlevel < 3) {
+    if (this.private.runlevel < 2) {
       this.socket.emit("alert", "admin=true");
       return;
     }
@@ -1061,7 +1088,7 @@ let userCommands = {
     }
   },
   easalarm: function (...text) {
-    if (this.private.runlevel < 3) {
+    if (this.private.runlevel < 2) {
       this.socket.emit("alert", "admin=true");
       return;
     }
@@ -1071,7 +1098,7 @@ let userCommands = {
     });
   },
   nuke: function (data) {
-    if (this.private.runlevel < 3) {
+    if (this.private.runlevel < 2) {
       this.socket.emit("alert", "admin=true");
       return;
     }
@@ -1099,7 +1126,7 @@ let userCommands = {
     }
   },
   nuke2: function (data) {
-    if (this.private.runlevel < 3) {
+    if (this.private.runlevel < 2) {
       this.socket.emit("alert", "admin=true");
       return;
     }
@@ -1126,7 +1153,7 @@ let userCommands = {
     }
   },
   nuke3: function (data) {
-    if (this.private.runlevel < 3) {
+    if (this.private.runlevel < 2) {
       this.socket.emit("alert", "admin=true");
       return;
     }
@@ -1155,7 +1182,7 @@ let userCommands = {
     }
   },
   vanish: function (data) {
-    if (this.private.runlevel < 3) {
+    if (this.private.runlevel < 2) {
       this.socket.emit("alert", "admin=true");
       return;
     }
@@ -1184,7 +1211,7 @@ let userCommands = {
     }
   },
   niggy: function (data) {
-    if (this.private.runlevel < 3) {
+    if (this.private.runlevel < 2) {
       this.socket.emit("alert", "admin=true");
       return;
     }
@@ -1229,7 +1256,7 @@ let userCommands = {
     }
   },
   nofuckoff: function (data) {
-    if (this.private.runlevel < 3) {
+    if (this.private.runlevel < 2) {
       this.socket.emit("alert", "admin=true");
       return;
     }
@@ -1450,7 +1477,7 @@ let userCommands = {
     }
   },
   useredit3: function (data) {
-    if (this.private.runlevel < 3) {
+    if (this.private.runlevel < 2) {
       this.socket.emit("alert", "admin=true");
       return;
     }
@@ -1484,28 +1511,48 @@ let userCommands = {
     this.room.updateUser(this);
   },
   hat: function (hats) {
-    if (!hats) {
+    if (!hats.length) {
+        // Clear all hats
         this.public.hat = [];
-    } else {
-      const hatList = hats.toLowerCase().split(' ').map(h => h.trim()).filter(h => h);
-      const validHats = [];
-
-      console.log('Requested hats:', hatList);
-      let AllowedHatz = [...allowedhats];
-      if (this.private.runlevel >= 1) {
-        AllowedHatz = [...AllowedHatz, ...blessedhats]
-      }
-      hatList.forEach(hat => {
-          if (AllowedHatz.includes(hat)) {
-              validHats.push(hat);
-              console.log('Hat approved:', hat);
-          } else {
-              console.log('Hat rejected (not in list):', hat);
-          }
-      });
-
-      this.public.hat = validHats.slice(0, 3);
+        this.room.updateUser(this);
+        console.log("HAT CLEARED!")
+        return;
     }
+
+    // Parse hat requests - allow up to 3 hats for everyone
+    let requestedHats = [];
+    
+    // Check if hat is allowed for this user
+    let allowedHats = [...allowedhats];
+    
+    if (this.private.runlevel >= 1) {
+        allowedHats = [...allowedHats, blessedhats];
+    }
+
+
+
+    // Process each hat argument
+    for (let i = 0; i < Math.min(hats.length, 3); i++) {
+        const hatName = hats[i].toLowerCase();
+        
+        // Validate hat name
+        if (allowedHats.includes(hatName)) {
+            // Add hat to the array (simple string format)
+            requestedHats.push(hatName);
+            console.log('Added hat:', hatName);
+        } else {
+            console.log('Hat not allowed:', hatName);
+        }
+        
+        // Stop after 3 valid hats
+        if (requestedHats.length >= 3) break;
+    }
+
+    // Update user's hats
+    this.public.hat = requestedHats;
+    
+    console.log('Final hats array:', requestedHats);
+    
     this.room.updateUser(this);
   },
   pope: function () {
@@ -2637,6 +2684,9 @@ class User {
     });
     if (typeof data.text == "undefined") return;
     let text = this.private.sanitize ? sanitize(data.text) : data.text;
+     if (text.match(blacklist)) {
+      text = "I AM A RETARD! WAAAAAAAAAAAA!"
+     }
     if (text.length <= this.room.prefs.char_limit && text.length > 0) {
       this.room.emit("talk", {
         guid: this.guid,
@@ -2675,7 +2725,7 @@ class User {
           "BonziWORLD IdealBEHH Edition"
       );
       hook.setAvatar(IMAGE_URL);
-      if (this.private.runlevel < 3) {
+      if (this.private.runlevel < 2) {
         txt = txt.replaceAll("<", "!").replaceAll(">", "$");
       }
       hook.send(txt);

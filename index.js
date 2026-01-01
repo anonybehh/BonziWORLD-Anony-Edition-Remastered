@@ -29,6 +29,7 @@ const settings = require("./json/settings.json");
 // Setup basic express server
 var express = require("express");
 var app = express();
+var cors = require("cors");
 if (settings.express.serveStatic) app.use(express.static("./web/www"));
 app.get('/readme.html', function(req, res) {
   res.sendFile(__dirname + '/web/www/readme/index.html');
@@ -69,7 +70,9 @@ app.use(function(req, res) {
 var server = require("http").createServer(app);
 
 // Init socket.io
-var io = require("socket.io")(server);
+var io = require("socket.io")(server, {
+  allowEIO3: true
+});
 var port = process.env.PORT || settings.port;
 
 exports.io = io;

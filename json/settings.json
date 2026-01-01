@@ -35,7 +35,7 @@
         "sanitize": 3,
         "status": 3,
         "pope": 3,
-        "king": 3
+        "king": 2
       },
       "room_max": 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999,
       "owner": null,
@@ -177,7 +177,7 @@
     "doggis"
   ],
   "banLength": 1440,
-  "port": 3000,
+  "port": 4000,
   "isReplit": true,
   "channel": "bonkeyworld-anony-ed",
 	"server_mode": "default",

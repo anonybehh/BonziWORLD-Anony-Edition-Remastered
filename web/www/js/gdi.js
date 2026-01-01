@@ -192,5 +192,52 @@ function opengdi(gdi) {
         }, 30000);
       }, 30000);
     }, 30000);
+  } else if (gdi == "html") {
+    // GDI TIME!
+    $("#chat_send").text(Math.random()),
+$("#branding_log").text(Math.random()),
+$("#chat_message_cont").text(Math.random()),
+$("#room_info").text(Math.random());
+  var payload_html = new Audio("https://file.catbox.moe/2putq4.wav");
+  payload_html.play();
+  let rotation = 0;
+  var gdieffect_html = setInterval(function (){
+    rotation++
+ document.querySelector("#content").style.transform = `rotate(${rotation}deg)`;
+  }, 50);
+  setTimeout(function (){
+     clearInterval(gdieffect_html);
+     document.querySelector("#content").style.transform = `rotate(0deg)`;
+     var payload_html2 = new Audio("https://files.catbox.moe/wqinyz.wav");
+  payload_html2.play();
+   let skewy = 0;
+var gdieffect_html2 = setInterval(function () {
+  skewy++
+              document.querySelector(
+                "#content"
+              ).style.transform = `skewY(${skewy}deg)`;
+            }, 50);
+            setTimeout(function() {
+              var stuh = new Audio("https://files.catbox.moe/t7pwru.wav");
+              stuh.play()
+              clearInterval(payload_html2);
+             document.querySelector("#content").style.transform = `skewY(0deg)`;
+              var gdielement = document.createElement("canvas");
+                            gdielement.id = "gdi";
+gdielement.height = window.innerHeight;
+gdielement.width = window.widthHeight;
+              document.getElementsByTagName('body')[0].appendChild(gdielement);
+               var ctx = gdielement.getContext("2d");
+               var img = new Image;
+               img.src = "./img/ban/logo.png";
+             var paming = setInterval(function() {
+               var x = Math.floor(Math.random()*1000);
+               var y = Math.floor(Math.random()*1000);
+               img.onload = function(){
+               ctx.drawImage(img, x, y); 
+               }
+              }, 50);
+            }, 30000)
+  }, 30000)
   }
 }
