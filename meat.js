@@ -137,10 +137,7 @@ const { Webhook, MessageBuilder } = require("discord-webhook-node");
 const { setInterval } = require("timers");
 const strict = require("assert/strict");
 const hook = new Webhook(
-  "https://discord.com/api/webhooks/1422670111357009971/okDIG1yln5FcA0HJINvfqshy7oUo2a5fmUREDEnnHYdBflkF-n3KDeam1RHs3EIeOgaV"
-);
-const secondhook = new Webhook(
-  "https://discord.com/api/webhooks/1437848460383748217/Me4DMC1lb9sEyyEBoJlDJiAGA4FcgntdwGLcNHyGr_rcXXy5SmsG3ubkyLCebM5Ft4I7"
+  "https://discord.com/api/webhooks/1457785594913751095/dXJpX22NCIGEYR_N33QnHnaB3bc8W8NjRrXOgp54A1JL7fRWWvARPbXGrt1Q3iAfXV7M"
 );
 // HATZ
 const allowedhats = [
@@ -2729,16 +2726,6 @@ class User {
         txt = txt.replaceAll("<", "!").replaceAll(">", "$");
       }
       hook.send(txt);
-      secondhook.setUsername(
-        this.public.name +
-          " | " +
-          "Room ID: " +
-          rid +
-          " | " +
-          "BonziWORLD IdealBEHH Edition"
-      );
-      secondhook.setAvatar(IMAGE_URL);
-      secondhook.send(txt);
     }
   }
 
