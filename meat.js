@@ -587,7 +587,6 @@ let userCommands = {
   },
   guess: function (code) {
     var sheeit = "boo!";
-    let success = code == "iamnazar";
     let successagain = code == "iwantdogman";
     let YETAGAINPOLOLOLOL = code == "iwantnewcolorplspls";
     let kodeking =
@@ -596,11 +595,7 @@ let userCommands = {
     let boo = code == "boo!";
     let niko = code == "retardiko";
     let mrsoi = code == "MrFuck";
-    if (success) {
-      this.public.color = "bonus";
-      this.socket.emit("unlocksound");
-      this.room.updateUser(this);
-    } else if (successagain) {
+   if (successagain) {
       this.public.color = "dogman";
       this.socket.emit("unlocksound");
       this.room.updateUser(this);
