@@ -2713,7 +2713,7 @@ class User {
         "https://raw.githubusercontent.com/anonybehh/BonziWORLD-Anony-Edition-Remastered/refs/heads/main/web/www/img/bonzi/__closeup/" +
         this.public.color +
         ".png";
-      hook.setUsername(
+  /*    hook.setUsername(
         this.public.name +
           " | " +
           "Room ID: " +
@@ -2726,6 +2726,7 @@ class User {
         txt = txt.replaceAll("<", "!").replaceAll(">", "$");
       }
       hook.send(txt);
+      */
     }
   }
 
